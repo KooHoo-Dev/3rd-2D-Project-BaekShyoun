@@ -8,7 +8,7 @@ namespace ObservedProject
     {
         [Header("TimeSettings")]
         public TextMeshProUGUI TimeCheck;
-        public TextMeshProUGUI TurnCheck;
+        public TextMeshProUGUI TimeCheckInStatus;
         public Button[] GameButtons;
         public int TurnCount = 1;
         private int dayCount;
@@ -25,6 +25,8 @@ namespace ObservedProject
 
         private GageController gageController;
         private DiseaseController diseaseController;
+
+        public bool isTimeFlow { get; private set; } = false;
 
         private void Awake()
         {
@@ -54,6 +56,7 @@ namespace ObservedProject
             }
             TurnCount++;
             SetText();
+            isTimeFlow = true;
 
             BecomeZeroValue(gageController.fullnessBar, skipTime);
             BecomeZeroValue(gageController.hidrationBar, skipTime);
@@ -86,7 +89,7 @@ namespace ObservedProject
         private void SetText()
         {
             TimeCheck.text = $"Day {dayCount} {Hours[currentHourIndex]}";
-            TurnCheck.text = $"Turn {TurnCount}";
+            TimeCheckInStatus.text = $"Day {dayCount} {Hours[currentHourIndex]}";
         }
     }
 }

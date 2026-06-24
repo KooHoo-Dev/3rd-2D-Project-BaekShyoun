@@ -1,7 +1,7 @@
-using UnityEngine;
 using TMPro;
+using UnityEngine;
 
-namespace PracticeProject
+namespace ObservedProject
 {
     public class DiseaseController : MonoBehaviour
     {
@@ -66,7 +66,7 @@ namespace PracticeProject
 
         public void SetText()
         {
-            diseaseStackText.text = $"Disease {diseaseStack}";
+            diseaseStackText.text = $"질병 {diseaseStack} 중첩";
         }
     }
 }
