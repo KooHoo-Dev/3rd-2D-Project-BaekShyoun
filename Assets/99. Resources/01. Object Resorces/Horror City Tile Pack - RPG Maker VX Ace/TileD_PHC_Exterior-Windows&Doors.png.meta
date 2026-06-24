@@ -1,0 +1,1404 @@
+fileFormatVersion: 2
+guid: 4cb38a6b1f25b1540b0ac58a806af438
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6351696846470516576
+    second: TileD_PHC_Exterior-Windows&Doors_0
+  - first:
+      213: -2433202430828675474
+    second: TileD_PHC_Exterior-Windows&Doors_1
+  - first:
+      213: 2758900514846024106
+    second: TileD_PHC_Exterior-Windows&Doors_2
+  - first:
+      213: 4269082593984407267
+    second: TileD_PHC_Exterior-Windows&Doors_3
+  - first:
+      213: -9021418751090252522
+    second: TileD_PHC_Exterior-Windows&Doors_4
+  - first:
+      213: -5491328065371440433
+    second: TileD_PHC_Exterior-Windows&Doors_5
+  - first:
+      213: -741882068331278348
+    second: TileD_PHC_Exterior-Windows&Doors_6
+  - first:
+      213: -6520669140104052733
+    second: TileD_PHC_Exterior-Windows&Doors_7
+  - first:
+      213: 1776812685186985004
+    second: TileD_PHC_Exterior-Windows&Doors_8
+  - first:
+      213: -2917124252311006563
+    second: TileD_PHC_Exterior-Windows&Doors_9
+  - first:
+      213: 12552753908635016
+    second: TileD_PHC_Exterior-Windows&Doors_10
+  - first:
+      213: 5014053192008548536
+    second: TileD_PHC_Exterior-Windows&Doors_11
+  - first:
+      213: -3754961994703801556
+    second: TileD_PHC_Exterior-Windows&Doors_12
+  - first:
+      213: 6426289865483966495
+    second: TileD_PHC_Exterior-Windows&Doors_13
+  - first:
+      213: -2748170893482984735
+    second: TileD_PHC_Exterior-Windows&Doors_14
+  - first:
+      213: -9074097457699725124
+    second: TileD_PHC_Exterior-Windows&Doors_15
+  - first:
+      213: -1604076297422654615
+    second: TileD_PHC_Exterior-Windows&Doors_16
+  - first:
+      213: -6666600997058048677
+    second: TileD_PHC_Exterior-Windows&Doors_17
+  - first:
+      213: 9004296226291069492
+    second: TileD_PHC_Exterior-Windows&Doors_18
+  - first:
+      213: -6110908413295207045
+    second: TileD_PHC_Exterior-Windows&Doors_19
+  - first:
+      213: -1091333493895942382
+    second: TileD_PHC_Exterior-Windows&Doors_20
+  - first:
+      213: 1274034606744121742
+    second: TileD_PHC_Exterior-Windows&Doors_21
+  - first:
+      213: -5899519128324566825
+    second: TileD_PHC_Exterior-Windows&Doors_22
+  - first:
+      213: 8151947497858337279
+    second: TileD_PHC_Exterior-Windows&Doors_23
+  - first:
+      213: -8377479379742348375
+    second: TileD_PHC_Exterior-Windows&Doors_24
+  - first:
+      213: -1607051127909299771
+    second: TileD_PHC_Exterior-Windows&Doors_25
+  - first:
+      213: 4820877756925918071
+    second: TileD_PHC_Exterior-Windows&Doors_26
+  - first:
+      213: -2981341848847947479
+    second: TileD_PHC_Exterior-Windows&Doors_27
+  - first:
+      213: -7939789553741100487
+    second: TileD_PHC_Exterior-Windows&Doors_28
+  - first:
+      213: -8230010335457829069
+    second: TileD_PHC_Exterior-Windows&Doors_29
+  - first:
+      213: 4826999439894355199
+    second: TileD_PHC_Exterior-Windows&Doors_30
+  - first:
+      213: 6582806222107048116
+    second: TileD_PHC_Exterior-Windows&Doors_31
+  - first:
+      213: -6308087793627564927
+    second: TileD_PHC_Exterior-Windows&Doors_32
+  - first:
+      213: -8392204537157703506
+    second: TileD_PHC_Exterior-Windows&Doors_33
+  - first:
+      213: -2257522368061563904
+    second: TileD_PHC_Exterior-Windows&Doors_34
+  - first:
+      213: -8313586335269985794
+    second: TileD_PHC_Exterior-Windows&Doors_35
+  - first:
+      213: 6755857022377997399
+    second: TileD_PHC_Exterior-Windows&Doors_36
+  - first:
+      213: 5203803594598701094
+    second: TileD_PHC_Exterior-Windows&Doors_37
+  - first:
+      213: 7798332445359787850
+    second: TileD_PHC_Exterior-Windows&Doors_38
+  - first:
+      213: -8247953275145787179
+    second: TileD_PHC_Exterior-Windows&Doors_39
+  - first:
+      213: -1783178644735964397
+    second: TileD_PHC_Exterior-Windows&Doors_40
+  - first:
+      213: -1244458154646380522
+    second: TileD_PHC_Exterior-Windows&Doors_41
+  - first:
+      213: 8906996456381751731
+    second: TileD_PHC_Exterior-Windows&Doors_42
+  - first:
+      213: -8253943328333790445
+    second: TileD_PHC_Exterior-Windows&Doors_43
+  - first:
+      213: 4245289903847734731
+    second: TileD_PHC_Exterior-Windows&Doors_44
+  - first:
+      213: 2493796085547653973
+    second: TileD_PHC_Exterior-Windows&Doors_45
+  - first:
+      213: 2363533816962112687
+    second: TileD_PHC_Exterior-Windows&Doors_46
+  - first:
+      213: 4764961297994118628
+    second: TileD_PHC_Exterior-Windows&Doors_47
+  - first:
+      213: 6410736428854590155
+    second: TileD_PHC_Exterior-Windows&Doors_48
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 455
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a0f721fe5d3ad7a0800000000000000
+      internalID: -6351696846470516576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 455
+        width: 94
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6ef6d3e7478b3ed0800000000000000
+      internalID: -2433202430828675474
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_2
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 455
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa12a06a665994620800000000000000
+      internalID: 2758900514846024106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_3
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 455
+        width: 94
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e66e3b2004de3b30800000000000000
+      internalID: 4269082593984407267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_4
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 455
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 615a733817b7dc280800000000000000
+      internalID: -9021418751090252522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_5
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 455
+        width: 94
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fcaf6660832eac3b0800000000000000
+      internalID: -5491328065371440433
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_6
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 455
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ffc1e3803e44b5f0800000000000000
+      internalID: -741882068331278348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_7
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 455
+        width: 94
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3000f3e07fde185a0800000000000000
+      internalID: -6520669140104052733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 395
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2c6af429b188a810800000000000000
+      internalID: 1776812685186985004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 395
+        width: 94
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d925357b2fa4487d0800000000000000
+      internalID: -2917124252311006563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_10
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 395
+        width: 34
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8855da5c9a89c2000800000000000000
+      internalID: 12552753908635016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_11
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 395
+        width: 94
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0459200de759540800000000000000
+      internalID: 5014053192008548536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_12
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 393
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c237690e5f1b3ebc0800000000000000
+      internalID: -3754961994703801556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_13
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 393
+        width: 94
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f185ddfa594ce2950800000000000000
+      internalID: 6426289865483966495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_14
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 393
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1eaf0eff1298cd9d0800000000000000
+      internalID: -2748170893482984735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_15
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 393
+        width: 94
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb068885074521280800000000000000
+      internalID: -9074097457699725124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_16
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 97
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963bf733b1d2db9e0800000000000000
+      internalID: -1604076297422654615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_17
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 351
+        width: 26
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5d071fd6b97b73a0800000000000000
+      internalID: -6666600997058048677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_18
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 351
+        width: 110
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 432387406bfa5fc70800000000000000
+      internalID: 9004296226291069492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_19
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 191
+        width: 58
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7dd792dc21b13ba0800000000000000
+      internalID: -6110908413295207045
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_20
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 191
+        width: 34
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21fa8dc28fdcad0f0800000000000000
+      internalID: -1091333493895942382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_21
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 287
+        width: 58
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81b98689b74ea110800000000000000
+      internalID: 1274034606744121742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_22
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 287
+        width: 33
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d0979a1c92b02ea0800000000000000
+      internalID: -5899519128324566825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_23
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 265
+        width: 26
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff90b75fe09812170800000000000000
+      internalID: 8151947497858337279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_24
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 255
+        width: 110
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ab2c41d3e63dbb80800000000000000
+      internalID: -8377479379742348375
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c94311838b92b9e0800000000000000
+      internalID: -1607051127909299771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_26
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 199
+        width: 94
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77bb62f17c237e240800000000000000
+      internalID: 4820877756925918071
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_27
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 199
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9296961626520a6d0800000000000000
+      internalID: -2981341848847947479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_28
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 199
+        width: 94
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93a87e9b77330d190800000000000000
+      internalID: -7939789553741100487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_29
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 191
+        width: 33
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33f1e31543129cd80800000000000000
+      internalID: -8230010335457829069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 139
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ffc99e18a62fcf240800000000000000
+      internalID: 4826999439894355199
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_31
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 139
+        width: 94
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b8fbedb163da5b50800000000000000
+      internalID: 6582806222107048116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_32
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 139
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 184f9d8c29b2578a0800000000000000
+      internalID: -6308087793627564927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_33
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 139
+        width: 94
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea82b40ff66e88b80800000000000000
+      internalID: -8392204537157703506
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_34
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 119
+        width: 34
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c113bfd5baba0e0800000000000000
+      internalID: -2257522368061563904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_35
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 131
+        width: 28
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef1e0bc764530ac80800000000000000
+      internalID: -8313586335269985794
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_36
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 135
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7543b24fa20a1cd50800000000000000
+      internalID: 6755857022377997399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_37
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 131
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 628d4f06ccf973840800000000000000
+      internalID: 5203803594598701094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_38
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 127
+        width: 66
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4fc21eaa0e393c60800000000000000
+      internalID: 7798332445359787850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_39
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 129
+        width: 33
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d86aee1232698d80800000000000000
+      internalID: -8247953275145787179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 31
+        width: 31
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31b43756870e047e0800000000000000
+      internalID: -1783178644735964397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_41
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 31
+        width: 32
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 610e67ad6ebcabee0800000000000000
+      internalID: -1244458154646380522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_42
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 31
+        width: 30
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b12c46f5120c9b70800000000000000
+      internalID: 8906996456381751731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_43
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 95
+        width: 30
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 313857e264a147d80800000000000000
+      internalID: -8253943328333790445
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_44
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 95
+        width: 122
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd756fccac4aea30800000000000000
+      internalID: 4245289903847734731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_45
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 67
+        width: 96
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bd35db35ebb9220800000000000000
+      internalID: 2493796085547653973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_46
+      rect:
+        serializedVersion: 2
+        x: 417
+        y: 35
+        width: 64
+        height: 72
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fac56a6eb75fcc020800000000000000
+      internalID: 2363533816962112687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_47
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 31
+        width: 32
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e57c6ffd0b802240800000000000000
+      internalID: 4764961297994118628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Exterior-Windows&Doors_48
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 0
+        width: 126
+        height: 75
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcab88601d287f850800000000000000
+      internalID: 6410736428854590155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TileD_PHC_Exterior-Windows&Doors_0: -6351696846470516576
+      TileD_PHC_Exterior-Windows&Doors_1: -2433202430828675474
+      TileD_PHC_Exterior-Windows&Doors_10: 12552753908635016
+      TileD_PHC_Exterior-Windows&Doors_11: 5014053192008548536
+      TileD_PHC_Exterior-Windows&Doors_12: -3754961994703801556
+      TileD_PHC_Exterior-Windows&Doors_13: 6426289865483966495
+      TileD_PHC_Exterior-Windows&Doors_14: -2748170893482984735
+      TileD_PHC_Exterior-Windows&Doors_15: -9074097457699725124
+      TileD_PHC_Exterior-Windows&Doors_16: -1604076297422654615
+      TileD_PHC_Exterior-Windows&Doors_17: -6666600997058048677
+      TileD_PHC_Exterior-Windows&Doors_18: 9004296226291069492
+      TileD_PHC_Exterior-Windows&Doors_19: -6110908413295207045
+      TileD_PHC_Exterior-Windows&Doors_2: 2758900514846024106
+      TileD_PHC_Exterior-Windows&Doors_20: -1091333493895942382
+      TileD_PHC_Exterior-Windows&Doors_21: 1274034606744121742
+      TileD_PHC_Exterior-Windows&Doors_22: -5899519128324566825
+      TileD_PHC_Exterior-Windows&Doors_23: 8151947497858337279
+      TileD_PHC_Exterior-Windows&Doors_24: -8377479379742348375
+      TileD_PHC_Exterior-Windows&Doors_25: -1607051127909299771
+      TileD_PHC_Exterior-Windows&Doors_26: 4820877756925918071
+      TileD_PHC_Exterior-Windows&Doors_27: -2981341848847947479
+      TileD_PHC_Exterior-Windows&Doors_28: -7939789553741100487
+      TileD_PHC_Exterior-Windows&Doors_29: -8230010335457829069
+      TileD_PHC_Exterior-Windows&Doors_3: 4269082593984407267
+      TileD_PHC_Exterior-Windows&Doors_30: 4826999439894355199
+      TileD_PHC_Exterior-Windows&Doors_31: 6582806222107048116
+      TileD_PHC_Exterior-Windows&Doors_32: -6308087793627564927
+      TileD_PHC_Exterior-Windows&Doors_33: -8392204537157703506
+      TileD_PHC_Exterior-Windows&Doors_34: -2257522368061563904
+      TileD_PHC_Exterior-Windows&Doors_35: -8313586335269985794
+      TileD_PHC_Exterior-Windows&Doors_36: 6755857022377997399
+      TileD_PHC_Exterior-Windows&Doors_37: 5203803594598701094
+      TileD_PHC_Exterior-Windows&Doors_38: 7798332445359787850
+      TileD_PHC_Exterior-Windows&Doors_39: -8247953275145787179
+      TileD_PHC_Exterior-Windows&Doors_4: -9021418751090252522
+      TileD_PHC_Exterior-Windows&Doors_40: -1783178644735964397
+      TileD_PHC_Exterior-Windows&Doors_41: -1244458154646380522
+      TileD_PHC_Exterior-Windows&Doors_42: 8906996456381751731
+      TileD_PHC_Exterior-Windows&Doors_43: -8253943328333790445
+      TileD_PHC_Exterior-Windows&Doors_44: 4245289903847734731
+      TileD_PHC_Exterior-Windows&Doors_45: 2493796085547653973
+      TileD_PHC_Exterior-Windows&Doors_46: 2363533816962112687
+      TileD_PHC_Exterior-Windows&Doors_47: 4764961297994118628
+      TileD_PHC_Exterior-Windows&Doors_48: 6410736428854590155
+      TileD_PHC_Exterior-Windows&Doors_5: -5491328065371440433
+      TileD_PHC_Exterior-Windows&Doors_6: -741882068331278348
+      TileD_PHC_Exterior-Windows&Doors_7: -6520669140104052733
+      TileD_PHC_Exterior-Windows&Doors_8: 1776812685186985004
+      TileD_PHC_Exterior-Windows&Doors_9: -2917124252311006563
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

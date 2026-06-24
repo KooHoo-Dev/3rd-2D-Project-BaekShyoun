@@ -1,0 +1,1768 @@
+fileFormatVersion: 2
+guid: a55c71125961c0543abcfd73e2a8383e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -8074155591582747850
+    second: PHC_StoreExteriorB_0
+  - first:
+      213: -4264284548698565311
+    second: PHC_StoreExteriorB_1
+  - first:
+      213: 2600589395235437810
+    second: PHC_StoreExteriorB_2
+  - first:
+      213: 4986328986325158686
+    second: PHC_StoreExteriorB_3
+  - first:
+      213: -549644332443659607
+    second: PHC_StoreExteriorB_4
+  - first:
+      213: -8868792224336052872
+    second: PHC_StoreExteriorB_5
+  - first:
+      213: -6529441119162885882
+    second: PHC_StoreExteriorB_6
+  - first:
+      213: -2501217762893593911
+    second: PHC_StoreExteriorB_7
+  - first:
+      213: -4072975008258335307
+    second: PHC_StoreExteriorB_8
+  - first:
+      213: 761022536539027348
+    second: PHC_StoreExteriorB_9
+  - first:
+      213: -8528584658268663752
+    second: PHC_StoreExteriorB_10
+  - first:
+      213: 5870489681803010998
+    second: PHC_StoreExteriorB_11
+  - first:
+      213: 2594966481940804631
+    second: PHC_StoreExteriorB_12
+  - first:
+      213: 5487720807578426444
+    second: PHC_StoreExteriorB_13
+  - first:
+      213: 4656921403708369454
+    second: PHC_StoreExteriorB_14
+  - first:
+      213: 830472172077700131
+    second: PHC_StoreExteriorB_15
+  - first:
+      213: 8287544286580706603
+    second: PHC_StoreExteriorB_16
+  - first:
+      213: 2912493794842054361
+    second: PHC_StoreExteriorB_17
+  - first:
+      213: 1263777525871989650
+    second: PHC_StoreExteriorB_18
+  - first:
+      213: 9047808088237924283
+    second: PHC_StoreExteriorB_19
+  - first:
+      213: 1182546130172947471
+    second: PHC_StoreExteriorB_20
+  - first:
+      213: 663251646478639077
+    second: PHC_StoreExteriorB_21
+  - first:
+      213: 8356599646527484204
+    second: PHC_StoreExteriorB_22
+  - first:
+      213: -1885008265579529868
+    second: PHC_StoreExteriorB_23
+  - first:
+      213: -2328702812444481855
+    second: PHC_StoreExteriorB_24
+  - first:
+      213: 630415681572446624
+    second: PHC_StoreExteriorB_25
+  - first:
+      213: 4891355069293681884
+    second: PHC_StoreExteriorB_26
+  - first:
+      213: 1935355265957311504
+    second: PHC_StoreExteriorB_27
+  - first:
+      213: 899306105291394149
+    second: PHC_StoreExteriorB_28
+  - first:
+      213: -5477070461271924698
+    second: PHC_StoreExteriorB_29
+  - first:
+      213: -5524289070290511281
+    second: PHC_StoreExteriorB_30
+  - first:
+      213: 2835133904095863967
+    second: PHC_StoreExteriorB_31
+  - first:
+      213: -1321755035535598539
+    second: PHC_StoreExteriorB_32
+  - first:
+      213: 6633054709743915645
+    second: PHC_StoreExteriorB_33
+  - first:
+      213: -6903960345525288422
+    second: PHC_StoreExteriorB_34
+  - first:
+      213: -1884687456167112084
+    second: PHC_StoreExteriorB_35
+  - first:
+      213: 8760929308099948976
+    second: PHC_StoreExteriorB_36
+  - first:
+      213: -4697225187143966143
+    second: PHC_StoreExteriorB_37
+  - first:
+      213: -6823972550320977142
+    second: PHC_StoreExteriorB_38
+  - first:
+      213: -3493701066660224345
+    second: PHC_StoreExteriorB_39
+  - first:
+      213: 7383972379997605789
+    second: PHC_StoreExteriorB_40
+  - first:
+      213: 8654732337942854613
+    second: PHC_StoreExteriorB_41
+  - first:
+      213: -4342158463169969483
+    second: PHC_StoreExteriorB_42
+  - first:
+      213: -5023101711182845143
+    second: PHC_StoreExteriorB_43
+  - first:
+      213: -3492869750361060663
+    second: PHC_StoreExteriorB_44
+  - first:
+      213: -7023466320977765875
+    second: PHC_StoreExteriorB_45
+  - first:
+      213: -1016138760498580449
+    second: PHC_StoreExteriorB_46
+  - first:
+      213: -3645598594661161892
+    second: PHC_StoreExteriorB_47
+  - first:
+      213: 8859278537754274608
+    second: PHC_StoreExteriorB_48
+  - first:
+      213: 5420001685240600635
+    second: PHC_StoreExteriorB_49
+  - first:
+      213: 2341282014702503242
+    second: PHC_StoreExteriorB_50
+  - first:
+      213: -160633493426040846
+    second: PHC_StoreExteriorB_51
+  - first:
+      213: -3273653666058391702
+    second: PHC_StoreExteriorB_52
+  - first:
+      213: -3706705879566314984
+    second: PHC_StoreExteriorB_53
+  - first:
+      213: -2838897256954752755
+    second: PHC_StoreExteriorB_54
+  - first:
+      213: -7552906653621256134
+    second: PHC_StoreExteriorB_55
+  - first:
+      213: -1886433856151196646
+    second: PHC_StoreExteriorB_56
+  - first:
+      213: -610348428275380395
+    second: PHC_StoreExteriorB_57
+  - first:
+      213: -4262472319585935869
+    second: PHC_StoreExteriorB_58
+  - first:
+      213: 8391439585652035540
+    second: PHC_StoreExteriorB_59
+  - first:
+      213: -7859247757110944659
+    second: PHC_StoreExteriorB_60
+  - first:
+      213: 6915665861264255914
+    second: PHC_StoreExteriorB_61
+  - first:
+      213: -5549368759612752980
+    second: PHC_StoreExteriorB_62
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 481
+        width: 33
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 633f976a446d2ff80800000000000000
+      internalID: -8074155591582747850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 497
+        width: 8
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14592adcbc732d4c0800000000000000
+      internalID: -4264284548698565311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_2
+      rect:
+        serializedVersion: 2
+        x: 55
+        y: 491
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fcf7a5c646271420800000000000000
+      internalID: 2600589395235437810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_3
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 499
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b052b5bcff23540800000000000000
+      internalID: 4986328986325158686
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_4
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 319
+        width: 182
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a293eb44654f58f0800000000000000
+      internalID: -549644332443659607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_5
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 435
+        width: 80
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 87df3b9f578bbe480800000000000000
+      internalID: -8868792224336052872
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_6
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 435
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 609977685e3c265a0800000000000000
+      internalID: -6529441119162885882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_7
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 435
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c284d852b3e94dd0800000000000000
+      internalID: -2501217762893593911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_8
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 319
+        width: 42
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5bdd7bd3fc2e977c0800000000000000
+      internalID: -4072975008258335307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_9
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 483
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 497b97407f1bf8a00800000000000000
+      internalID: 761022536539027348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 487
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 830dc0f807164a980800000000000000
+      internalID: -8528584658268663752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_11
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 487
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3e67d234b287150800000000000000
+      internalID: 5870489681803010998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 33
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7147020444c230420800000000000000
+      internalID: 2594966481940804631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_13
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 447
+        width: 32
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4c5b32dffc482c40800000000000000
+      internalID: 5487720807578426444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 451
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2a63fed755b0a040800000000000000
+      internalID: 4656921403708369454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_15
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 417
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 324d98c5a0e668b00800000000000000
+      internalID: 830472172077700131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_16
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 415
+        width: 34
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b2d06fd8e95430370800000000000000
+      internalID: 8287544286580706603
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 31
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9de0714eca14b6820800000000000000
+      internalID: 2912493794842054361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_18
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 385
+        width: 54
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 293d8b8c6f6d98110800000000000000
+      internalID: 1263777525871989650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_19
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 319
+        width: 32
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbfd357d485409d70800000000000000
+      internalID: 9047808088237924283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 339
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0ca873a07f396010800000000000000
+      internalID: 1182546130172947471
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_21
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 339
+        width: 48
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ef5d01cbd7543900800000000000000
+      internalID: 663251646478639077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_22
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 321
+        width: 82
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c21fc657a1b98f370800000000000000
+      internalID: 8356599646527484204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_23
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 325
+        width: 33
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 479f47b38fa17d5e0800000000000000
+      internalID: -1885008265579529868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_24
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 273
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c62bcc4129ceafd0800000000000000
+      internalID: -2328702812444481855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_25
+      rect:
+        serializedVersion: 2
+        x: 73
+        y: 159
+        width: 168
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a126f8e8bfafb800800000000000000
+      internalID: 630415681572446624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_26
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 233
+        width: 56
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc5e8f158591e340800000000000000
+      internalID: 4891355069293681884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_27
+      rect:
+        serializedVersion: 2
+        x: 329
+        y: 131
+        width: 118
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01431954c53cbda10800000000000000
+      internalID: 1935355265957311504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_28
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 257
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56ccb36532afa7c00800000000000000
+      internalID: 899306105291394149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_29
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 209
+        width: 46
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6202a1a2f698df3b0800000000000000
+      internalID: -5477070461271924698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_30
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 137
+        width: 56
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f4ad2c80c58c553b0800000000000000
+      internalID: -5524289070290511281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_31
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 193
+        width: 63
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f94ec4cb34b685720800000000000000
+      internalID: 2835133904095863967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_32
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 141
+        width: 65
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53c11d25cce28ade0800000000000000
+      internalID: -1321755035535598539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_33
+      rect:
+        serializedVersion: 2
+        x: 421
+        y: 167
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7294067d185d0c50800000000000000
+      internalID: 6633054709743915645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_34
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 179
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a12059df4a43030a0800000000000000
+      internalID: -6903960345525288422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_35
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 165
+        width: 28
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c62568e7ebe38d5e0800000000000000
+      internalID: -1884687456167112084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_36
+      rect:
+        serializedVersion: 2
+        x: 481
+        y: 167
+        width: 28
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b13b9fc9c2159970800000000000000
+      internalID: 8760929308099948976
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_37
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 0
+        width: 168
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 142244a449a10deb0800000000000000
+      internalID: -4697225187143966143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_38
+      rect:
+        serializedVersion: 2
+        x: 425
+        y: 135
+        width: 20
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a0b0a15de116c41a0800000000000000
+      internalID: -6823972550320977142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_39
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 137
+        width: 24
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7a2605ae361e38fc0800000000000000
+      internalID: -3493701066660224345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_40
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 135
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9f8d05f1c3297660800000000000000
+      internalID: 7383972379997605789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_41
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 139
+        width: 29
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5db7b25e439cb1870800000000000000
+      internalID: 8654732337942854613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_42
+      rect:
+        serializedVersion: 2
+        x: 389
+        y: 131
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b24c4c22ed8db3c0800000000000000
+      internalID: -4342158463169969483
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_43
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 67
+        width: 33
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92b2a427b9b5a4ab0800000000000000
+      internalID: -5023101711182845143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_44
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 71
+        width: 30
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ca8503d775d68fc0800000000000000
+      internalID: -3492869750361060663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_45
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 63
+        width: 130
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0a533ec792a78e90800000000000000
+      internalID: -7023466320977765875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_46
+      rect:
+        serializedVersion: 2
+        x: 409
+        y: 63
+        width: 46
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f14f9f95e23f5e1f0800000000000000
+      internalID: -1016138760498580449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_47
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 99
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c54ee83b46b386dc0800000000000000
+      internalID: -3645598594661161892
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_48
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 71
+        width: 32
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03be51144ea72fa70800000000000000
+      internalID: 8859278537754274608
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_49
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 3
+        width: 64
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b38d8caf0d6b73b40800000000000000
+      internalID: 5420001685240600635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_50
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 3
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a458a557697ed7020800000000000000
+      internalID: 2341282014702503242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_51
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 3
+        width: 64
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2ff8f4550b055cdf0800000000000000
+      internalID: -160633493426040846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_52
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 3
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a6f2fe4d555a192d0800000000000000
+      internalID: -3273653666058391702
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_53
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 3
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 812199934a22f8cc0800000000000000
+      internalID: -3706705879566314984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_54
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 3
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d0191656cf53a98d0800000000000000
+      internalID: -2838897256954752755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_55
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 43
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3088316a6fae2790800000000000000
+      internalID: -7552906653621256134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_56
+      rect:
+        serializedVersion: 2
+        x: 457
+        y: 49
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1c66df076a02d5e0800000000000000
+      internalID: -1886433856151196646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_57
+      rect:
+        serializedVersion: 2
+        x: 461
+        y: 41
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55f8d67965b9787f0800000000000000
+      internalID: -610348428275380395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_58
+      rect:
+        serializedVersion: 2
+        x: 467
+        y: 49
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e15264208a8d4c0800000000000000
+      internalID: -4262472319585935869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_59
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 39
+        width: 29
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dfc0f8e7d1647470800000000000000
+      internalID: 8391439585652035540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_60
+      rect:
+        serializedVersion: 2
+        x: 465
+        y: 37
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6cdd931ec75ee290800000000000000
+      internalID: -7859247757110944659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_61
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 1
+        width: 24
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaba3f5c57169ff50800000000000000
+      internalID: 6915665861264255914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_StoreExteriorB_62
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 7
+        width: 33
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cabb1a3d38eacf2b0800000000000000
+      internalID: -5549368759612752980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PHC_StoreExteriorB_0: -8074155591582747850
+      PHC_StoreExteriorB_1: -4264284548698565311
+      PHC_StoreExteriorB_10: -8528584658268663752
+      PHC_StoreExteriorB_11: 5870489681803010998
+      PHC_StoreExteriorB_12: 2594966481940804631
+      PHC_StoreExteriorB_13: 5487720807578426444
+      PHC_StoreExteriorB_14: 4656921403708369454
+      PHC_StoreExteriorB_15: 830472172077700131
+      PHC_StoreExteriorB_16: 8287544286580706603
+      PHC_StoreExteriorB_17: 2912493794842054361
+      PHC_StoreExteriorB_18: 1263777525871989650
+      PHC_StoreExteriorB_19: 9047808088237924283
+      PHC_StoreExteriorB_2: 2600589395235437810
+      PHC_StoreExteriorB_20: 1182546130172947471
+      PHC_StoreExteriorB_21: 663251646478639077
+      PHC_StoreExteriorB_22: 8356599646527484204
+      PHC_StoreExteriorB_23: -1885008265579529868
+      PHC_StoreExteriorB_24: -2328702812444481855
+      PHC_StoreExteriorB_25: 630415681572446624
+      PHC_StoreExteriorB_26: 4891355069293681884
+      PHC_StoreExteriorB_27: 1935355265957311504
+      PHC_StoreExteriorB_28: 899306105291394149
+      PHC_StoreExteriorB_29: -5477070461271924698
+      PHC_StoreExteriorB_3: 4986328986325158686
+      PHC_StoreExteriorB_30: -5524289070290511281
+      PHC_StoreExteriorB_31: 2835133904095863967
+      PHC_StoreExteriorB_32: -1321755035535598539
+      PHC_StoreExteriorB_33: 6633054709743915645
+      PHC_StoreExteriorB_34: -6903960345525288422
+      PHC_StoreExteriorB_35: -1884687456167112084
+      PHC_StoreExteriorB_36: 8760929308099948976
+      PHC_StoreExteriorB_37: -4697225187143966143
+      PHC_StoreExteriorB_38: -6823972550320977142
+      PHC_StoreExteriorB_39: -3493701066660224345
+      PHC_StoreExteriorB_4: -549644332443659607
+      PHC_StoreExteriorB_40: 7383972379997605789
+      PHC_StoreExteriorB_41: 8654732337942854613
+      PHC_StoreExteriorB_42: -4342158463169969483
+      PHC_StoreExteriorB_43: -5023101711182845143
+      PHC_StoreExteriorB_44: -3492869750361060663
+      PHC_StoreExteriorB_45: -7023466320977765875
+      PHC_StoreExteriorB_46: -1016138760498580449
+      PHC_StoreExteriorB_47: -3645598594661161892
+      PHC_StoreExteriorB_48: 8859278537754274608
+      PHC_StoreExteriorB_49: 5420001685240600635
+      PHC_StoreExteriorB_5: -8868792224336052872
+      PHC_StoreExteriorB_50: 2341282014702503242
+      PHC_StoreExteriorB_51: -160633493426040846
+      PHC_StoreExteriorB_52: -3273653666058391702
+      PHC_StoreExteriorB_53: -3706705879566314984
+      PHC_StoreExteriorB_54: -2838897256954752755
+      PHC_StoreExteriorB_55: -7552906653621256134
+      PHC_StoreExteriorB_56: -1886433856151196646
+      PHC_StoreExteriorB_57: -610348428275380395
+      PHC_StoreExteriorB_58: -4262472319585935869
+      PHC_StoreExteriorB_59: 8391439585652035540
+      PHC_StoreExteriorB_6: -6529441119162885882
+      PHC_StoreExteriorB_60: -7859247757110944659
+      PHC_StoreExteriorB_61: 6915665861264255914
+      PHC_StoreExteriorB_62: -5549368759612752980
+      PHC_StoreExteriorB_7: -2501217762893593911
+      PHC_StoreExteriorB_8: -4072975008258335307
+      PHC_StoreExteriorB_9: 761022536539027348
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

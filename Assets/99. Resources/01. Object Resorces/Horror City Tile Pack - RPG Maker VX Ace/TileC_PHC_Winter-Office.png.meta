@@ -1,0 +1,1014 @@
+fileFormatVersion: 2
+guid: fa1d0034621527148a396f63318e341a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 2331628249015534732
+    second: TileC_PHC_Winter-Office_0
+  - first:
+      213: -6678719360524937249
+    second: TileC_PHC_Winter-Office_1
+  - first:
+      213: 4238500886823299450
+    second: TileC_PHC_Winter-Office_2
+  - first:
+      213: 8214646443603741596
+    second: TileC_PHC_Winter-Office_3
+  - first:
+      213: 241599887297019113
+    second: TileC_PHC_Winter-Office_4
+  - first:
+      213: 3297771558123191288
+    second: TileC_PHC_Winter-Office_5
+  - first:
+      213: -61460389200670535
+    second: TileC_PHC_Winter-Office_6
+  - first:
+      213: -5487977035176981509
+    second: TileC_PHC_Winter-Office_7
+  - first:
+      213: 8397034169589189384
+    second: TileC_PHC_Winter-Office_8
+  - first:
+      213: 6234566798890041417
+    second: TileC_PHC_Winter-Office_9
+  - first:
+      213: 8737265000687064962
+    second: TileC_PHC_Winter-Office_10
+  - first:
+      213: -7611471335432646635
+    second: TileC_PHC_Winter-Office_11
+  - first:
+      213: 8251542469810847824
+    second: TileC_PHC_Winter-Office_12
+  - first:
+      213: -7585505552403470726
+    second: TileC_PHC_Winter-Office_13
+  - first:
+      213: 8731208292138906338
+    second: TileC_PHC_Winter-Office_14
+  - first:
+      213: -5546479306137644216
+    second: TileC_PHC_Winter-Office_15
+  - first:
+      213: 3654465372033024341
+    second: TileC_PHC_Winter-Office_16
+  - first:
+      213: 6962571907361854397
+    second: TileC_PHC_Winter-Office_17
+  - first:
+      213: 1953402111483937429
+    second: TileC_PHC_Winter-Office_18
+  - first:
+      213: -8215075890254526088
+    second: TileC_PHC_Winter-Office_19
+  - first:
+      213: 5079776982369406770
+    second: TileC_PHC_Winter-Office_20
+  - first:
+      213: 1748463621359452463
+    second: TileC_PHC_Winter-Office_21
+  - first:
+      213: 7017070473183393258
+    second: TileC_PHC_Winter-Office_22
+  - first:
+      213: -3709812680291476743
+    second: TileC_PHC_Winter-Office_23
+  - first:
+      213: 1868466612205841044
+    second: TileC_PHC_Winter-Office_24
+  - first:
+      213: 2893790445827663325
+    second: TileC_PHC_Winter-Office_25
+  - first:
+      213: 7439348438443126726
+    second: TileC_PHC_Winter-Office_26
+  - first:
+      213: 7519227391780211577
+    second: TileC_PHC_Winter-Office_27
+  - first:
+      213: -3247236111695447250
+    second: TileC_PHC_Winter-Office_28
+  - first:
+      213: 8523012911309447910
+    second: TileC_PHC_Winter-Office_29
+  - first:
+      213: 9159051236579922037
+    second: TileC_PHC_Winter-Office_30
+  - first:
+      213: -1330390752876681984
+    second: TileC_PHC_Winter-Office_31
+  - first:
+      213: 5615792044522316013
+    second: TileC_PHC_Winter-Office_32
+  - first:
+      213: 4083560275390267013
+    second: TileC_PHC_Winter-Office_33
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 357
+        width: 124
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c8446daf98b9b5020800000000000000
+      internalID: 2331628249015534732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_1
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 331
+        width: 66
+        height: 181
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd71361802c6053a0800000000000000
+      internalID: -6678719360524937249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_2
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 483
+        width: 50
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79e74b991e22da30800000000000000
+      internalID: 4238500886823299450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_3
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 447
+        width: 64
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9b4d6ada69400270800000000000000
+      internalID: 8214646443603741596
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_4
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 447
+        width: 64
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ecfc1441d55a5300800000000000000
+      internalID: 241599887297019113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_5
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 461
+        width: 64
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fbb15082c904cd20800000000000000
+      internalID: 3297771558123191288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_6
+      rect:
+        serializedVersion: 2
+        x: 449
+        y: 461
+        width: 63
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0dfe50a16a52ff0800000000000000
+      internalID: -61460389200670535
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_7
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 451
+        width: 24
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfb46ca86f9c6d3b0800000000000000
+      internalID: -5487977035176981509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_8
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 447
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80b4e2d7612488470800000000000000
+      internalID: 8397034169589189384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_9
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 405
+        width: 14
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9400940b871a58650800000000000000
+      internalID: 6234566798890041417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_10
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 383
+        width: 24
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 287d762e930014970800000000000000
+      internalID: 8737265000687064962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_11
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 355
+        width: 257
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5101871d52f9e5690800000000000000
+      internalID: -7611471335432646635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_12
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 395
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0500022682e538270800000000000000
+      internalID: 8251542469810847824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_13
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 395
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a76ec3bc3eedab690800000000000000
+      internalID: -7585505552403470726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_14
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 397
+        width: 26
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e272e88eab7b2970800000000000000
+      internalID: 8731208292138906338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 33
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8435c932572f603b0800000000000000
+      internalID: -5546479306137644216
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 327
+        width: 24
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5518ef7c4e447b230800000000000000
+      internalID: 3654465372033024341
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_17
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 343
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db3da6da24600a060800000000000000
+      internalID: 6962571907361854397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_18
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 127
+        width: 447
+        height: 238
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5928f7eeed0eb1b10800000000000000
+      internalID: 1953402111483937429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_19
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 299
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 879c08ec0003efd80800000000000000
+      internalID: -8215075890254526088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_20
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 305
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23f855c604efe7640800000000000000
+      internalID: 5079776982369406770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_21
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 297
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f21c2dd566ac34810800000000000000
+      internalID: 1748463621359452463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_22
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 305
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae57af5da64a16160800000000000000
+      internalID: 7017070473183393258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_23
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 295
+        width: 64
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9fa9cffc509148cc0800000000000000
+      internalID: -3709812680291476743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_24
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 293
+        width: 12
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 49ae437fb702ee910800000000000000
+      internalID: 1868466612205841044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_25
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 237
+        width: 64
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd52af9141fc82820800000000000000
+      internalID: 2893790445827663325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 205
+        width: 64
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf62c94dffdd3760800000000000000
+      internalID: 7439348438443126726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_27
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 77
+        width: 64
+        height: 98
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97b42786979a95860800000000000000
+      internalID: 7519227391780211577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_28
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 11
+        width: 447
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2b729406ff7fe2d0800000000000000
+      internalID: -3247236111695447250
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_29
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 97
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e2eaa20613d74670800000000000000
+      internalID: 8523012911309447910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_30
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 64
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 570d2fba29c7b1f70800000000000000
+      internalID: 9159051236579922037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_31
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 9
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0052252b8a0898de0800000000000000
+      internalID: -1330390752876681984
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_32
+      rect:
+        serializedVersion: 2
+        x: 197
+        y: 3
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de0a73a5c1d4fed40800000000000000
+      internalID: 5615792044522316013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileC_PHC_Winter-Office_33
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 3
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58e78815f68bba830800000000000000
+      internalID: 4083560275390267013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TileC_PHC_Winter-Office_0: 2331628249015534732
+      TileC_PHC_Winter-Office_1: -6678719360524937249
+      TileC_PHC_Winter-Office_10: 8737265000687064962
+      TileC_PHC_Winter-Office_11: -7611471335432646635
+      TileC_PHC_Winter-Office_12: 8251542469810847824
+      TileC_PHC_Winter-Office_13: -7585505552403470726
+      TileC_PHC_Winter-Office_14: 8731208292138906338
+      TileC_PHC_Winter-Office_15: -5546479306137644216
+      TileC_PHC_Winter-Office_16: 3654465372033024341
+      TileC_PHC_Winter-Office_17: 6962571907361854397
+      TileC_PHC_Winter-Office_18: 1953402111483937429
+      TileC_PHC_Winter-Office_19: -8215075890254526088
+      TileC_PHC_Winter-Office_2: 4238500886823299450
+      TileC_PHC_Winter-Office_20: 5079776982369406770
+      TileC_PHC_Winter-Office_21: 1748463621359452463
+      TileC_PHC_Winter-Office_22: 7017070473183393258
+      TileC_PHC_Winter-Office_23: -3709812680291476743
+      TileC_PHC_Winter-Office_24: 1868466612205841044
+      TileC_PHC_Winter-Office_25: 2893790445827663325
+      TileC_PHC_Winter-Office_26: 7439348438443126726
+      TileC_PHC_Winter-Office_27: 7519227391780211577
+      TileC_PHC_Winter-Office_28: -3247236111695447250
+      TileC_PHC_Winter-Office_29: 8523012911309447910
+      TileC_PHC_Winter-Office_3: 8214646443603741596
+      TileC_PHC_Winter-Office_30: 9159051236579922037
+      TileC_PHC_Winter-Office_31: -1330390752876681984
+      TileC_PHC_Winter-Office_32: 5615792044522316013
+      TileC_PHC_Winter-Office_33: 4083560275390267013
+      TileC_PHC_Winter-Office_4: 241599887297019113
+      TileC_PHC_Winter-Office_5: 3297771558123191288
+      TileC_PHC_Winter-Office_6: -61460389200670535
+      TileC_PHC_Winter-Office_7: -5487977035176981509
+      TileC_PHC_Winter-Office_8: 8397034169589189384
+      TileC_PHC_Winter-Office_9: 6234566798890041417
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

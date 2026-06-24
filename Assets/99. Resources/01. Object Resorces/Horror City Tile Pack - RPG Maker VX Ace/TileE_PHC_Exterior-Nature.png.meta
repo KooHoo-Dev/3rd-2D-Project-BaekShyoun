@@ -1,0 +1,858 @@
+fileFormatVersion: 2
+guid: bcea48e13544d094c9dce44fdd8d2a7e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8594307525692418157
+    second: TileE_PHC_Exterior-Nature_0
+  - first:
+      213: 451857697263033203
+    second: TileE_PHC_Exterior-Nature_1
+  - first:
+      213: -4948354041356236422
+    second: TileE_PHC_Exterior-Nature_2
+  - first:
+      213: -7034189028502668459
+    second: TileE_PHC_Exterior-Nature_3
+  - first:
+      213: -3937883093344665202
+    second: TileE_PHC_Exterior-Nature_4
+  - first:
+      213: 7025705893328228217
+    second: TileE_PHC_Exterior-Nature_5
+  - first:
+      213: -2399246557256986008
+    second: TileE_PHC_Exterior-Nature_6
+  - first:
+      213: 8219891269143839478
+    second: TileE_PHC_Exterior-Nature_7
+  - first:
+      213: -2267711481587584185
+    second: TileE_PHC_Exterior-Nature_8
+  - first:
+      213: -4285388953570697418
+    second: TileE_PHC_Exterior-Nature_9
+  - first:
+      213: 7371105352971314763
+    second: TileE_PHC_Exterior-Nature_10
+  - first:
+      213: -6541265140511301626
+    second: TileE_PHC_Exterior-Nature_11
+  - first:
+      213: 9061517929305472732
+    second: TileE_PHC_Exterior-Nature_12
+  - first:
+      213: -8505881688703346487
+    second: TileE_PHC_Exterior-Nature_13
+  - first:
+      213: -6273557339458184775
+    second: TileE_PHC_Exterior-Nature_14
+  - first:
+      213: -6068416765380112373
+    second: TileE_PHC_Exterior-Nature_15
+  - first:
+      213: -2158496433220908441
+    second: TileE_PHC_Exterior-Nature_16
+  - first:
+      213: 8593121046213748875
+    second: TileE_PHC_Exterior-Nature_17
+  - first:
+      213: 4574615720688911948
+    second: TileE_PHC_Exterior-Nature_18
+  - first:
+      213: -5372677875270621639
+    second: TileE_PHC_Exterior-Nature_19
+  - first:
+      213: -2894587883115363503
+    second: TileE_PHC_Exterior-Nature_20
+  - first:
+      213: 8601745362462269758
+    second: TileE_PHC_Exterior-Nature_21
+  - first:
+      213: -6949723216373676582
+    second: TileE_PHC_Exterior-Nature_22
+  - first:
+      213: -9186780255274347055
+    second: TileE_PHC_Exterior-Nature_23
+  - first:
+      213: -294174495953426929
+    second: TileE_PHC_Exterior-Nature_24
+  - first:
+      213: -7058855119254416833
+    second: TileE_PHC_Exterior-Nature_25
+  - first:
+      213: -6578465843077881896
+    second: TileE_PHC_Exterior-Nature_26
+  - first:
+      213: 5522015737373263897
+    second: TileE_PHC_Exterior-Nature_27
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 481
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d68ec57f82d154770800000000000000
+      internalID: 8594307525692418157
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 491
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37b936e7e22554600800000000000000
+      internalID: 451857697263033203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 289
+        width: 204
+        height: 223
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a79c716873ae35bb0800000000000000
+      internalID: -4948354041356236422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_3
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 417
+        width: 58
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55bf529e85a816e90800000000000000
+      internalID: -7034189028502668459
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_4
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 417
+        width: 58
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e81cc2eb034d959c0800000000000000
+      internalID: -3937883093344665202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97f82344942508160800000000000000
+      internalID: 7025705893328228217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_6
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 467
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8625e1ac7f924bed0800000000000000
+      internalID: -2399246557256986008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_7
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 455
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f247a5fe8be21270800000000000000
+      internalID: 8219891269143839478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_8
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 467
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 743b5ee1c687780e0800000000000000
+      internalID: -2267711481587584185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_9
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 455
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63f1902a37d3784c0800000000000000
+      internalID: -4285388953570697418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_10
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 467
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b46e5d5c34d6b4660800000000000000
+      internalID: 7371105352971314763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_11
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 455
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 600ad260302c835a0800000000000000
+      internalID: -6541265140511301626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_12
+      rect:
+        serializedVersion: 2
+        x: 57
+        y: 455
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdef516fb8af0cd70800000000000000
+      internalID: 9061517929305472732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_13
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 321
+        width: 100
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c856539ba905f980800000000000000
+      internalID: -8505881688703346487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_14
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 415
+        width: 53
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b9dc87a6d8dfe8a0800000000000000
+      internalID: -6273557339458184775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_15
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 447
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b005e7e8a17a8cba0800000000000000
+      internalID: -6068416765380112373
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_16
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 383
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76a8be02eea7b02e0800000000000000
+      internalID: -2158496433220908441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_17
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 289
+        width: 58
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b88e08f2016e04770800000000000000
+      internalID: 8593121046213748875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_18
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 193
+        width: 86
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c468497b2cc4c7f30800000000000000
+      internalID: 4574615720688911948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_19
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 255
+        width: 56
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 936e4e720f96075b0800000000000000
+      internalID: -5372677875270621639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_20
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 321
+        width: 86
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 15342cf08ab54d7d0800000000000000
+      internalID: -2894587883115363503
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_21
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 193
+        width: 86
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e316de945d98f5770800000000000000
+      internalID: 8601745362462269758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_22
+      rect:
+        serializedVersion: 2
+        x: 101
+        y: 261
+        width: 22
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ad503c05e8f9d8f90800000000000000
+      internalID: -6949723216373676582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_23
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 287
+        width: 194
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d5dcce0800028080800000000000000
+      internalID: -9186780255274347055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_24
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 191
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f0667b2cad1eaebf0800000000000000
+      internalID: -294174495953426929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_25
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 191
+        width: 34
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3294ef1ba8e90e90800000000000000
+      internalID: -7058855119254416833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_26
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 37
+        width: 128
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8df5d408b2894b4a0800000000000000
+      internalID: -6578465843077881896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileE_PHC_Exterior-Nature_27
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 35
+        width: 128
+        height: 150
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91800466e0422ac40800000000000000
+      internalID: 5522015737373263897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TileE_PHC_Exterior-Nature_0: 8594307525692418157
+      TileE_PHC_Exterior-Nature_1: 451857697263033203
+      TileE_PHC_Exterior-Nature_10: 7371105352971314763
+      TileE_PHC_Exterior-Nature_11: -6541265140511301626
+      TileE_PHC_Exterior-Nature_12: 9061517929305472732
+      TileE_PHC_Exterior-Nature_13: -8505881688703346487
+      TileE_PHC_Exterior-Nature_14: -6273557339458184775
+      TileE_PHC_Exterior-Nature_15: -6068416765380112373
+      TileE_PHC_Exterior-Nature_16: -2158496433220908441
+      TileE_PHC_Exterior-Nature_17: 8593121046213748875
+      TileE_PHC_Exterior-Nature_18: 4574615720688911948
+      TileE_PHC_Exterior-Nature_19: -5372677875270621639
+      TileE_PHC_Exterior-Nature_2: -4948354041356236422
+      TileE_PHC_Exterior-Nature_20: -2894587883115363503
+      TileE_PHC_Exterior-Nature_21: 8601745362462269758
+      TileE_PHC_Exterior-Nature_22: -6949723216373676582
+      TileE_PHC_Exterior-Nature_23: -9186780255274347055
+      TileE_PHC_Exterior-Nature_24: -294174495953426929
+      TileE_PHC_Exterior-Nature_25: -7058855119254416833
+      TileE_PHC_Exterior-Nature_26: -6578465843077881896
+      TileE_PHC_Exterior-Nature_27: 5522015737373263897
+      TileE_PHC_Exterior-Nature_3: -7034189028502668459
+      TileE_PHC_Exterior-Nature_4: -3937883093344665202
+      TileE_PHC_Exterior-Nature_5: 7025705893328228217
+      TileE_PHC_Exterior-Nature_6: -2399246557256986008
+      TileE_PHC_Exterior-Nature_7: 8219891269143839478
+      TileE_PHC_Exterior-Nature_8: -2267711481587584185
+      TileE_PHC_Exterior-Nature_9: -4285388953570697418
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

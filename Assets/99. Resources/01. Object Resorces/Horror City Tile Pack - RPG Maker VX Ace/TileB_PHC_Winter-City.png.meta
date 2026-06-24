@@ -1,0 +1,988 @@
+fileFormatVersion: 2
+guid: bbca49ac110924e43877678fa043016b
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4735542722170121839
+    second: TileB_PHC_Winter-City_0
+  - first:
+      213: 2385405181480977061
+    second: TileB_PHC_Winter-City_1
+  - first:
+      213: -8710220290764707160
+    second: TileB_PHC_Winter-City_2
+  - first:
+      213: -9172157199993871931
+    second: TileB_PHC_Winter-City_3
+  - first:
+      213: -5509176059938294281
+    second: TileB_PHC_Winter-City_4
+  - first:
+      213: 5895607506861937542
+    second: TileB_PHC_Winter-City_5
+  - first:
+      213: 1450892113303812023
+    second: TileB_PHC_Winter-City_6
+  - first:
+      213: -7919650209564281510
+    second: TileB_PHC_Winter-City_7
+  - first:
+      213: -3130511335943373425
+    second: TileB_PHC_Winter-City_8
+  - first:
+      213: 4644966213896998887
+    second: TileB_PHC_Winter-City_9
+  - first:
+      213: -7848845088626564420
+    second: TileB_PHC_Winter-City_10
+  - first:
+      213: 820477667809012103
+    second: TileB_PHC_Winter-City_11
+  - first:
+      213: -8442841744504616893
+    second: TileB_PHC_Winter-City_12
+  - first:
+      213: -492169786126651145
+    second: TileB_PHC_Winter-City_13
+  - first:
+      213: 1036615648798328033
+    second: TileB_PHC_Winter-City_14
+  - first:
+      213: -9114842164489340885
+    second: TileB_PHC_Winter-City_15
+  - first:
+      213: -2021694310518134812
+    second: TileB_PHC_Winter-City_16
+  - first:
+      213: -8406652575253300415
+    second: TileB_PHC_Winter-City_17
+  - first:
+      213: -8251913822656584284
+    second: TileB_PHC_Winter-City_18
+  - first:
+      213: 7586242649019573094
+    second: TileB_PHC_Winter-City_19
+  - first:
+      213: 8022334641876254496
+    second: TileB_PHC_Winter-City_20
+  - first:
+      213: 4488699383098225423
+    second: TileB_PHC_Winter-City_21
+  - first:
+      213: -1164293599473510996
+    second: TileB_PHC_Winter-City_22
+  - first:
+      213: -2329061302596626558
+    second: TileB_PHC_Winter-City_23
+  - first:
+      213: -3598131556769776343
+    second: TileB_PHC_Winter-City_24
+  - first:
+      213: 6511256565413037963
+    second: TileB_PHC_Winter-City_25
+  - first:
+      213: 7628250938726064040
+    second: TileB_PHC_Winter-City_26
+  - first:
+      213: -6588635825221165930
+    second: TileB_PHC_Winter-City_27
+  - first:
+      213: -5961345373781651121
+    second: TileB_PHC_Winter-City_28
+  - first:
+      213: 8015980124690951779
+    second: TileB_PHC_Winter-City_29
+  - first:
+      213: 5494449059269644508
+    second: TileB_PHC_Winter-City_30
+  - first:
+      213: -1866556527418927069
+    second: TileB_PHC_Winter-City_31
+  - first:
+      213: 2749554578668708649
+    second: TileB_PHC_Winter-City_32
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 481
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6ee2ad040708b140800000000000000
+      internalID: 4735542722170121839
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 491
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a2cc87cf59aa1120800000000000000
+      internalID: 2385405181480977061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_2
+      rect:
+        serializedVersion: 2
+        x: 53
+        y: 451
+        width: 44
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8aae1955bc41f1780800000000000000
+      internalID: -8710220290764707160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_3
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 451
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c1e25e6f93f5b080800000000000000
+      internalID: -9172157199993871931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_4
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 451
+        width: 34
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f5ba46ff897b83b0800000000000000
+      internalID: -5509176059938294281
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_5
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 223
+        width: 288
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 683d1ad8ac761d150800000000000000
+      internalID: 5895607506861937542
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_6
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 223
+        width: 107
+        height: 289
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b7b3ec90ba922410800000000000000
+      internalID: 1450892113303812023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 33
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55b2913810c71290800000000000000
+      internalID: -7919650209564281510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_8
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 467
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8df2cfa6803e84d0800000000000000
+      internalID: -3130511335943373425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_9
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 455
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ef8505592c367040800000000000000
+      internalID: 4644966213896998887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_10
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 467
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb228531afc431390800000000000000
+      internalID: -7848845088626564420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_11
+      rect:
+        serializedVersion: 2
+        x: 41
+        y: 455
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 789a5ef771ce26b00800000000000000
+      internalID: 820477667809012103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_12
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 467
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34886fb5a2005da80800000000000000
+      internalID: -8442841744504616893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_13
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 455
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f0bdb8ef267b29f0800000000000000
+      internalID: -492169786126651145
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_14
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 383
+        width: 62
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e44c3bb07cc26e00800000000000000
+      internalID: 1036615648798328033
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_15
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 447
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b283cd90853918180800000000000000
+      internalID: -9114842164489340885
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_16
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 385
+        width: 64
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e763296cbf71f3e0800000000000000
+      internalID: -2021694310518134812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_17
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 329
+        width: 58
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14b77ede502955b80800000000000000
+      internalID: -8406652575253300415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_18
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 255
+        width: 66
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a52b6b49105b7d80800000000000000
+      internalID: -8251913822656584284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_19
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 263
+        width: 58
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 663eab2ee7fb74960800000000000000
+      internalID: 7586242649019573094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 199
+        width: 33
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02f38564ade055f60800000000000000
+      internalID: 8022334641876254496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 79
+        width: 512
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f03b5198e401b4e30800000000000000
+      internalID: 4488699383098225423
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_22
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 199
+        width: 94
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca5de15d32997dfe0800000000000000
+      internalID: -1164293599473510996
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_23
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 199
+        width: 34
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2879e9ec5138dafd0800000000000000
+      internalID: -2329061302596626558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_24
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 199
+        width: 94
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 92d3d9fa96ed01ec0800000000000000
+      internalID: -3598131556769776343
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_25
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 133
+        width: 98
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b87cfde1951ac5a50800000000000000
+      internalID: 6511256565413037963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_26
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 179
+        width: 29
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8af9e4400ddfcd960800000000000000
+      internalID: 7628250938726064040
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_27
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 9
+        width: 33
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69c974300a67094a0800000000000000
+      internalID: -6588635825221165930
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_28
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 9
+        width: 70
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f41935497fb054da0800000000000000
+      internalID: -5961345373781651121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_29
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 9
+        width: 34
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36eabc2f37b7e3f60800000000000000
+      internalID: 8015980124690951779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_30
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 9
+        width: 70
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd01f3efe44304c40800000000000000
+      internalID: 5494449059269644508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_31
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 5
+        width: 130
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 328120e4ab8a816e0800000000000000
+      internalID: -1866556527418927069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileB_PHC_Winter-City_32
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 3
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 923e8105251682620800000000000000
+      internalID: 2749554578668708649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TileB_PHC_Winter-City_0: 4735542722170121839
+      TileB_PHC_Winter-City_1: 2385405181480977061
+      TileB_PHC_Winter-City_10: -7848845088626564420
+      TileB_PHC_Winter-City_11: 820477667809012103
+      TileB_PHC_Winter-City_12: -8442841744504616893
+      TileB_PHC_Winter-City_13: -492169786126651145
+      TileB_PHC_Winter-City_14: 1036615648798328033
+      TileB_PHC_Winter-City_15: -9114842164489340885
+      TileB_PHC_Winter-City_16: -2021694310518134812
+      TileB_PHC_Winter-City_17: -8406652575253300415
+      TileB_PHC_Winter-City_18: -8251913822656584284
+      TileB_PHC_Winter-City_19: 7586242649019573094
+      TileB_PHC_Winter-City_2: -8710220290764707160
+      TileB_PHC_Winter-City_20: 8022334641876254496
+      TileB_PHC_Winter-City_21: 4488699383098225423
+      TileB_PHC_Winter-City_22: -1164293599473510996
+      TileB_PHC_Winter-City_23: -2329061302596626558
+      TileB_PHC_Winter-City_24: -3598131556769776343
+      TileB_PHC_Winter-City_25: 6511256565413037963
+      TileB_PHC_Winter-City_26: 7628250938726064040
+      TileB_PHC_Winter-City_27: -6588635825221165930
+      TileB_PHC_Winter-City_28: -5961345373781651121
+      TileB_PHC_Winter-City_29: 8015980124690951779
+      TileB_PHC_Winter-City_3: -9172157199993871931
+      TileB_PHC_Winter-City_30: 5494449059269644508
+      TileB_PHC_Winter-City_31: -1866556527418927069
+      TileB_PHC_Winter-City_32: 2749554578668708649
+      TileB_PHC_Winter-City_4: -5509176059938294281
+      TileB_PHC_Winter-City_5: 5895607506861937542
+      TileB_PHC_Winter-City_6: 1450892113303812023
+      TileB_PHC_Winter-City_7: -7919650209564281510
+      TileB_PHC_Winter-City_8: -3130511335943373425
+      TileB_PHC_Winter-City_9: 4644966213896998887
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

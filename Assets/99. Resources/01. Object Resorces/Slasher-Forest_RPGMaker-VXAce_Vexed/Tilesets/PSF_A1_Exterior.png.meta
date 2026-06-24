@@ -1,0 +1,728 @@
+fileFormatVersion: 2
+guid: dacd898607ef6f046a0e3716f33781cd
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 4190696600700385519
+    second: PSF_A1_Exterior_0
+  - first:
+      213: 4436060686311667768
+    second: PSF_A1_Exterior_1
+  - first:
+      213: 1009031665044166564
+    second: PSF_A1_Exterior_2
+  - first:
+      213: -2439078591636866252
+    second: PSF_A1_Exterior_3
+  - first:
+      213: -3283283162681589481
+    second: PSF_A1_Exterior_4
+  - first:
+      213: 2233533754724635522
+    second: PSF_A1_Exterior_5
+  - first:
+      213: -6468582810243465043
+    second: PSF_A1_Exterior_6
+  - first:
+      213: 6092315442203241838
+    second: PSF_A1_Exterior_7
+  - first:
+      213: -7482416904436720491
+    second: PSF_A1_Exterior_8
+  - first:
+      213: -7558255314657131817
+    second: PSF_A1_Exterior_9
+  - first:
+      213: 8032324352915085187
+    second: PSF_A1_Exterior_10
+  - first:
+      213: -8603667644470378180
+    second: PSF_A1_Exterior_11
+  - first:
+      213: 8112909376044124742
+    second: PSF_A1_Exterior_12
+  - first:
+      213: -5666743876961140143
+    second: PSF_A1_Exterior_13
+  - first:
+      213: 6552133981708137691
+    second: PSF_A1_Exterior_14
+  - first:
+      213: -1598418384195219795
+    second: PSF_A1_Exterior_15
+  - first:
+      213: -8948868294804141693
+    second: PSF_A1_Exterior_16
+  - first:
+      213: 4799444112601268166
+    second: PSF_A1_Exterior_17
+  - first:
+      213: 5836239212186167270
+    second: PSF_A1_Exterior_18
+  - first:
+      213: -3753644522262632147
+    second: PSF_A1_Exterior_19
+  - first:
+      213: -818152722180728562
+    second: PSF_A1_Exterior_20
+  - first:
+      213: -6821412108219444272
+    second: PSF_A1_Exterior_21
+  - first:
+      213: -915702811361371115
+    second: PSF_A1_Exterior_22
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 255
+        width: 193
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe8fe26ea58582a30800000000000000
+      internalID: 4190696600700385519
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 365
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 838bea1e0bd009d30800000000000000
+      internalID: 4436060686311667768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_2
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 377
+        width: 10
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a7141a04fcc00e00800000000000000
+      internalID: 1009031665044166564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_3
+      rect:
+        serializedVersion: 2
+        x: 253
+        y: 191
+        width: 259
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 43b793691f6a62ed0800000000000000
+      internalID: -2439078591636866252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_4
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 363
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 711c75feb5f6f62d0800000000000000
+      internalID: -3283283162681589481
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_5
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 351
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 283d43cbd1b1ffe10800000000000000
+      internalID: 2233533754724635522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_6
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 361
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da08d33c43afa36a0800000000000000
+      internalID: -6468582810243465043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_7
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 331
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6da620cd904c8450800000000000000
+      internalID: 6092315442203241838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_8
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 317
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59cdbad087d192890800000000000000
+      internalID: -7482416904436720491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_9
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 329
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d2472036deab1790800000000000000
+      internalID: -7558255314657131817
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_10
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 323
+        width: 20
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3871930217c887f60800000000000000
+      internalID: 8032324352915085187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_11
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 309
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3142dd8cd1a99880800000000000000
+      internalID: -8603667644470378180
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_12
+      rect:
+        serializedVersion: 2
+        x: 217
+        y: 313
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64acb0ee718d69070800000000000000
+      internalID: 8112909376044124742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_13
+      rect:
+        serializedVersion: 2
+        x: 237
+        y: 317
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1528c94b77eab51b0800000000000000
+      internalID: -5666743876961140143
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_14
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 299
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd4ba74442bddea50800000000000000
+      internalID: 6552133981708137691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_15
+      rect:
+        serializedVersion: 2
+        x: 215
+        y: 307
+        width: 14
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dae0797c2f641d9e0800000000000000
+      internalID: -1598418384195219795
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_16
+      rect:
+        serializedVersion: 2
+        x: 221
+        y: 301
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3898172f2bb3fc380800000000000000
+      internalID: -8948868294804141693
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_17
+      rect:
+        serializedVersion: 2
+        x: 233
+        y: 299
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cf30faedfc0b9240800000000000000
+      internalID: 4799444112601268166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_18
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 199
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6e7ef8a44ac7ef050800000000000000
+      internalID: 5836239212186167270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_19
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 199
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d29e175d13068ebc0800000000000000
+      internalID: -3753644522262632147
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_20
+      rect:
+        serializedVersion: 2
+        x: 139
+        y: 199
+        width: 44
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0916661f6655a4f0800000000000000
+      internalID: -818152722180728562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_21
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 199
+        width: 56
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d3180734d97551a0800000000000000
+      internalID: -6821412108219444272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PSF_A1_Exterior_22
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 193
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 51c9af80525ca43f0800000000000000
+      internalID: -915702811361371115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PSF_A1_Exterior_0: 4190696600700385519
+      PSF_A1_Exterior_1: 4436060686311667768
+      PSF_A1_Exterior_10: 8032324352915085187
+      PSF_A1_Exterior_11: -8603667644470378180
+      PSF_A1_Exterior_12: 8112909376044124742
+      PSF_A1_Exterior_13: -5666743876961140143
+      PSF_A1_Exterior_14: 6552133981708137691
+      PSF_A1_Exterior_15: -1598418384195219795
+      PSF_A1_Exterior_16: -8948868294804141693
+      PSF_A1_Exterior_17: 4799444112601268166
+      PSF_A1_Exterior_18: 5836239212186167270
+      PSF_A1_Exterior_19: -3753644522262632147
+      PSF_A1_Exterior_2: 1009031665044166564
+      PSF_A1_Exterior_20: -818152722180728562
+      PSF_A1_Exterior_21: -6821412108219444272
+      PSF_A1_Exterior_22: -915702811361371115
+      PSF_A1_Exterior_3: -2439078591636866252
+      PSF_A1_Exterior_4: -3283283162681589481
+      PSF_A1_Exterior_5: 2233533754724635522
+      PSF_A1_Exterior_6: -6468582810243465043
+      PSF_A1_Exterior_7: 6092315442203241838
+      PSF_A1_Exterior_8: -7482416904436720491
+      PSF_A1_Exterior_9: -7558255314657131817
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

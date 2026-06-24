@@ -1,0 +1,1222 @@
+fileFormatVersion: 2
+guid: 58acf863dc585d2428647d8e9af53272
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6488400805883484493
+    second: HC_SewerC_0
+  - first:
+      213: 3758373922568214073
+    second: HC_SewerC_1
+  - first:
+      213: -7678810328178879032
+    second: HC_SewerC_2
+  - first:
+      213: -4382655804096318019
+    second: HC_SewerC_3
+  - first:
+      213: -5359787380781931121
+    second: HC_SewerC_4
+  - first:
+      213: -1065552585022471766
+    second: HC_SewerC_5
+  - first:
+      213: 4976513155438572895
+    second: HC_SewerC_6
+  - first:
+      213: -270513497521103527
+    second: HC_SewerC_7
+  - first:
+      213: -9213940760721660781
+    second: HC_SewerC_8
+  - first:
+      213: -3201561712953552771
+    second: HC_SewerC_9
+  - first:
+      213: 4825938533635690835
+    second: HC_SewerC_10
+  - first:
+      213: 2107996555746166980
+    second: HC_SewerC_11
+  - first:
+      213: -136186236629838089
+    second: HC_SewerC_12
+  - first:
+      213: -5855993642376302743
+    second: HC_SewerC_13
+  - first:
+      213: -7261034980326161172
+    second: HC_SewerC_14
+  - first:
+      213: 5958488841143563954
+    second: HC_SewerC_15
+  - first:
+      213: 5510532660964219264
+    second: HC_SewerC_16
+  - first:
+      213: -6242054935063483595
+    second: HC_SewerC_17
+  - first:
+      213: 1467310795542308163
+    second: HC_SewerC_18
+  - first:
+      213: 6317125694317623826
+    second: HC_SewerC_19
+  - first:
+      213: 2916444323338338060
+    second: HC_SewerC_20
+  - first:
+      213: -1140496358868671142
+    second: HC_SewerC_21
+  - first:
+      213: 3799816892205742951
+    second: HC_SewerC_22
+  - first:
+      213: -6372724564166072920
+    second: HC_SewerC_23
+  - first:
+      213: -7857224542493949286
+    second: HC_SewerC_24
+  - first:
+      213: 9044480315879798833
+    second: HC_SewerC_25
+  - first:
+      213: 4512130852532841525
+    second: HC_SewerC_26
+  - first:
+      213: -7130062911854077638
+    second: HC_SewerC_27
+  - first:
+      213: -3086360839648335751
+    second: HC_SewerC_28
+  - first:
+      213: 2450831951411440870
+    second: HC_SewerC_29
+  - first:
+      213: 6364675528387436261
+    second: HC_SewerC_30
+  - first:
+      213: 509114266390945609
+    second: HC_SewerC_31
+  - first:
+      213: 8479457172308380884
+    second: HC_SewerC_32
+  - first:
+      213: -7084859814728690226
+    second: HC_SewerC_33
+  - first:
+      213: 6355684925274998426
+    second: HC_SewerC_34
+  - first:
+      213: -7406385426759186775
+    second: HC_SewerC_35
+  - first:
+      213: -4920469818551079378
+    second: HC_SewerC_36
+  - first:
+      213: 7768972162870542062
+    second: HC_SewerC_37
+  - first:
+      213: 1585701334566812325
+    second: HC_SewerC_38
+  - first:
+      213: -8269825438981469515
+    second: HC_SewerC_39
+  - first:
+      213: -7160062649821985578
+    second: HC_SewerC_40
+  - first:
+      213: -8694460119272954473
+    second: HC_SewerC_41
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HC_SewerC_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 465
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b6e4f418d194f5a0800000000000000
+      internalID: -6488400805883484493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_1
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 481
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93615cb7b2d682430800000000000000
+      internalID: 3758373922568214073
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_2
+      rect:
+        serializedVersion: 2
+        x: 51
+        y: 415
+        width: 58
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c51c4bc0b26f6590800000000000000
+      internalID: -7678810328178879032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_3
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 415
+        width: 88
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: db5f80834cdad23c0800000000000000
+      internalID: -4382655804096318019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_4
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 385
+        width: 194
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f852fd846c53e95b0800000000000000
+      internalID: -5359787380781931121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_5
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 453
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa18c38c1956631f0800000000000000
+      internalID: -1065552585022471766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_6
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 465
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f5579f12950201540800000000000000
+      internalID: 4976513155438572895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_7
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 453
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95d5e414861fe3cf0800000000000000
+      internalID: -270513497521103527
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_8
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 465
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 39461b712b1812080800000000000000
+      internalID: -9213940760721660781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_9
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 453
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7099eca594c193d0800000000000000
+      internalID: -3201561712953552771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_10
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 453
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3519935078d29f240800000000000000
+      internalID: 4825938533635690835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_11
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 415
+        width: 33
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c84ff4e2bb114d10800000000000000
+      internalID: 2107996555746166980
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 301
+        width: 193
+        height: 106
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f6916ed65b2c1ef0800000000000000
+      internalID: -136186236629838089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_13
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 269
+        width: 62
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96fe6330fc45bbea0800000000000000
+      internalID: -5855993642376302743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_14
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 279
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce449ffe72f9b3b90800000000000000
+      internalID: -7261034980326161172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_15
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 279
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b6bd76180ec0b250800000000000000
+      internalID: 5958488841143563954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_16
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 321
+        width: 130
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 089d5f35248597c40800000000000000
+      internalID: 5510532660964219264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_17
+      rect:
+        serializedVersion: 2
+        x: 415
+        y: 319
+        width: 40
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53b211fbb14cf59a0800000000000000
+      internalID: -6242054935063483595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 159
+        width: 97
+        height: 130
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3452567f46fec5410800000000000000
+      internalID: 1467310795542308163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_19
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 179
+        width: 128
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a7b437950faa750800000000000000
+      internalID: 6317125694317623826
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_20
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 239
+        width: 104
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0f39cbf8aa497820800000000000000
+      internalID: 2916444323338338060
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_21
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 223
+        width: 72
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a55a10eaa942c20f0800000000000000
+      internalID: -1140496358868671142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_22
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 147
+        width: 32
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76bb377c459abb430800000000000000
+      internalID: 3799816892205742951
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_23
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 191
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a5a975e5c88f87a0800000000000000
+      internalID: -6372724564166072920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_24
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 159
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a92ca2078e785f290800000000000000
+      internalID: -7857224542493949286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_25
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 127
+        width: 128
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13837067de2748d70800000000000000
+      internalID: 9044480315879798833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_26
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 159
+        width: 22
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53cec45aa1f4e9e30800000000000000
+      internalID: 4512130852532841525
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_27
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 131
+        width: 16
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a3910c0fe8dec0d90800000000000000
+      internalID: -7130062911854077638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_28
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 131
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 978a5182b2b0b25d0800000000000000
+      internalID: -3086360839648335751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_29
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 135
+        width: 22
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ec6e0cbcaa130220800000000000000
+      internalID: 2450831951411440870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_30
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 63
+        width: 90
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ee972cebaed35850800000000000000
+      internalID: 6364675528387436261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_31
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 63
+        width: 56
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fd0565abcb01700800000000000000
+      internalID: 509114266390945609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_32
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 65
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dc44934f551da570800000000000000
+      internalID: 8479457172308380884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_33
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 97
+        width: 96
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec518a329858dad90800000000000000
+      internalID: -7084859814728690226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_34
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 65
+        width: 32
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a96425304cde33850800000000000000
+      internalID: 6355684925274998426
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_35
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 89
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a68360f1bb373990800000000000000
+      internalID: -7406385426759186775
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_36
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 71
+        width: 58
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2e6b3115caf6bbb0800000000000000
+      internalID: -4920469818551079378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_37
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 69
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eeefbc5350fe0db60800000000000000
+      internalID: 7768972162870542062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_38
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 90
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aab7be56fa810610800000000000000
+      internalID: 1585701334566812325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_39
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 0
+        width: 56
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ba4503249dab3d80800000000000000
+      internalID: -8269825438981469515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_40
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 1
+        width: 32
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d481d3a4f852ac90800000000000000
+      internalID: -7160062649821985578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_SewerC_41
+      rect:
+        serializedVersion: 2
+        x: 265
+        y: 25
+        width: 48
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7956fe43692175780800000000000000
+      internalID: -8694460119272954473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HC_SewerC_0: -6488400805883484493
+      HC_SewerC_1: 3758373922568214073
+      HC_SewerC_10: 4825938533635690835
+      HC_SewerC_11: 2107996555746166980
+      HC_SewerC_12: -136186236629838089
+      HC_SewerC_13: -5855993642376302743
+      HC_SewerC_14: -7261034980326161172
+      HC_SewerC_15: 5958488841143563954
+      HC_SewerC_16: 5510532660964219264
+      HC_SewerC_17: -6242054935063483595
+      HC_SewerC_18: 1467310795542308163
+      HC_SewerC_19: 6317125694317623826
+      HC_SewerC_2: -7678810328178879032
+      HC_SewerC_20: 2916444323338338060
+      HC_SewerC_21: -1140496358868671142
+      HC_SewerC_22: 3799816892205742951
+      HC_SewerC_23: -6372724564166072920
+      HC_SewerC_24: -7857224542493949286
+      HC_SewerC_25: 9044480315879798833
+      HC_SewerC_26: 4512130852532841525
+      HC_SewerC_27: -7130062911854077638
+      HC_SewerC_28: -3086360839648335751
+      HC_SewerC_29: 2450831951411440870
+      HC_SewerC_3: -4382655804096318019
+      HC_SewerC_30: 6364675528387436261
+      HC_SewerC_31: 509114266390945609
+      HC_SewerC_32: 8479457172308380884
+      HC_SewerC_33: -7084859814728690226
+      HC_SewerC_34: 6355684925274998426
+      HC_SewerC_35: -7406385426759186775
+      HC_SewerC_36: -4920469818551079378
+      HC_SewerC_37: 7768972162870542062
+      HC_SewerC_38: 1585701334566812325
+      HC_SewerC_39: -8269825438981469515
+      HC_SewerC_4: -5359787380781931121
+      HC_SewerC_40: -7160062649821985578
+      HC_SewerC_41: -8694460119272954473
+      HC_SewerC_5: -1065552585022471766
+      HC_SewerC_6: 4976513155438572895
+      HC_SewerC_7: -270513497521103527
+      HC_SewerC_8: -9213940760721660781
+      HC_SewerC_9: -3201561712953552771
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

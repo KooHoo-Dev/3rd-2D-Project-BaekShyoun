@@ -1,0 +1,2626 @@
+fileFormatVersion: 2
+guid: f6f10b68a0f027e418290f6d8a6cf448
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5749409042834709738
+    second: PHC_Civilians_A_0
+  - first:
+      213: -459169432516630786
+    second: PHC_Civilians_A_1
+  - first:
+      213: 8880473249029469827
+    second: PHC_Civilians_A_2
+  - first:
+      213: -5391753057840040128
+    second: PHC_Civilians_A_3
+  - first:
+      213: -8709656920377652902
+    second: PHC_Civilians_A_4
+  - first:
+      213: -3856335393845631333
+    second: PHC_Civilians_A_5
+  - first:
+      213: 5329624186691368714
+    second: PHC_Civilians_A_6
+  - first:
+      213: 997210221661023150
+    second: PHC_Civilians_A_7
+  - first:
+      213: 6690500956101744338
+    second: PHC_Civilians_A_8
+  - first:
+      213: 8658072421673056150
+    second: PHC_Civilians_A_9
+  - first:
+      213: 703260061621398030
+    second: PHC_Civilians_A_10
+  - first:
+      213: -777272443710905633
+    second: PHC_Civilians_A_11
+  - first:
+      213: -1578076536676968937
+    second: PHC_Civilians_A_12
+  - first:
+      213: 6240269844184189257
+    second: PHC_Civilians_A_13
+  - first:
+      213: -3929611815910960186
+    second: PHC_Civilians_A_14
+  - first:
+      213: 1550378157608273082
+    second: PHC_Civilians_A_15
+  - first:
+      213: -2353120001220142212
+    second: PHC_Civilians_A_16
+  - first:
+      213: -1764128868045560480
+    second: PHC_Civilians_A_17
+  - first:
+      213: -4438941373444508737
+    second: PHC_Civilians_A_18
+  - first:
+      213: -6236737514556907800
+    second: PHC_Civilians_A_19
+  - first:
+      213: -4574817233665173229
+    second: PHC_Civilians_A_20
+  - first:
+      213: 6610143512991421637
+    second: PHC_Civilians_A_21
+  - first:
+      213: 8761778717624742887
+    second: PHC_Civilians_A_22
+  - first:
+      213: 2145782026273376208
+    second: PHC_Civilians_A_23
+  - first:
+      213: 1672778776478593092
+    second: PHC_Civilians_A_24
+  - first:
+      213: -6548347087961061988
+    second: PHC_Civilians_A_25
+  - first:
+      213: -1399499316079630824
+    second: PHC_Civilians_A_26
+  - first:
+      213: 3310019372757675690
+    second: PHC_Civilians_A_27
+  - first:
+      213: -8197360496338596295
+    second: PHC_Civilians_A_28
+  - first:
+      213: 9043342761052214975
+    second: PHC_Civilians_A_29
+  - first:
+      213: 1178871171305286502
+    second: PHC_Civilians_A_30
+  - first:
+      213: -1750761946168322791
+    second: PHC_Civilians_A_31
+  - first:
+      213: 3020654473475626295
+    second: PHC_Civilians_A_32
+  - first:
+      213: -6242218521284288480
+    second: PHC_Civilians_A_33
+  - first:
+      213: 1984206650721287711
+    second: PHC_Civilians_A_34
+  - first:
+      213: -1316181459921104205
+    second: PHC_Civilians_A_35
+  - first:
+      213: -7123822455798483674
+    second: PHC_Civilians_A_36
+  - first:
+      213: -3608485608205493135
+    second: PHC_Civilians_A_37
+  - first:
+      213: 3573530692424171616
+    second: PHC_Civilians_A_38
+  - first:
+      213: -3795830579928165806
+    second: PHC_Civilians_A_39
+  - first:
+      213: 5684502289648868637
+    second: PHC_Civilians_A_40
+  - first:
+      213: 8332758484233019266
+    second: PHC_Civilians_A_41
+  - first:
+      213: -2108047238938552837
+    second: PHC_Civilians_A_42
+  - first:
+      213: 3190244831671488610
+    second: PHC_Civilians_A_43
+  - first:
+      213: 6478246072926884371
+    second: PHC_Civilians_A_44
+  - first:
+      213: 2487873880021008751
+    second: PHC_Civilians_A_45
+  - first:
+      213: -1736872893813508938
+    second: PHC_Civilians_A_46
+  - first:
+      213: 5101715661027691893
+    second: PHC_Civilians_A_47
+  - first:
+      213: 7800863057592877285
+    second: PHC_Civilians_A_48
+  - first:
+      213: 3747734133764650311
+    second: PHC_Civilians_A_49
+  - first:
+      213: -1246431606546959434
+    second: PHC_Civilians_A_50
+  - first:
+      213: 2383948383952919920
+    second: PHC_Civilians_A_51
+  - first:
+      213: 2462461430135357044
+    second: PHC_Civilians_A_52
+  - first:
+      213: -7591705083518539782
+    second: PHC_Civilians_A_53
+  - first:
+      213: -7773282026875013508
+    second: PHC_Civilians_A_54
+  - first:
+      213: 3844600546014714438
+    second: PHC_Civilians_A_55
+  - first:
+      213: 5990655247057660835
+    second: PHC_Civilians_A_56
+  - first:
+      213: -3363244890306638499
+    second: PHC_Civilians_A_57
+  - first:
+      213: -8682473675187734252
+    second: PHC_Civilians_A_58
+  - first:
+      213: -5728646473790093905
+    second: PHC_Civilians_A_59
+  - first:
+      213: 6418137062008495307
+    second: PHC_Civilians_A_60
+  - first:
+      213: -2028274200797787179
+    second: PHC_Civilians_A_61
+  - first:
+      213: 7585356481051771369
+    second: PHC_Civilians_A_62
+  - first:
+      213: -4670322408927037799
+    second: PHC_Civilians_A_63
+  - first:
+      213: 6254445498388408950
+    second: PHC_Civilians_A_64
+  - first:
+      213: -1262451036816060325
+    second: PHC_Civilians_A_65
+  - first:
+      213: 8642865418786293227
+    second: PHC_Civilians_A_66
+  - first:
+      213: -8975265925115923233
+    second: PHC_Civilians_A_67
+  - first:
+      213: 4120631145383949899
+    second: PHC_Civilians_A_68
+  - first:
+      213: 8765868308700077889
+    second: PHC_Civilians_A_69
+  - first:
+      213: 1128392691356760594
+    second: PHC_Civilians_A_70
+  - first:
+      213: 214139714913694989
+    second: PHC_Civilians_A_71
+  - first:
+      213: -6949101002510862946
+    second: PHC_Civilians_A_72
+  - first:
+      213: 5414633982021993880
+    second: PHC_Civilians_A_73
+  - first:
+      213: 1168326639436617983
+    second: PHC_Civilians_A_74
+  - first:
+      213: -3574257322005853015
+    second: PHC_Civilians_A_75
+  - first:
+      213: 6972737919013692584
+    second: PHC_Civilians_A_76
+  - first:
+      213: -4660049615827320336
+    second: PHC_Civilians_A_77
+  - first:
+      213: -7435916899662608140
+    second: PHC_Civilians_A_78
+  - first:
+      213: -3096632993649019518
+    second: PHC_Civilians_A_79
+  - first:
+      213: -2842094045565530326
+    second: PHC_Civilians_A_80
+  - first:
+      213: 722948725196819274
+    second: PHC_Civilians_A_81
+  - first:
+      213: -5496138027922329626
+    second: PHC_Civilians_A_82
+  - first:
+      213: -6393585176716723150
+    second: PHC_Civilians_A_83
+  - first:
+      213: -3283043311454764992
+    second: PHC_Civilians_A_84
+  - first:
+      213: -7109130340920197877
+    second: PHC_Civilians_A_85
+  - first:
+      213: -6542623426858686080
+    second: PHC_Civilians_A_86
+  - first:
+      213: 8501756188605216538
+    second: PHC_Civilians_A_87
+  - first:
+      213: -8738306265846493990
+    second: PHC_Civilians_A_88
+  - first:
+      213: -509285163168388722
+    second: PHC_Civilians_A_89
+  - first:
+      213: -6498304092452035613
+    second: PHC_Civilians_A_90
+  - first:
+      213: 5250726237942276113
+    second: PHC_Civilians_A_91
+  - first:
+      213: -8007203798916002936
+    second: PHC_Civilians_A_92
+  - first:
+      213: -3693573649513640972
+    second: PHC_Civilians_A_93
+  - first:
+      213: -360568031947436584
+    second: PHC_Civilians_A_94
+  - first:
+      213: 8828284879331410717
+    second: PHC_Civilians_A_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: PHC_Civilians_A_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 447
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6132b6defeef530b0800000000000000
+      internalID: -5749409042834709738
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_1
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 447
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ef6e02b75d3b0a9f0800000000000000
+      internalID: -459169432516630786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_2
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 447
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 386b2c58e57cd3b70800000000000000
+      internalID: 8880473249029469827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_3
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 447
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04771de1925ac25b0800000000000000
+      internalID: -5391753057840040128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_4
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 447
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a590e593d25112780800000000000000
+      internalID: -8709656920377652902
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_5
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 447
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b96a01b146b8b7ac0800000000000000
+      internalID: -3856335393845631333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_6
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 447
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a07b112d5f0a6f940800000000000000
+      internalID: 5329624186691368714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_7
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 447
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eab6e74c96dc6dd00800000000000000
+      internalID: 997210221661023150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_8
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 447
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d61bd9fb2f69dc50800000000000000
+      internalID: 6690500956101744338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_9
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 447
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 697bd6dbef6a72870800000000000000
+      internalID: 8658072421673056150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_10
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 447
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0aa9adcc4b72c900800000000000000
+      internalID: 703260061621398030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_11
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 447
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd269e2a4d29635f0800000000000000
+      internalID: -777272443710905633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_12
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 383
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7169dfa30cb891ae0800000000000000
+      internalID: -1578076536676968937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_13
+      rect:
+        serializedVersion: 2
+        x: 37
+        y: 383
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9494e256c54e99650800000000000000
+      internalID: 6240269844184189257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_14
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 383
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c313779fd63779c0800000000000000
+      internalID: -3929611815910960186
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_15
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 383
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ab404c758bc048510800000000000000
+      internalID: 1550378157608273082
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_16
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 383
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7b186583d9085fd0800000000000000
+      internalID: -2353120001220142212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_17
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 383
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 065e12a242e8487e0800000000000000
+      internalID: -1764128868045560480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_18
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 383
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb33e01e656b562c0800000000000000
+      internalID: -4438941373444508737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_19
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 383
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ee9b7f2648a279a0800000000000000
+      internalID: -6236737514556907800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_20
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 383
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3195d03e6fbf280c0800000000000000
+      internalID: -4574817233665173229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_21
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 383
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5c4d436c082fbbb50800000000000000
+      internalID: 6610143512991421637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_22
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 383
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7e3b9906257189970800000000000000
+      internalID: 8761778717624742887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_23
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 383
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0d74171526957cd10800000000000000
+      internalID: 2145782026273376208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 319
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 440b1d73f67e63710800000000000000
+      internalID: 1672778776478593092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_25
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 319
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c950e14a4099f15a0800000000000000
+      internalID: -6548347087961061988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_26
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 319
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 816eba179caf39ce0800000000000000
+      internalID: -1399499316079630824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_27
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 319
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aaee1e0151d8fed20800000000000000
+      internalID: 3310019372757675690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_28
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 319
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93e0bef5f002d3e80800000000000000
+      internalID: -8197360496338596295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_29
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 319
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb61e96d358608d70800000000000000
+      internalID: 9043342761052214975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_30
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 319
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 66ba99995113c5010800000000000000
+      internalID: 1178871171305286502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_31
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 319
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9159d50394b04b7e0800000000000000
+      internalID: -1750761946168322791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_32
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 319
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 73595b05d358be920800000000000000
+      internalID: 3020654473475626295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_33
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 319
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0206c7cd35f2f59a0800000000000000
+      internalID: -6242218521284288480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_34
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 319
+        width: 26
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1eb531af61598b10800000000000000
+      internalID: 1984206650721287711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_35
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 319
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3b292758febfbbde0800000000000000
+      internalID: -1316181459921104205
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_36
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 255
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6253e275839132d90800000000000000
+      internalID: -7123822455798483674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_37
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 255
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 17c5dc935751cedc0800000000000000
+      internalID: -3608485608205493135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_38
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 255
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06006eb3b3bb79130800000000000000
+      internalID: 3573530692424171616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_39
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 255
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 25211dfd230825bc0800000000000000
+      internalID: -3795830579928165806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_40
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 255
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1d5a63f6b863ee40800000000000000
+      internalID: 5684502289648868637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_41
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 255
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28fd4db41b7e3a370800000000000000
+      internalID: 8332758484233019266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_42
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 255
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf513518436beb2e0800000000000000
+      internalID: -2108047238938552837
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_43
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 255
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2601e4295c6064c20800000000000000
+      internalID: 3190244831671488610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_44
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 255
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3125068ea7a57e950800000000000000
+      internalID: 6478246072926884371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_45
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 255
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6100a0dc14b68220800000000000000
+      internalID: 2487873880021008751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_46
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 255
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b4bd303e4365e7e0800000000000000
+      internalID: -1736872893813508938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_47
+      rect:
+        serializedVersion: 2
+        x: 351
+        y: 255
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57d4a981d5fecc640800000000000000
+      internalID: 5101715661027691893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_48
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 191
+        width: 31
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e08a41ce9b324c60800000000000000
+      internalID: 7800863057592877285
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_49
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 191
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 745f5ab9650a20430800000000000000
+      internalID: 3747734133764650311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_50
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 191
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b3f2f6ce09c3bee0800000000000000
+      internalID: -1246431606546959434
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_51
+      rect:
+        serializedVersion: 2
+        x: 95
+        y: 191
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07d516cac6c751120800000000000000
+      internalID: 2383948383952919920
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_52
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 191
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47e7150cf9b6c2220800000000000000
+      internalID: 2462461430135357044
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_53
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 191
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af7a959f278d4a690800000000000000
+      internalID: -7591705083518539782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_54
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 191
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c76bf216e21cf1490800000000000000
+      internalID: -7773282026875013508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_55
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 191
+        width: 28
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64ada78b3d3ca5530800000000000000
+      internalID: 3844600546014714438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_56
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 191
+        width: 32
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3aba3b41535132350800000000000000
+      internalID: 5990655247057660835
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_57
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 191
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5d00ac679a5351d0800000000000000
+      internalID: -3363244890306638499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_58
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 191
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41931c2b138a18780800000000000000
+      internalID: -8682473675187734252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_59
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 191
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fa582fd3262cf70b0800000000000000
+      internalID: -5728646473790093905
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_60
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 127
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcc19c437adc11950800000000000000
+      internalID: 6418137062008495307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_61
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 127
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5dbcb525c5f1ad3e0800000000000000
+      internalID: -2028274200797787179
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_62
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 127
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e14cc3d789944960800000000000000
+      internalID: 7585356481051771369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_63
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 127
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9967b55738eaf2fb0800000000000000
+      internalID: -4670322408927037799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_64
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 127
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67a6b761b014cc650800000000000000
+      internalID: 6254445498388408950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_65
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 127
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b505144887fda7ee0800000000000000
+      internalID: -1262451036816060325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_66
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 127
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: be5c3487e40a1f770800000000000000
+      internalID: 8642865418786293227
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_67
+      rect:
+        serializedVersion: 2
+        x: 227
+        y: 127
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd43cc0b133717380800000000000000
+      internalID: -8975265925115923233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_68
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 127
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b467507d13c6f2930800000000000000
+      internalID: 4120631145383949899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_69
+      rect:
+        serializedVersion: 2
+        x: 291
+        y: 127
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14f1cef78ce96a970800000000000000
+      internalID: 8765868308700077889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_70
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 127
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 21a777f9c2bd8af00800000000000000
+      internalID: 1128392691356760594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_71
+      rect:
+        serializedVersion: 2
+        x: 355
+        y: 127
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d05fbb7afe6c8f200800000000000000
+      internalID: 214139714913694989
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_72
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 63
+        width: 29
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e957705c475df8f90800000000000000
+      internalID: -6949101002510862946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_73
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 63
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8950e2f2be4a42b40800000000000000
+      internalID: 5414633982021993880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_74
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 63
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff8de3573eab63010800000000000000
+      internalID: 1168326639436617983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_75
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 63
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9ac800227efa56ec0800000000000000
+      internalID: -3574257322005853015
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_76
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 63
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a425b6b13424c060800000000000000
+      internalID: 6972737919013692584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_77
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 63
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f1caec709d245fb0800000000000000
+      internalID: -4660049615827320336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_78
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 63
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4f849481af05ec890800000000000000
+      internalID: -7435916899662608140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_79
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 63
+        width: 30
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 285bbcde2bc8605d0800000000000000
+      internalID: -3096632993649019518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_80
+      rect:
+        serializedVersion: 2
+        x: 255
+        y: 63
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2f40db068ade88d0800000000000000
+      internalID: -2842094045565530326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_81
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 63
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4b8d24090e680a00800000000000000
+      internalID: 722948725196819274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_82
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 63
+        width: 28
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef6c29559bc9b3b0800000000000000
+      internalID: -5496138027922329626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_83
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 63
+        width: 28
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23cb89c082c6547a0800000000000000
+      internalID: -6393585176716723150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_84
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 0
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0404486a0894072d0800000000000000
+      internalID: -3283043311454764992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_85
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 0
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0dff77ee9b475d90800000000000000
+      internalID: -7109130340920197877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_86
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08960f658aee335a0800000000000000
+      internalID: -6542623426858686080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_87
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 0
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a17fac4953e4cf570800000000000000
+      internalID: 8501756188605216538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_88
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 0
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: adc46adafbc4bb680800000000000000
+      internalID: -8738306265846493990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_89
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 0
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e89a8f7a7d7aee8f0800000000000000
+      internalID: -509285163168388722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_90
+      rect:
+        serializedVersion: 2
+        x: 193
+        y: 0
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3edee7bd261d5a0800000000000000
+      internalID: -6498304092452035613
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_91
+      rect:
+        serializedVersion: 2
+        x: 225
+        y: 0
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1106f51a1b35ed840800000000000000
+      internalID: 5250726237942276113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_92
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 0
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88b0471a192b0e090800000000000000
+      internalID: -8007203798916002936
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_93
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 0
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb0ffcc55acdbcc0800000000000000
+      internalID: -3693573649513640972
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_94
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 0
+        width: 28
+        height: 49
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8dd496a09410ffaf0800000000000000
+      internalID: -360568031947436584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: PHC_Civilians_A_95
+      rect:
+        serializedVersion: 2
+        x: 353
+        y: 0
+        width: 28
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d134080d25e548a70800000000000000
+      internalID: 8828284879331410717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      PHC_Civilians_A_0: -5749409042834709738
+      PHC_Civilians_A_1: -459169432516630786
+      PHC_Civilians_A_10: 703260061621398030
+      PHC_Civilians_A_11: -777272443710905633
+      PHC_Civilians_A_12: -1578076536676968937
+      PHC_Civilians_A_13: 6240269844184189257
+      PHC_Civilians_A_14: -3929611815910960186
+      PHC_Civilians_A_15: 1550378157608273082
+      PHC_Civilians_A_16: -2353120001220142212
+      PHC_Civilians_A_17: -1764128868045560480
+      PHC_Civilians_A_18: -4438941373444508737
+      PHC_Civilians_A_19: -6236737514556907800
+      PHC_Civilians_A_2: 8880473249029469827
+      PHC_Civilians_A_20: -4574817233665173229
+      PHC_Civilians_A_21: 6610143512991421637
+      PHC_Civilians_A_22: 8761778717624742887
+      PHC_Civilians_A_23: 2145782026273376208
+      PHC_Civilians_A_24: 1672778776478593092
+      PHC_Civilians_A_25: -6548347087961061988
+      PHC_Civilians_A_26: -1399499316079630824
+      PHC_Civilians_A_27: 3310019372757675690
+      PHC_Civilians_A_28: -8197360496338596295
+      PHC_Civilians_A_29: 9043342761052214975
+      PHC_Civilians_A_3: -5391753057840040128
+      PHC_Civilians_A_30: 1178871171305286502
+      PHC_Civilians_A_31: -1750761946168322791
+      PHC_Civilians_A_32: 3020654473475626295
+      PHC_Civilians_A_33: -6242218521284288480
+      PHC_Civilians_A_34: 1984206650721287711
+      PHC_Civilians_A_35: -1316181459921104205
+      PHC_Civilians_A_36: -7123822455798483674
+      PHC_Civilians_A_37: -3608485608205493135
+      PHC_Civilians_A_38: 3573530692424171616
+      PHC_Civilians_A_39: -3795830579928165806
+      PHC_Civilians_A_4: -8709656920377652902
+      PHC_Civilians_A_40: 5684502289648868637
+      PHC_Civilians_A_41: 8332758484233019266
+      PHC_Civilians_A_42: -2108047238938552837
+      PHC_Civilians_A_43: 3190244831671488610
+      PHC_Civilians_A_44: 6478246072926884371
+      PHC_Civilians_A_45: 2487873880021008751
+      PHC_Civilians_A_46: -1736872893813508938
+      PHC_Civilians_A_47: 5101715661027691893
+      PHC_Civilians_A_48: 7800863057592877285
+      PHC_Civilians_A_49: 3747734133764650311
+      PHC_Civilians_A_5: -3856335393845631333
+      PHC_Civilians_A_50: -1246431606546959434
+      PHC_Civilians_A_51: 2383948383952919920
+      PHC_Civilians_A_52: 2462461430135357044
+      PHC_Civilians_A_53: -7591705083518539782
+      PHC_Civilians_A_54: -7773282026875013508
+      PHC_Civilians_A_55: 3844600546014714438
+      PHC_Civilians_A_56: 5990655247057660835
+      PHC_Civilians_A_57: -3363244890306638499
+      PHC_Civilians_A_58: -8682473675187734252
+      PHC_Civilians_A_59: -5728646473790093905
+      PHC_Civilians_A_6: 5329624186691368714
+      PHC_Civilians_A_60: 6418137062008495307
+      PHC_Civilians_A_61: -2028274200797787179
+      PHC_Civilians_A_62: 7585356481051771369
+      PHC_Civilians_A_63: -4670322408927037799
+      PHC_Civilians_A_64: 6254445498388408950
+      PHC_Civilians_A_65: -1262451036816060325
+      PHC_Civilians_A_66: 8642865418786293227
+      PHC_Civilians_A_67: -8975265925115923233
+      PHC_Civilians_A_68: 4120631145383949899
+      PHC_Civilians_A_69: 8765868308700077889
+      PHC_Civilians_A_7: 997210221661023150
+      PHC_Civilians_A_70: 1128392691356760594
+      PHC_Civilians_A_71: 214139714913694989
+      PHC_Civilians_A_72: -6949101002510862946
+      PHC_Civilians_A_73: 5414633982021993880
+      PHC_Civilians_A_74: 1168326639436617983
+      PHC_Civilians_A_75: -3574257322005853015
+      PHC_Civilians_A_76: 6972737919013692584
+      PHC_Civilians_A_77: -4660049615827320336
+      PHC_Civilians_A_78: -7435916899662608140
+      PHC_Civilians_A_79: -3096632993649019518
+      PHC_Civilians_A_8: 6690500956101744338
+      PHC_Civilians_A_80: -2842094045565530326
+      PHC_Civilians_A_81: 722948725196819274
+      PHC_Civilians_A_82: -5496138027922329626
+      PHC_Civilians_A_83: -6393585176716723150
+      PHC_Civilians_A_84: -3283043311454764992
+      PHC_Civilians_A_85: -7109130340920197877
+      PHC_Civilians_A_86: -6542623426858686080
+      PHC_Civilians_A_87: 8501756188605216538
+      PHC_Civilians_A_88: -8738306265846493990
+      PHC_Civilians_A_89: -509285163168388722
+      PHC_Civilians_A_9: 8658072421673056150
+      PHC_Civilians_A_90: -6498304092452035613
+      PHC_Civilians_A_91: 5250726237942276113
+      PHC_Civilians_A_92: -8007203798916002936
+      PHC_Civilians_A_93: -3693573649513640972
+      PHC_Civilians_A_94: -360568031947436584
+      PHC_Civilians_A_95: 8828284879331410717
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

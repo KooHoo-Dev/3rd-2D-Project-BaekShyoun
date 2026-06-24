@@ -1,0 +1,2158 @@
+fileFormatVersion: 2
+guid: 8848d4679572e2d4494122c8a3a365d7
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 7247504756713463572
+    second: '!SewerDoor-Large_0'
+  - first:
+      213: -6502467870947384993
+    second: '!SewerDoor-Large_1'
+  - first:
+      213: 4247617517416896830
+    second: '!SewerDoor-Large_2'
+  - first:
+      213: -4923408175533245960
+    second: '!SewerDoor-Large_3'
+  - first:
+      213: 1845440919232589496
+    second: '!SewerDoor-Large_4'
+  - first:
+      213: -2671678188614221138
+    second: '!SewerDoor-Large_5'
+  - first:
+      213: 8418696004995806367
+    second: '!SewerDoor-Large_6'
+  - first:
+      213: 9107430704524866126
+    second: '!SewerDoor-Large_7'
+  - first:
+      213: -1910272059135691318
+    second: '!SewerDoor-Large_8'
+  - first:
+      213: 1770351703328002961
+    second: '!SewerDoor-Large_9'
+  - first:
+      213: 4651370828748957330
+    second: '!SewerDoor-Large_10'
+  - first:
+      213: -9032800017048453224
+    second: '!SewerDoor-Large_11'
+  - first:
+      213: 5219108085023755176
+    second: '!SewerDoor-Large_12'
+  - first:
+      213: 7957418812150174046
+    second: '!SewerDoor-Large_13'
+  - first:
+      213: -1373448740277295598
+    second: '!SewerDoor-Large_14'
+  - first:
+      213: -4112200631172007072
+    second: '!SewerDoor-Large_15'
+  - first:
+      213: 4214642443552687142
+    second: '!SewerDoor-Large_16'
+  - first:
+      213: -1874387199013861128
+    second: '!SewerDoor-Large_17'
+  - first:
+      213: -4236751068745103127
+    second: '!SewerDoor-Large_18'
+  - first:
+      213: -3774308588002125287
+    second: '!SewerDoor-Large_19'
+  - first:
+      213: -2256570954448081269
+    second: '!SewerDoor-Large_20'
+  - first:
+      213: -1122217105818854943
+    second: '!SewerDoor-Large_21'
+  - first:
+      213: -882433274365151307
+    second: '!SewerDoor-Large_22'
+  - first:
+      213: -4558443953812085701
+    second: '!SewerDoor-Large_23'
+  - first:
+      213: 4828338873967747798
+    second: '!SewerDoor-Large_24'
+  - first:
+      213: -7236251836278540432
+    second: '!SewerDoor-Large_25'
+  - first:
+      213: 4912898697735079405
+    second: '!SewerDoor-Large_26'
+  - first:
+      213: 4054660298458843489
+    second: '!SewerDoor-Large_27'
+  - first:
+      213: -7046211218076542955
+    second: '!SewerDoor-Large_28'
+  - first:
+      213: -763160501367010334
+    second: '!SewerDoor-Large_29'
+  - first:
+      213: 2669307593339843133
+    second: '!SewerDoor-Large_30'
+  - first:
+      213: -833734047018287030
+    second: '!SewerDoor-Large_31'
+  - first:
+      213: -4261452407460010203
+    second: '!SewerDoor-Large_32'
+  - first:
+      213: 4478962283661572659
+    second: '!SewerDoor-Large_33'
+  - first:
+      213: -1538362107545218309
+    second: '!SewerDoor-Large_34'
+  - first:
+      213: 2347270248318037262
+    second: '!SewerDoor-Large_35'
+  - first:
+      213: -5343706268862469812
+    second: '!SewerDoor-Large_36'
+  - first:
+      213: -3079972370813869102
+    second: '!SewerDoor-Large_37'
+  - first:
+      213: 518821156168817242
+    second: '!SewerDoor-Large_38'
+  - first:
+      213: -2445920868233039838
+    second: '!SewerDoor-Large_39'
+  - first:
+      213: 5426983980965820185
+    second: '!SewerDoor-Large_40'
+  - first:
+      213: 2376564382205259419
+    second: '!SewerDoor-Large_41'
+  - first:
+      213: 77166311472607957
+    second: '!SewerDoor-Large_42'
+  - first:
+      213: 1824896561065713779
+    second: '!SewerDoor-Large_43'
+  - first:
+      213: -5894739520320848020
+    second: '!SewerDoor-Large_44'
+  - first:
+      213: -7752315808456197983
+    second: '!SewerDoor-Large_45'
+  - first:
+      213: -7138390622077322053
+    second: '!SewerDoor-Large_46'
+  - first:
+      213: -3888050190882720992
+    second: '!SewerDoor-Large_47'
+  - first:
+      213: 2704729052953952729
+    second: '!SewerDoor-Large_48'
+  - first:
+      213: 5243843760944072761
+    second: '!SewerDoor-Large_49'
+  - first:
+      213: 1620442338969125059
+    second: '!SewerDoor-Large_50'
+  - first:
+      213: -5796105864383194499
+    second: '!SewerDoor-Large_51'
+  - first:
+      213: -5911031432245671178
+    second: '!SewerDoor-Large_52'
+  - first:
+      213: -1127999144661328871
+    second: '!SewerDoor-Large_53'
+  - first:
+      213: -868968109420154436
+    second: '!SewerDoor-Large_54'
+  - first:
+      213: -3664342141177935796
+    second: '!SewerDoor-Large_55'
+  - first:
+      213: -1918906990156790152
+    second: '!SewerDoor-Large_56'
+  - first:
+      213: 2202090105548722413
+    second: '!SewerDoor-Large_57'
+  - first:
+      213: 8407737285658819268
+    second: '!SewerDoor-Large_58'
+  - first:
+      213: -927352194298204129
+    second: '!SewerDoor-Large_59'
+  - first:
+      213: 6068528834785095478
+    second: '!SewerDoor-Large_60'
+  - first:
+      213: -57886997285254965
+    second: '!SewerDoor-Large_61'
+  - first:
+      213: -8029654548404297012
+    second: '!SewerDoor-Large_62'
+  - first:
+      213: -5062215670425142209
+    second: '!SewerDoor-Large_63'
+  - first:
+      213: 5621318707999392779
+    second: '!SewerDoor-Large_64'
+  - first:
+      213: -6567487867769885963
+    second: '!SewerDoor-Large_65'
+  - first:
+      213: -2259138850977793559
+    second: '!SewerDoor-Large_66'
+  - first:
+      213: 909747272722894427
+    second: '!SewerDoor-Large_67'
+  - first:
+      213: 5199765440073754806
+    second: '!SewerDoor-Large_68'
+  - first:
+      213: -7470191110328193039
+    second: '!SewerDoor-Large_69'
+  - first:
+      213: 2926149141449471912
+    second: '!SewerDoor-Large_70'
+  - first:
+      213: -4345757426114727241
+    second: '!SewerDoor-Large_71'
+  - first:
+      213: -2343388242211304053
+    second: '!SewerDoor-Large_72'
+  - first:
+      213: -3566968756477189663
+    second: '!SewerDoor-Large_73'
+  - first:
+      213: -7531101054375883361
+    second: '!SewerDoor-Large_74'
+  - first:
+      213: 165744228683644444
+    second: '!SewerDoor-Large_75'
+  - first:
+      213: -4658548775991429901
+    second: '!SewerDoor-Large_76'
+  - first:
+      213: -2260704998148906997
+    second: '!SewerDoor-Large_77'
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_0'
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 671
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f1cd36d2f449460800000000000000
+      internalID: 7247504756713463572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_1'
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 671
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f516ac44ce792c5a0800000000000000
+      internalID: -6502467870947384993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_2'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 671
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e395c5390a192fa30800000000000000
+      internalID: 4247617517416896830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_3'
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 671
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f93615895a8cabb0800000000000000
+      internalID: -4923408175533245960
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_4'
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 671
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8be24dc0db25c9910800000000000000
+      internalID: 1845440919232589496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_5'
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 671
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea28d75b7da4cead0800000000000000
+      internalID: -2671678188614221138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_6'
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 671
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9476c1996735d470800000000000000
+      internalID: 8418696004995806367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_7'
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 671
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e42b0b7f8f7146e70800000000000000
+      internalID: 9107430704524866126
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_8'
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 671
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ac5fcdaeea95d75e0800000000000000
+      internalID: -1910272059135691318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_9'
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 575
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1939f549e7d819810800000000000000
+      internalID: 1770351703328002961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_10'
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 575
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 296223eef1dfc8040800000000000000
+      internalID: 4651370828748957330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_11'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 575
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89f3fa80e3c05a280800000000000000
+      internalID: -9032800017048453224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_12'
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 575
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8abc53cb62ffd6840800000000000000
+      internalID: 5219108085023755176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_13'
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 575
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e51d83bdf3e6e6e60800000000000000
+      internalID: 7957418812150174046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_14'
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 575
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2166096c5a780fce0800000000000000
+      internalID: -1373448740277295598
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_15'
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 575
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 06bfad530578ee6c0800000000000000
+      internalID: -4112200631172007072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_16'
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 575
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6240e37e8fa6d7a30800000000000000
+      internalID: 4214642443552687142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_17'
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 575
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f84d3ff5c6dcf5e0800000000000000
+      internalID: -1874387199013861128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_18'
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 479
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e801b9a9590435c0800000000000000
+      internalID: -4236751068745103127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_19'
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 479
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91a5d6b1656fe9bc0800000000000000
+      internalID: -3774308588002125287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_20'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 479
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8e68a93cac0fa0e0800000000000000
+      internalID: -2256570954448081269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_21'
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 479
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e9dcceec751d60f0800000000000000
+      internalID: -1122217105818854943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_22'
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 479
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b7fa7fbc97f0c3f0800000000000000
+      internalID: -882433274365151307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_23'
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 479
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b34e08c20672db0c0800000000000000
+      internalID: -4558443953812085701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_24'
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 479
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d2ae0ecf94b10340800000000000000
+      internalID: 4828338873967747798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_25'
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 479
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 07779515b4ba39b90800000000000000
+      internalID: -7236251836278540432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_26'
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 479
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de58afff55f1e2440800000000000000
+      internalID: 4912898697735079405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_27'
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 479
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 169c4861f0c054830800000000000000
+      internalID: 4054660298458843489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_28'
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 479
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 518dc26ca34d63e90800000000000000
+      internalID: -7046211218076542955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_29'
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 479
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2eb09614195b865f0800000000000000
+      internalID: -763160501367010334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_30'
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 383
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3236411d194b0520800000000000000
+      internalID: 2669307593339843133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_31'
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 383
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4083523d4bfd64f0800000000000000
+      internalID: -833734047018287030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_32'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 383
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527ec121d974cd4c0800000000000000
+      internalID: -4261452407460010203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_33'
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 383
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a35086778782e30800000000000000
+      internalID: 4478962283661572659
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_34'
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 383
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf298d350d3a6aae0800000000000000
+      internalID: -1538362107545218309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_35'
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 383
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0de6debadd239020800000000000000
+      internalID: 2347270248318037262
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_36'
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 383
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c49ac6ce57757d5b0800000000000000
+      internalID: -5343706268862469812
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_37'
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 383
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d32f97727db145d0800000000000000
+      internalID: -3079972370813869102
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_38'
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 383
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5a566bb719333700800000000000000
+      internalID: 518821156168817242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_39'
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 383
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 220314cede75e0ed0800000000000000
+      internalID: -2445920868233039838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_40'
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 383
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 917f3336d25805b40800000000000000
+      internalID: 5426983980965820185
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_41'
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 383
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b9ea03bc6b04bf020800000000000000
+      internalID: 2376564382205259419
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_42'
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 287
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5d2b3f7f956221100800000000000000
+      internalID: 77166311472607957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_43'
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 287
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 370672ae0c5535910800000000000000
+      internalID: 1824896561065713779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_44'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 287
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c6fb1df43ada13ea0800000000000000
+      internalID: -5894739520320848020
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_45'
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 287
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a8b25288dd3a6490800000000000000
+      internalID: -7752315808456197983
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_46'
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 287
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcf91fcc875fec90800000000000000
+      internalID: -7138390622077322053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_47'
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 287
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 023bb8f73feda0ac0800000000000000
+      internalID: -3888050190882720992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_48'
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 191
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d1cffe4eb0298520800000000000000
+      internalID: 2704729052953952729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_49'
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 191
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 93848b41e10e5c840800000000000000
+      internalID: 5243843760944072761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_50'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 191
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c00249c8b7fc7610800000000000000
+      internalID: 1620442338969125059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_51'
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 191
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7a91e8ec68109fa0800000000000000
+      internalID: -5796105864383194499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_52'
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 191
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa04d8fa3cc7fda0800000000000000
+      internalID: -5911031432245671178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_53'
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 191
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 91c548b11ca8850f0800000000000000
+      internalID: -1127999144661328871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_54'
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 95
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb17ed4cb1ec0f3f0800000000000000
+      internalID: -868968109420154436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_55'
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 95
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c484893bc34a52dc0800000000000000
+      internalID: -3664342141177935796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_56'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 95
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876c0be524cae55e0800000000000000
+      internalID: -1918906990156790152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_57'
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 95
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: de052a8a8456f8e10800000000000000
+      internalID: 2202090105548722413
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_58'
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 95
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca3084e3884ea470800000000000000
+      internalID: 8407737285658819268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_59'
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 95
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f103d25b7126123f0800000000000000
+      internalID: -927352194298204129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_60'
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 95
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63fa492a2deb73450800000000000000
+      internalID: 6068528834785095478
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_61'
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 95
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc8c2b92518523ff0800000000000000
+      internalID: -57886997285254965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_62'
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 95
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc2234d2bbfe09090800000000000000
+      internalID: -8029654548404297012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_63'
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 95
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cb4e32ba56fb9b0800000000000000
+      internalID: -5062215670425142209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_64'
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 95
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b04cf87f49fe20e40800000000000000
+      internalID: 5621318707999392779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_65'
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 95
+        width: 50
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5fa63ee84989bd4a0800000000000000
+      internalID: -6567487867769885963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_66'
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 0
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e93f293f2de5a0e0800000000000000
+      internalID: -2259138850977793559
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_67'
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 0
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5e4702135210ac00800000000000000
+      internalID: 909747272722894427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_68'
+      rect:
+        serializedVersion: 2
+        x: 135
+        y: 0
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b8e2f24e17492840800000000000000
+      internalID: 5199765440073754806
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_69'
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 0
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ff6b9093cc845890800000000000000
+      internalID: -7470191110328193039
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_70'
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 0
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a7f8e70425cb9820800000000000000
+      internalID: 2926149141449471912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_71'
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 0
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b27a6055a4c0b3c0800000000000000
+      internalID: -4345757426114727241
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_72'
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 0
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8d0b2c3fcc9a7fd0800000000000000
+      internalID: -2343388242211304053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_73'
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 0
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e1a24980d49f7ec0800000000000000
+      internalID: -3566968756477189663
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_74'
+      rect:
+        serializedVersion: 2
+        x: 519
+        y: 0
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f9d0b561e772c7790800000000000000
+      internalID: -7531101054375883361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_75'
+      rect:
+        serializedVersion: 2
+        x: 583
+        y: 0
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c1e72427f77dc4200800000000000000
+      internalID: 165744228683644444
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_76'
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 0
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f4333ef192895fb0800000000000000
+      internalID: -4658548775991429901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: '!SewerDoor-Large_77'
+      rect:
+        serializedVersion: 2
+        x: 711
+        y: 0
+        width: 50
+        height: 73
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b00626b28cc50a0e0800000000000000
+      internalID: -2260704998148906997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      '!SewerDoor-Large_0': 7247504756713463572
+      '!SewerDoor-Large_1': -6502467870947384993
+      '!SewerDoor-Large_10': 4651370828748957330
+      '!SewerDoor-Large_11': -9032800017048453224
+      '!SewerDoor-Large_12': 5219108085023755176
+      '!SewerDoor-Large_13': 7957418812150174046
+      '!SewerDoor-Large_14': -1373448740277295598
+      '!SewerDoor-Large_15': -4112200631172007072
+      '!SewerDoor-Large_16': 4214642443552687142
+      '!SewerDoor-Large_17': -1874387199013861128
+      '!SewerDoor-Large_18': -4236751068745103127
+      '!SewerDoor-Large_19': -3774308588002125287
+      '!SewerDoor-Large_2': 4247617517416896830
+      '!SewerDoor-Large_20': -2256570954448081269
+      '!SewerDoor-Large_21': -1122217105818854943
+      '!SewerDoor-Large_22': -882433274365151307
+      '!SewerDoor-Large_23': -4558443953812085701
+      '!SewerDoor-Large_24': 4828338873967747798
+      '!SewerDoor-Large_25': -7236251836278540432
+      '!SewerDoor-Large_26': 4912898697735079405
+      '!SewerDoor-Large_27': 4054660298458843489
+      '!SewerDoor-Large_28': -7046211218076542955
+      '!SewerDoor-Large_29': -763160501367010334
+      '!SewerDoor-Large_3': -4923408175533245960
+      '!SewerDoor-Large_30': 2669307593339843133
+      '!SewerDoor-Large_31': -833734047018287030
+      '!SewerDoor-Large_32': -4261452407460010203
+      '!SewerDoor-Large_33': 4478962283661572659
+      '!SewerDoor-Large_34': -1538362107545218309
+      '!SewerDoor-Large_35': 2347270248318037262
+      '!SewerDoor-Large_36': -5343706268862469812
+      '!SewerDoor-Large_37': -3079972370813869102
+      '!SewerDoor-Large_38': 518821156168817242
+      '!SewerDoor-Large_39': -2445920868233039838
+      '!SewerDoor-Large_4': 1845440919232589496
+      '!SewerDoor-Large_40': 5426983980965820185
+      '!SewerDoor-Large_41': 2376564382205259419
+      '!SewerDoor-Large_42': 77166311472607957
+      '!SewerDoor-Large_43': 1824896561065713779
+      '!SewerDoor-Large_44': -5894739520320848020
+      '!SewerDoor-Large_45': -7752315808456197983
+      '!SewerDoor-Large_46': -7138390622077322053
+      '!SewerDoor-Large_47': -3888050190882720992
+      '!SewerDoor-Large_48': 2704729052953952729
+      '!SewerDoor-Large_49': 5243843760944072761
+      '!SewerDoor-Large_5': -2671678188614221138
+      '!SewerDoor-Large_50': 1620442338969125059
+      '!SewerDoor-Large_51': -5796105864383194499
+      '!SewerDoor-Large_52': -5911031432245671178
+      '!SewerDoor-Large_53': -1127999144661328871
+      '!SewerDoor-Large_54': -868968109420154436
+      '!SewerDoor-Large_55': -3664342141177935796
+      '!SewerDoor-Large_56': -1918906990156790152
+      '!SewerDoor-Large_57': 2202090105548722413
+      '!SewerDoor-Large_58': 8407737285658819268
+      '!SewerDoor-Large_59': -927352194298204129
+      '!SewerDoor-Large_6': 8418696004995806367
+      '!SewerDoor-Large_60': 6068528834785095478
+      '!SewerDoor-Large_61': -57886997285254965
+      '!SewerDoor-Large_62': -8029654548404297012
+      '!SewerDoor-Large_63': -5062215670425142209
+      '!SewerDoor-Large_64': 5621318707999392779
+      '!SewerDoor-Large_65': -6567487867769885963
+      '!SewerDoor-Large_66': -2259138850977793559
+      '!SewerDoor-Large_67': 909747272722894427
+      '!SewerDoor-Large_68': 5199765440073754806
+      '!SewerDoor-Large_69': -7470191110328193039
+      '!SewerDoor-Large_7': 9107430704524866126
+      '!SewerDoor-Large_70': 2926149141449471912
+      '!SewerDoor-Large_71': -4345757426114727241
+      '!SewerDoor-Large_72': -2343388242211304053
+      '!SewerDoor-Large_73': -3566968756477189663
+      '!SewerDoor-Large_74': -7531101054375883361
+      '!SewerDoor-Large_75': 165744228683644444
+      '!SewerDoor-Large_76': -4658548775991429901
+      '!SewerDoor-Large_77': -2260704998148906997
+      '!SewerDoor-Large_8': -1910272059135691318
+      '!SewerDoor-Large_9': 1770351703328002961
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

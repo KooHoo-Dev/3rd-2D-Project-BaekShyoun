@@ -1,0 +1,2626 @@
+fileFormatVersion: 2
+guid: 1945b8530d5e31a40a53a9060ec7b6d1
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5520398481236574620
+    second: HC_Zombies1D_0
+  - first:
+      213: -829251376694347396
+    second: HC_Zombies1D_1
+  - first:
+      213: -2957845534837197911
+    second: HC_Zombies1D_2
+  - first:
+      213: 1664293244620859119
+    second: HC_Zombies1D_3
+  - first:
+      213: -6595446941360842740
+    second: HC_Zombies1D_4
+  - first:
+      213: 8655302433585817042
+    second: HC_Zombies1D_5
+  - first:
+      213: -4090122705579619235
+    second: HC_Zombies1D_6
+  - first:
+      213: 7960787433461075687
+    second: HC_Zombies1D_7
+  - first:
+      213: -4682003807127792991
+    second: HC_Zombies1D_8
+  - first:
+      213: 5539743530690607973
+    second: HC_Zombies1D_9
+  - first:
+      213: 1447273423537519568
+    second: HC_Zombies1D_10
+  - first:
+      213: 5858718186673224374
+    second: HC_Zombies1D_11
+  - first:
+      213: 3500155717696825763
+    second: HC_Zombies1D_12
+  - first:
+      213: -5459603473605873193
+    second: HC_Zombies1D_13
+  - first:
+      213: 3798867553666955054
+    second: HC_Zombies1D_14
+  - first:
+      213: 7125890567624935134
+    second: HC_Zombies1D_15
+  - first:
+      213: -4914264555296742267
+    second: HC_Zombies1D_16
+  - first:
+      213: -7622298314758641771
+    second: HC_Zombies1D_17
+  - first:
+      213: -5655511539598444473
+    second: HC_Zombies1D_18
+  - first:
+      213: 1946012694190454914
+    second: HC_Zombies1D_19
+  - first:
+      213: 8691826644748043629
+    second: HC_Zombies1D_20
+  - first:
+      213: 2835572351365934051
+    second: HC_Zombies1D_21
+  - first:
+      213: -6081317665885025331
+    second: HC_Zombies1D_22
+  - first:
+      213: 7440681645484654237
+    second: HC_Zombies1D_23
+  - first:
+      213: 2072898807802158114
+    second: HC_Zombies1D_24
+  - first:
+      213: 498706909882584249
+    second: HC_Zombies1D_25
+  - first:
+      213: -4233541420520626722
+    second: HC_Zombies1D_26
+  - first:
+      213: 2971542077472741599
+    second: HC_Zombies1D_27
+  - first:
+      213: -7620499065700984338
+    second: HC_Zombies1D_28
+  - first:
+      213: -2995424503851462304
+    second: HC_Zombies1D_29
+  - first:
+      213: 2128036298564308529
+    second: HC_Zombies1D_30
+  - first:
+      213: 5382516255821395127
+    second: HC_Zombies1D_31
+  - first:
+      213: 8756095066628209861
+    second: HC_Zombies1D_32
+  - first:
+      213: -5868363047420892114
+    second: HC_Zombies1D_33
+  - first:
+      213: -2751262871423923652
+    second: HC_Zombies1D_34
+  - first:
+      213: 4006840412167865135
+    second: HC_Zombies1D_35
+  - first:
+      213: -8275376377143293874
+    second: HC_Zombies1D_36
+  - first:
+      213: -6662036520568246232
+    second: HC_Zombies1D_37
+  - first:
+      213: -8195457238765698464
+    second: HC_Zombies1D_38
+  - first:
+      213: -3520375022207415612
+    second: HC_Zombies1D_39
+  - first:
+      213: 1603043356020465897
+    second: HC_Zombies1D_40
+  - first:
+      213: 9198181129357594237
+    second: HC_Zombies1D_41
+  - first:
+      213: -7032188624336192721
+    second: HC_Zombies1D_42
+  - first:
+      213: 305489531747983034
+    second: HC_Zombies1D_43
+  - first:
+      213: 816339261805942922
+    second: HC_Zombies1D_44
+  - first:
+      213: -437923899322692149
+    second: HC_Zombies1D_45
+  - first:
+      213: -4138735694133322862
+    second: HC_Zombies1D_46
+  - first:
+      213: -9019666421100258805
+    second: HC_Zombies1D_47
+  - first:
+      213: 2365112158815843127
+    second: HC_Zombies1D_48
+  - first:
+      213: 7328167912238645
+    second: HC_Zombies1D_49
+  - first:
+      213: 836702873664068491
+    second: HC_Zombies1D_50
+  - first:
+      213: -5233263089783136882
+    second: HC_Zombies1D_51
+  - first:
+      213: -624734043984637768
+    second: HC_Zombies1D_52
+  - first:
+      213: 2080717141873831501
+    second: HC_Zombies1D_53
+  - first:
+      213: 8594352081815978670
+    second: HC_Zombies1D_54
+  - first:
+      213: 4128873628863538051
+    second: HC_Zombies1D_55
+  - first:
+      213: 3352834906879042217
+    second: HC_Zombies1D_56
+  - first:
+      213: 2562626485187611404
+    second: HC_Zombies1D_57
+  - first:
+      213: 8005491839209833870
+    second: HC_Zombies1D_58
+  - first:
+      213: -6396974642918467511
+    second: HC_Zombies1D_59
+  - first:
+      213: -6464358411263332152
+    second: HC_Zombies1D_60
+  - first:
+      213: 4633046345225348175
+    second: HC_Zombies1D_61
+  - first:
+      213: -4314164995212694263
+    second: HC_Zombies1D_62
+  - first:
+      213: 6144488509322685782
+    second: HC_Zombies1D_63
+  - first:
+      213: 5227771323192506458
+    second: HC_Zombies1D_64
+  - first:
+      213: 7300824127872198550
+    second: HC_Zombies1D_65
+  - first:
+      213: 3838152545520138987
+    second: HC_Zombies1D_66
+  - first:
+      213: 5464512774618583032
+    second: HC_Zombies1D_67
+  - first:
+      213: 3806483500976289032
+    second: HC_Zombies1D_68
+  - first:
+      213: -9170670746166096381
+    second: HC_Zombies1D_69
+  - first:
+      213: -4189565793238871053
+    second: HC_Zombies1D_70
+  - first:
+      213: -4815845037126405818
+    second: HC_Zombies1D_71
+  - first:
+      213: 4426068405866104214
+    second: HC_Zombies1D_72
+  - first:
+      213: 2898316624955690884
+    second: HC_Zombies1D_73
+  - first:
+      213: 4285495428399808049
+    second: HC_Zombies1D_74
+  - first:
+      213: 7865665194092962667
+    second: HC_Zombies1D_75
+  - first:
+      213: -8664515134340677650
+    second: HC_Zombies1D_76
+  - first:
+      213: 1222306227245659944
+    second: HC_Zombies1D_77
+  - first:
+      213: -8137703516137140609
+    second: HC_Zombies1D_78
+  - first:
+      213: 8925505549794828435
+    second: HC_Zombies1D_79
+  - first:
+      213: 396031393261996558
+    second: HC_Zombies1D_80
+  - first:
+      213: -2441400531037877412
+    second: HC_Zombies1D_81
+  - first:
+      213: 4369325308127563220
+    second: HC_Zombies1D_82
+  - first:
+      213: 6987188352704974139
+    second: HC_Zombies1D_83
+  - first:
+      213: -4624195716449692112
+    second: HC_Zombies1D_84
+  - first:
+      213: 5518723886736316272
+    second: HC_Zombies1D_85
+  - first:
+      213: 8509824469329175084
+    second: HC_Zombies1D_86
+  - first:
+      213: 4661544873398098366
+    second: HC_Zombies1D_87
+  - first:
+      213: -7510629702747866431
+    second: HC_Zombies1D_88
+  - first:
+      213: -4932448050916896499
+    second: HC_Zombies1D_89
+  - first:
+      213: 6165004491595953326
+    second: HC_Zombies1D_90
+  - first:
+      213: 21252480795767926
+    second: HC_Zombies1D_91
+  - first:
+      213: -4706096717046534620
+    second: HC_Zombies1D_92
+  - first:
+      213: -7155389104700258324
+    second: HC_Zombies1D_93
+  - first:
+      213: 6039949301383657594
+    second: HC_Zombies1D_94
+  - first:
+      213: -630781663581219231
+    second: HC_Zombies1D_95
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: HC_Zombies1D_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 447
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46eb94364da9363b0800000000000000
+      internalID: -5520398481236574620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_1
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 447
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c7931a63448ed74f0800000000000000
+      internalID: -829251376694347396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_2
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 447
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a3bd8b482f93f6d0800000000000000
+      internalID: -2957845534837197911
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_3
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 447
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe665bf53e1c81710800000000000000
+      internalID: 1664293244620859119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_4
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 447
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c08104573f34874a0800000000000000
+      internalID: -6595446941360842740
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_5
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 447
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2d5e471a4bfcd1870800000000000000
+      internalID: 8655302433585817042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_6
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 447
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d5cca26d117fc37c0800000000000000
+      internalID: -4090122705579619235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_7
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 447
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ee47df1ef56a7e60800000000000000
+      internalID: 7960787433461075687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_8
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 447
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a21f1ff75e260fb0800000000000000
+      internalID: -4682003807127792991
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_9
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 447
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56bf49de36f11ec40800000000000000
+      internalID: 5539743530690607973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_10
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 447
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0db31deb28fb51410800000000000000
+      internalID: 1447273423537519568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_11
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 447
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ba37c366295e4150800000000000000
+      internalID: 5858718186673224374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 383
+        width: 35
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a92fd3a41d039030800000000000000
+      internalID: 3500155717696825763
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_13
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 383
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7d1bb3521979b34b0800000000000000
+      internalID: -5459603473605873193
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_14
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 383
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e27731da9e948b430800000000000000
+      internalID: 3798867553666955054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_15
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 383
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6479777bf34e260800000000000000
+      internalID: 7125890567624935134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_16
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 383
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 584ae318c660dcbb0800000000000000
+      internalID: -4914264555296742267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_17
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 383
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 597a0c04118283690800000000000000
+      internalID: -7622298314758641771
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_18
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 383
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 748bc1b08369381b0800000000000000
+      internalID: -5655511539598444473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_19
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 383
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2887f952c30a10b10800000000000000
+      internalID: 1946012694190454914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_20
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 383
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d658b7938429f9870800000000000000
+      internalID: 8691826644748043629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_21
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 383
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3ebe512b70af95720800000000000000
+      internalID: 2835572351365934051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_22
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 383
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dcb8d969dc1da9ba0800000000000000
+      internalID: -6081317665885025331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_23
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 383
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9eb1edb88c924760800000000000000
+      internalID: 7440681645484654237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_24
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 319
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22cd066ab7a64cc10800000000000000
+      internalID: 2072898807802158114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_25
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 319
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9bc8592da43cbe600800000000000000
+      internalID: 498706909882584249
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_26
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 319
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed527ff12807f35c0800000000000000
+      internalID: -4233541420520626722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_27
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 319
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd893ea86c90d3920800000000000000
+      internalID: 2971542077472741599
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_28
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 319
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee952b1997c8e3690800000000000000
+      internalID: -7620499065700984338
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_29
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 319
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 061de60c84d1e66d0800000000000000
+      internalID: -2995424503851462304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_30
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 319
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13e001d1dbd488d10800000000000000
+      internalID: 2128036298564308529
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_31
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 319
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b4fff1540a82ba40800000000000000
+      internalID: 5382516255821395127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_32
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 319
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5ccbce14216e38970800000000000000
+      internalID: 8756095066628209861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_33
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 319
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e2ce27976e26f8ea0800000000000000
+      internalID: -5868363047420892114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_34
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 319
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3a4e09cefc81d9d0800000000000000
+      internalID: -2751262871423923652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_35
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 319
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2302fe20282b9730800000000000000
+      internalID: 4006840412167865135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 255
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4807b1a705f72d80800000000000000
+      internalID: -8275376377143293874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_37
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 255
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 820b9ded411bb83a0800000000000000
+      internalID: -6662036520568246232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_38
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 255
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 062877f0013e34e80800000000000000
+      internalID: -8195457238765698464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_39
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 255
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ca4b2da19d152fc0800000000000000
+      internalID: -3520375022207415612
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_40
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 255
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e0662360772f3610800000000000000
+      internalID: 1603043356020465897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_41
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 255
+        width: 28
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7e8f0bc00186af70800000000000000
+      internalID: 9198181129357594237
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_42
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 255
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f2bf5ec44b5a86e90800000000000000
+      internalID: -7032188624336192721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_43
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 255
+        width: 28
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abe507e4c115d3400800000000000000
+      internalID: 305489531747983034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_44
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 255
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88d524cb38345b00800000000000000
+      internalID: 816339261805942922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_45
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 255
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bcd8736a88e2ce9f0800000000000000
+      internalID: -437923899322692149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_46
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 255
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29b14fb60d14096c0800000000000000
+      internalID: -4138735694133322862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_47
+      rect:
+        serializedVersion: 2
+        x: 441
+        y: 255
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b0adcc1ad25b3d280800000000000000
+      internalID: -9019666421100258805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_48
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 191
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 733fc204af092d020800000000000000
+      internalID: 2365112158815843127
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_49
+      rect:
+        serializedVersion: 2
+        x: 43
+        y: 191
+        width: 32
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 53e634d0ee80a1000800000000000000
+      internalID: 7328167912238645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_50
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 191
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b8b9b4f94d09c9b00800000000000000
+      internalID: 836702873664068491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_51
+      rect:
+        serializedVersion: 2
+        x: 123
+        y: 191
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8d105562f6bf57b0800000000000000
+      internalID: -5233263089783136882
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_52
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 191
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b0d33d62bf7457f0800000000000000
+      internalID: -624734043984637768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_53
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 191
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d4ea477673130ec10800000000000000
+      internalID: 2080717141873831501
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_54
+      rect:
+        serializedVersion: 2
+        x: 243
+        y: 191
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea2c74ffea5454770800000000000000
+      internalID: 8594352081815978670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_55
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 191
+        width: 30
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 383a3e290b4bc4930800000000000000
+      internalID: 4128873628863538051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_56
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 191
+        width: 30
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a22e0f6599a78e20800000000000000
+      internalID: 3352834906879042217
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_57
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 191
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0b8d9df537409320800000000000000
+      internalID: 2562626485187611404
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_58
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 191
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e850460b968391f60800000000000000
+      internalID: 8005491839209833870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_59
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 191
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 948d9a374716937a0800000000000000
+      internalID: -6396974642918467511
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_60
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 127
+        width: 33
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c037db464cf946a0800000000000000
+      internalID: -6464358411263332152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_61
+      rect:
+        serializedVersion: 2
+        x: 39
+        y: 127
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f442413aa13eb4040800000000000000
+      internalID: 4633046345225348175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_62
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 127
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90d2ce55bc10124c0800000000000000
+      internalID: -4314164995212694263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_63
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 127
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 65de5ac8ebb954550800000000000000
+      internalID: 6144488509322685782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_64
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 127
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a58fcdd0256cc8840800000000000000
+      internalID: 5227771323192506458
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_65
+      rect:
+        serializedVersion: 2
+        x: 199
+        y: 127
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6976c65ecdcb15560800000000000000
+      internalID: 7300824127872198550
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_66
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 127
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bea3d7d976bd34530800000000000000
+      internalID: 3838152545520138987
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_67
+      rect:
+        serializedVersion: 2
+        x: 279
+        y: 127
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8ff89b19a69d5db40800000000000000
+      internalID: 5464512774618583032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_68
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 127
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 805b317939853d430800000000000000
+      internalID: 3806483500976289032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_69
+      rect:
+        serializedVersion: 2
+        x: 359
+        y: 127
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 30e04be6b8b3bb080800000000000000
+      internalID: -9170670746166096381
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_70
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 127
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f39edabb1cabd5c0800000000000000
+      internalID: -4189565793238871053
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_71
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 127
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 641b0c4447eaa2db0800000000000000
+      internalID: -4815845037126405818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_72
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 63
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6958a3bc3cd8c6d30800000000000000
+      internalID: 4426068405866104214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_73
+      rect:
+        serializedVersion: 2
+        x: 47
+        y: 63
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48fc71d4d93e83820800000000000000
+      internalID: 2898316624955690884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_74
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 63
+        width: 38
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 13eb458f263297b30800000000000000
+      internalID: 4285495428399808049
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_75
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 63
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63a018e1d4782d60800000000000000
+      internalID: 7865665194092962667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_76
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 63
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefb0a2546571c780800000000000000
+      internalID: -8664515134340677650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_77
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 63
+        width: 38
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 827b9b1a90186f010800000000000000
+      internalID: 1222306227245659944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_78
+      rect:
+        serializedVersion: 2
+        x: 247
+        y: 63
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7ec23974c1111f80800000000000000
+      internalID: -8137703516137140609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_79
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 63
+        width: 32
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3906c481204cddb70800000000000000
+      internalID: 8925505549794828435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_80
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 63
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0ac843347cfe7500800000000000000
+      internalID: 396031393261996558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_81
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 63
+        width: 34
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5b8901f6276e1ed0800000000000000
+      internalID: -2441400531037877412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_82
+      rect:
+        serializedVersion: 2
+        x: 407
+        y: 63
+        width: 34
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4dd4113d736f2ac30800000000000000
+      internalID: 4369325308127563220
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_83
+      rect:
+        serializedVersion: 2
+        x: 443
+        y: 63
+        width: 37
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3d0abd79ca77f060800000000000000
+      internalID: 6987188352704974139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_84
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0361225fe7e83dfb0800000000000000
+      internalID: -4624195716449692112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_85
+      rect:
+        serializedVersion: 2
+        x: 45
+        y: 0
+        width: 28
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0779162b222769c40800000000000000
+      internalID: 5518723886736316272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_86
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 0
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c22ea439448f81670800000000000000
+      internalID: 8509824469329175084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_87
+      rect:
+        serializedVersion: 2
+        x: 125
+        y: 0
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb9df6b4d5221b040800000000000000
+      internalID: 4661544873398098366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_88
+      rect:
+        serializedVersion: 2
+        x: 165
+        y: 0
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1ca37301412e4c790800000000000000
+      internalID: -7510629702747866431
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_89
+      rect:
+        serializedVersion: 2
+        x: 205
+        y: 0
+        width: 28
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d01d70481ac6c8bb0800000000000000
+      internalID: -4932448050916896499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_90
+      rect:
+        serializedVersion: 2
+        x: 245
+        y: 0
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea4b348ebee7e8550800000000000000
+      internalID: 6165004491595953326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_91
+      rect:
+        serializedVersion: 2
+        x: 285
+        y: 0
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6747d68c4018b4000800000000000000
+      internalID: 21252480795767926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_92
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 0
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 42e2fc548f590beb0800000000000000
+      internalID: -4706096717046534620
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_93
+      rect:
+        serializedVersion: 2
+        x: 365
+        y: 0
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ce704a82583f2bc90800000000000000
+      internalID: -7155389104700258324
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_94
+      rect:
+        serializedVersion: 2
+        x: 405
+        y: 0
+        width: 28
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a78775a73e532d350800000000000000
+      internalID: 6039949301383657594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: HC_Zombies1D_95
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 0
+        width: 28
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 16659634b630f37f0800000000000000
+      internalID: -630781663581219231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      HC_Zombies1D_0: -5520398481236574620
+      HC_Zombies1D_1: -829251376694347396
+      HC_Zombies1D_10: 1447273423537519568
+      HC_Zombies1D_11: 5858718186673224374
+      HC_Zombies1D_12: 3500155717696825763
+      HC_Zombies1D_13: -5459603473605873193
+      HC_Zombies1D_14: 3798867553666955054
+      HC_Zombies1D_15: 7125890567624935134
+      HC_Zombies1D_16: -4914264555296742267
+      HC_Zombies1D_17: -7622298314758641771
+      HC_Zombies1D_18: -5655511539598444473
+      HC_Zombies1D_19: 1946012694190454914
+      HC_Zombies1D_2: -2957845534837197911
+      HC_Zombies1D_20: 8691826644748043629
+      HC_Zombies1D_21: 2835572351365934051
+      HC_Zombies1D_22: -6081317665885025331
+      HC_Zombies1D_23: 7440681645484654237
+      HC_Zombies1D_24: 2072898807802158114
+      HC_Zombies1D_25: 498706909882584249
+      HC_Zombies1D_26: -4233541420520626722
+      HC_Zombies1D_27: 2971542077472741599
+      HC_Zombies1D_28: -7620499065700984338
+      HC_Zombies1D_29: -2995424503851462304
+      HC_Zombies1D_3: 1664293244620859119
+      HC_Zombies1D_30: 2128036298564308529
+      HC_Zombies1D_31: 5382516255821395127
+      HC_Zombies1D_32: 8756095066628209861
+      HC_Zombies1D_33: -5868363047420892114
+      HC_Zombies1D_34: -2751262871423923652
+      HC_Zombies1D_35: 4006840412167865135
+      HC_Zombies1D_36: -8275376377143293874
+      HC_Zombies1D_37: -6662036520568246232
+      HC_Zombies1D_38: -8195457238765698464
+      HC_Zombies1D_39: -3520375022207415612
+      HC_Zombies1D_4: -6595446941360842740
+      HC_Zombies1D_40: 1603043356020465897
+      HC_Zombies1D_41: 9198181129357594237
+      HC_Zombies1D_42: -7032188624336192721
+      HC_Zombies1D_43: 305489531747983034
+      HC_Zombies1D_44: 816339261805942922
+      HC_Zombies1D_45: -437923899322692149
+      HC_Zombies1D_46: -4138735694133322862
+      HC_Zombies1D_47: -9019666421100258805
+      HC_Zombies1D_48: 2365112158815843127
+      HC_Zombies1D_49: 7328167912238645
+      HC_Zombies1D_5: 8655302433585817042
+      HC_Zombies1D_50: 836702873664068491
+      HC_Zombies1D_51: -5233263089783136882
+      HC_Zombies1D_52: -624734043984637768
+      HC_Zombies1D_53: 2080717141873831501
+      HC_Zombies1D_54: 8594352081815978670
+      HC_Zombies1D_55: 4128873628863538051
+      HC_Zombies1D_56: 3352834906879042217
+      HC_Zombies1D_57: 2562626485187611404
+      HC_Zombies1D_58: 8005491839209833870
+      HC_Zombies1D_59: -6396974642918467511
+      HC_Zombies1D_6: -4090122705579619235
+      HC_Zombies1D_60: -6464358411263332152
+      HC_Zombies1D_61: 4633046345225348175
+      HC_Zombies1D_62: -4314164995212694263
+      HC_Zombies1D_63: 6144488509322685782
+      HC_Zombies1D_64: 5227771323192506458
+      HC_Zombies1D_65: 7300824127872198550
+      HC_Zombies1D_66: 3838152545520138987
+      HC_Zombies1D_67: 5464512774618583032
+      HC_Zombies1D_68: 3806483500976289032
+      HC_Zombies1D_69: -9170670746166096381
+      HC_Zombies1D_7: 7960787433461075687
+      HC_Zombies1D_70: -4189565793238871053
+      HC_Zombies1D_71: -4815845037126405818
+      HC_Zombies1D_72: 4426068405866104214
+      HC_Zombies1D_73: 2898316624955690884
+      HC_Zombies1D_74: 4285495428399808049
+      HC_Zombies1D_75: 7865665194092962667
+      HC_Zombies1D_76: -8664515134340677650
+      HC_Zombies1D_77: 1222306227245659944
+      HC_Zombies1D_78: -8137703516137140609
+      HC_Zombies1D_79: 8925505549794828435
+      HC_Zombies1D_8: -4682003807127792991
+      HC_Zombies1D_80: 396031393261996558
+      HC_Zombies1D_81: -2441400531037877412
+      HC_Zombies1D_82: 4369325308127563220
+      HC_Zombies1D_83: 6987188352704974139
+      HC_Zombies1D_84: -4624195716449692112
+      HC_Zombies1D_85: 5518723886736316272
+      HC_Zombies1D_86: 8509824469329175084
+      HC_Zombies1D_87: 4661544873398098366
+      HC_Zombies1D_88: -7510629702747866431
+      HC_Zombies1D_89: -4932448050916896499
+      HC_Zombies1D_9: 5539743530690607973
+      HC_Zombies1D_90: 6165004491595953326
+      HC_Zombies1D_91: 21252480795767926
+      HC_Zombies1D_92: -4706096717046534620
+      HC_Zombies1D_93: -7155389104700258324
+      HC_Zombies1D_94: 6039949301383657594
+      HC_Zombies1D_95: -630781663581219231
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

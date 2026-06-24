@@ -1,0 +1,1560 @@
+fileFormatVersion: 2
+guid: 5fa6c27a8715d1c4db34dc2211997622
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1175419460021000910
+    second: TileD_PHC_Interior-Delapidated_0
+  - first:
+      213: -4770379630140836208
+    second: TileD_PHC_Interior-Delapidated_1
+  - first:
+      213: 7386883687000610461
+    second: TileD_PHC_Interior-Delapidated_2
+  - first:
+      213: -584378171602137144
+    second: TileD_PHC_Interior-Delapidated_3
+  - first:
+      213: -4769395297765151290
+    second: TileD_PHC_Interior-Delapidated_4
+  - first:
+      213: 1878295964751894076
+    second: TileD_PHC_Interior-Delapidated_5
+  - first:
+      213: -3213227446169605198
+    second: TileD_PHC_Interior-Delapidated_6
+  - first:
+      213: -8916869060703884095
+    second: TileD_PHC_Interior-Delapidated_7
+  - first:
+      213: -2555149985708554224
+    second: TileD_PHC_Interior-Delapidated_8
+  - first:
+      213: 1480886438345850841
+    second: TileD_PHC_Interior-Delapidated_9
+  - first:
+      213: 8941289526285687360
+    second: TileD_PHC_Interior-Delapidated_10
+  - first:
+      213: -6725917153727946770
+    second: TileD_PHC_Interior-Delapidated_11
+  - first:
+      213: 7269812508215029400
+    second: TileD_PHC_Interior-Delapidated_12
+  - first:
+      213: 621029896339529050
+    second: TileD_PHC_Interior-Delapidated_13
+  - first:
+      213: -4151166880780099034
+    second: TileD_PHC_Interior-Delapidated_14
+  - first:
+      213: 1382775618077658995
+    second: TileD_PHC_Interior-Delapidated_15
+  - first:
+      213: 9132172871390276564
+    second: TileD_PHC_Interior-Delapidated_16
+  - first:
+      213: 7539483899455801276
+    second: TileD_PHC_Interior-Delapidated_17
+  - first:
+      213: 717386008627505943
+    second: TileD_PHC_Interior-Delapidated_18
+  - first:
+      213: -1012740535555179669
+    second: TileD_PHC_Interior-Delapidated_19
+  - first:
+      213: 6507494510192021103
+    second: TileD_PHC_Interior-Delapidated_20
+  - first:
+      213: -6052561034066349665
+    second: TileD_PHC_Interior-Delapidated_21
+  - first:
+      213: 316376749431166027
+    second: TileD_PHC_Interior-Delapidated_22
+  - first:
+      213: 1969802507864479350
+    second: TileD_PHC_Interior-Delapidated_23
+  - first:
+      213: 1319394559989421447
+    second: TileD_PHC_Interior-Delapidated_24
+  - first:
+      213: -5631809262802612148
+    second: TileD_PHC_Interior-Delapidated_25
+  - first:
+      213: 8915455001023652054
+    second: TileD_PHC_Interior-Delapidated_26
+  - first:
+      213: -5205217567307400325
+    second: TileD_PHC_Interior-Delapidated_27
+  - first:
+      213: -4820244163087801116
+    second: TileD_PHC_Interior-Delapidated_28
+  - first:
+      213: 8832093391784384065
+    second: TileD_PHC_Interior-Delapidated_29
+  - first:
+      213: -4036671749920030578
+    second: TileD_PHC_Interior-Delapidated_30
+  - first:
+      213: 9220395173213067652
+    second: TileD_PHC_Interior-Delapidated_31
+  - first:
+      213: -162494443118226799
+    second: TileD_PHC_Interior-Delapidated_32
+  - first:
+      213: 8246842860525718646
+    second: TileD_PHC_Interior-Delapidated_33
+  - first:
+      213: 4906184503328723848
+    second: TileD_PHC_Interior-Delapidated_34
+  - first:
+      213: -7222310411572539520
+    second: TileD_PHC_Interior-Delapidated_35
+  - first:
+      213: -4082347586051702695
+    second: TileD_PHC_Interior-Delapidated_36
+  - first:
+      213: 2872839671940257083
+    second: TileD_PHC_Interior-Delapidated_37
+  - first:
+      213: 5768203838169500303
+    second: TileD_PHC_Interior-Delapidated_38
+  - first:
+      213: -6518798033305951705
+    second: TileD_PHC_Interior-Delapidated_39
+  - first:
+      213: 5673556486304711243
+    second: TileD_PHC_Interior-Delapidated_40
+  - first:
+      213: 4205642319356418645
+    second: TileD_PHC_Interior-Delapidated_41
+  - first:
+      213: -5033491146082132242
+    second: TileD_PHC_Interior-Delapidated_42
+  - first:
+      213: -1457071630786974164
+    second: TileD_PHC_Interior-Delapidated_43
+  - first:
+      213: -51307153990700017
+    second: TileD_PHC_Interior-Delapidated_44
+  - first:
+      213: -8988069600407242022
+    second: TileD_PHC_Interior-Delapidated_45
+  - first:
+      213: 1921580840651680615
+    second: TileD_PHC_Interior-Delapidated_46
+  - first:
+      213: -5373441214317441673
+    second: TileD_PHC_Interior-Delapidated_47
+  - first:
+      213: 2216118267556160677
+    second: TileD_PHC_Interior-Delapidated_48
+  - first:
+      213: -98586331968145043
+    second: TileD_PHC_Interior-Delapidated_49
+  - first:
+      213: -7807855491848538793
+    second: TileD_PHC_Interior-Delapidated_50
+  - first:
+      213: -730229311338023508
+    second: TileD_PHC_Interior-Delapidated_51
+  - first:
+      213: -610759524550586884
+    second: TileD_PHC_Interior-Delapidated_52
+  - first:
+      213: 7675186294842409878
+    second: TileD_PHC_Interior-Delapidated_53
+  - first:
+      213: 3274610573902996332
+    second: TileD_PHC_Interior-Delapidated_54
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_0
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 481
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eca12a075cdef4010800000000000000
+      internalID: 1175419460021000910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_1
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 461
+        width: 94
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 09632bd30053ccdb0800000000000000
+      internalID: -4770379630140836208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_2
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 461
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d969cc0739b738660800000000000000
+      internalID: 7386883687000610461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 383
+        width: 317
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cf892b262fd3e7f0800000000000000
+      internalID: -584378171602137144
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_4
+      rect:
+        serializedVersion: 2
+        x: 287
+        y: 479
+        width: 34
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6cd2a4bfe34bfcdb0800000000000000
+      internalID: -4769395297765151290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_5
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 479
+        width: 54
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c3616127a3c011a10800000000000000
+      internalID: 1878295964751894076
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_6
+      rect:
+        serializedVersion: 2
+        x: 387
+        y: 483
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2bb668089a25863d0800000000000000
+      internalID: -3213227446169605198
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_7
+      rect:
+        serializedVersion: 2
+        x: 419
+        y: 483
+        width: 30
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cce21835dae04480800000000000000
+      internalID: -8916869060703884095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_8
+      rect:
+        serializedVersion: 2
+        x: 451
+        y: 485
+        width: 30
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0184ff130a84a8cd0800000000000000
+      internalID: -2555149985708554224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_9
+      rect:
+        serializedVersion: 2
+        x: 483
+        y: 485
+        width: 29
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9df3c4e9e5a2d8410800000000000000
+      internalID: 1480886438345850841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 465
+        width: 33
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04add208377d51c70800000000000000
+      internalID: 8941289526285687360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_11
+      rect:
+        serializedVersion: 2
+        x: 1
+        y: 453
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eefd65febfdb8a2a0800000000000000
+      internalID: -6725917153727946770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_12
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 465
+        width: 6
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89e29d785ff83e460800000000000000
+      internalID: 7269812508215029400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_13
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 453
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a5d173e76675e9800800000000000000
+      internalID: 621029896339529050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_14
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 465
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6226cbb37b71466c0800000000000000
+      internalID: -4151166880780099034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_15
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 453
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37f079f291b903310800000000000000
+      internalID: 1382775618077658995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_16
+      rect:
+        serializedVersion: 2
+        x: 25
+        y: 453
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4db2daa97defbbe70800000000000000
+      internalID: 9132172871390276564
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_17
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 289
+        width: 129
+        height: 164
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb707d029a0a1a860800000000000000
+      internalID: 7539483899455801276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_18
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 397
+        width: 58
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 71be31326caa4f900800000000000000
+      internalID: 717386008627505943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_19
+      rect:
+        serializedVersion: 2
+        x: 31
+        y: 265
+        width: 66
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6b389049d502f1f0800000000000000
+      internalID: -1012740535555179669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_20
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 291
+        width: 62
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6eccc167c34f4a50800000000000000
+      internalID: 6507494510192021103
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_21
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 295
+        width: 126
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f91ba1faecbf00ca0800000000000000
+      internalID: -6052561034066349665
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_22
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 295
+        width: 54
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b4499053afef36400800000000000000
+      internalID: 316376749431166027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_23
+      rect:
+        serializedVersion: 2
+        x: 383
+        y: 293
+        width: 129
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6769fe6c1f4265b10800000000000000
+      internalID: 1969802507864479350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 197
+        width: 129
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78590c2ac5e6f4210800000000000000
+      internalID: 1319394559989421447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_25
+      rect:
+        serializedVersion: 2
+        x: 63
+        y: 127
+        width: 290
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c4055e7605bc7d1b0800000000000000
+      internalID: -5631809262802612148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_26
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 255
+        width: 62
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d0aefa561f0abb70800000000000000
+      internalID: 8915455001023652054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_27
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 231
+        width: 56
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7bf402733a53c7b0800000000000000
+      internalID: -5205217567307400325
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_28
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 223
+        width: 193
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4e46080f87d0b1db0800000000000000
+      internalID: -4820244163087801116
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_29
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 95
+        width: 70
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14612683526e19a70800000000000000
+      internalID: 8832093391784384065
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_30
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 169
+        width: 26
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e80892f3e6cdaf7c0800000000000000
+      internalID: -4036671749920030578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_31
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 191
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 489571cee8c65ff70800000000000000
+      internalID: 9220395173213067652
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_32
+      rect:
+        serializedVersion: 2
+        x: 485
+        y: 159
+        width: 24
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19296f73a24bebdf0800000000000000
+      internalID: -162494443118226799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_33
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 137
+        width: 58
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 67c0a1453eba27270800000000000000
+      internalID: 8246842860525718646
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_34
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 95
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8835f6bcfc4461440800000000000000
+      internalID: 4906184503328723848
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_35
+      rect:
+        serializedVersion: 2
+        x: 479
+        y: 0
+        width: 33
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08f0d9432f235cb90800000000000000
+      internalID: -7222310411572539520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_36
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 77
+        width: 28
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95007bbef769857c0800000000000000
+      internalID: -4082347586051702695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_37
+      rect:
+        serializedVersion: 2
+        x: 33
+        y: 77
+        width: 30
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3516aee5706ed720800000000000000
+      internalID: 2872839671940257083
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_38
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 71
+        width: 30
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f8a432e54d6cc0050800000000000000
+      internalID: 5768203838169500303
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_39
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 81
+        width: 30
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 722a84e0ab39885a0800000000000000
+      internalID: -6518798033305951705
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_40
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 67
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b424e4380958cbe40800000000000000
+      internalID: 5673556486304711243
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_41
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 67
+        width: 62
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 55ad69138617d5a30800000000000000
+      internalID: 4205642319356418645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_42
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 71
+        width: 62
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eee53b1a872752ab0800000000000000
+      internalID: -5033491146082132242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_43
+      rect:
+        serializedVersion: 2
+        x: 321
+        y: 63
+        width: 64
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c2ea4aa521177cbe0800000000000000
+      internalID: -1457071630786974164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_44
+      rect:
+        serializedVersion: 2
+        x: 455
+        y: 71
+        width: 18
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f04b2ff4a68b94ff0800000000000000
+      internalID: -51307153990700017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_45
+      rect:
+        serializedVersion: 2
+        x: 17
+        y: 33
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ada3d3bb156f34380800000000000000
+      internalID: -8988069600407242022
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_46
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 35
+        width: 30
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76b6d36f793daaa10800000000000000
+      internalID: 1921580840651680615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_47
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 13
+        width: 30
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d4a2f6fa3bd65b0800000000000000
+      internalID: -5373441214317441673
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_48
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 3
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a460f5a2db31ce10800000000000000
+      internalID: 2216118267556160677
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_49
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 3
+        width: 62
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d69745fd040c1aef0800000000000000
+      internalID: -98586331968145043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_50
+      rect:
+        serializedVersion: 2
+        x: 259
+        y: 3
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 755f8c64ccce4a390800000000000000
+      internalID: -7807855491848538793
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_51
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 3
+        width: 62
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ca57e1d6f44bdd5f0800000000000000
+      internalID: -730229311338023508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_52
+      rect:
+        serializedVersion: 2
+        x: 391
+        y: 0
+        width: 68
+        height: 79
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfdc9f7c2752687f0800000000000000
+      internalID: -610759524550586884
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_53
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1
+        width: 42
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6934701354db38a60800000000000000
+      internalID: 7675186294842409878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: TileD_PHC_Interior-Delapidated_54
+      rect:
+        serializedVersion: 2
+        x: 67
+        y: 0
+        width: 30
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c63e933a7f0c17d20800000000000000
+      internalID: 3274610573902996332
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      TileD_PHC_Interior-Delapidated_0: 1175419460021000910
+      TileD_PHC_Interior-Delapidated_1: -4770379630140836208
+      TileD_PHC_Interior-Delapidated_10: 8941289526285687360
+      TileD_PHC_Interior-Delapidated_11: -6725917153727946770
+      TileD_PHC_Interior-Delapidated_12: 7269812508215029400
+      TileD_PHC_Interior-Delapidated_13: 621029896339529050
+      TileD_PHC_Interior-Delapidated_14: -4151166880780099034
+      TileD_PHC_Interior-Delapidated_15: 1382775618077658995
+      TileD_PHC_Interior-Delapidated_16: 9132172871390276564
+      TileD_PHC_Interior-Delapidated_17: 7539483899455801276
+      TileD_PHC_Interior-Delapidated_18: 717386008627505943
+      TileD_PHC_Interior-Delapidated_19: -1012740535555179669
+      TileD_PHC_Interior-Delapidated_2: 7386883687000610461
+      TileD_PHC_Interior-Delapidated_20: 6507494510192021103
+      TileD_PHC_Interior-Delapidated_21: -6052561034066349665
+      TileD_PHC_Interior-Delapidated_22: 316376749431166027
+      TileD_PHC_Interior-Delapidated_23: 1969802507864479350
+      TileD_PHC_Interior-Delapidated_24: 1319394559989421447
+      TileD_PHC_Interior-Delapidated_25: -5631809262802612148
+      TileD_PHC_Interior-Delapidated_26: 8915455001023652054
+      TileD_PHC_Interior-Delapidated_27: -5205217567307400325
+      TileD_PHC_Interior-Delapidated_28: -4820244163087801116
+      TileD_PHC_Interior-Delapidated_29: 8832093391784384065
+      TileD_PHC_Interior-Delapidated_3: -584378171602137144
+      TileD_PHC_Interior-Delapidated_30: -4036671749920030578
+      TileD_PHC_Interior-Delapidated_31: 9220395173213067652
+      TileD_PHC_Interior-Delapidated_32: -162494443118226799
+      TileD_PHC_Interior-Delapidated_33: 8246842860525718646
+      TileD_PHC_Interior-Delapidated_34: 4906184503328723848
+      TileD_PHC_Interior-Delapidated_35: -7222310411572539520
+      TileD_PHC_Interior-Delapidated_36: -4082347586051702695
+      TileD_PHC_Interior-Delapidated_37: 2872839671940257083
+      TileD_PHC_Interior-Delapidated_38: 5768203838169500303
+      TileD_PHC_Interior-Delapidated_39: -6518798033305951705
+      TileD_PHC_Interior-Delapidated_4: -4769395297765151290
+      TileD_PHC_Interior-Delapidated_40: 5673556486304711243
+      TileD_PHC_Interior-Delapidated_41: 4205642319356418645
+      TileD_PHC_Interior-Delapidated_42: -5033491146082132242
+      TileD_PHC_Interior-Delapidated_43: -1457071630786974164
+      TileD_PHC_Interior-Delapidated_44: -51307153990700017
+      TileD_PHC_Interior-Delapidated_45: -8988069600407242022
+      TileD_PHC_Interior-Delapidated_46: 1921580840651680615
+      TileD_PHC_Interior-Delapidated_47: -5373441214317441673
+      TileD_PHC_Interior-Delapidated_48: 2216118267556160677
+      TileD_PHC_Interior-Delapidated_49: -98586331968145043
+      TileD_PHC_Interior-Delapidated_5: 1878295964751894076
+      TileD_PHC_Interior-Delapidated_50: -7807855491848538793
+      TileD_PHC_Interior-Delapidated_51: -730229311338023508
+      TileD_PHC_Interior-Delapidated_52: -610759524550586884
+      TileD_PHC_Interior-Delapidated_53: 7675186294842409878
+      TileD_PHC_Interior-Delapidated_54: 3274610573902996332
+      TileD_PHC_Interior-Delapidated_6: -3213227446169605198
+      TileD_PHC_Interior-Delapidated_7: -8916869060703884095
+      TileD_PHC_Interior-Delapidated_8: -2555149985708554224
+      TileD_PHC_Interior-Delapidated_9: 1480886438345850841
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
