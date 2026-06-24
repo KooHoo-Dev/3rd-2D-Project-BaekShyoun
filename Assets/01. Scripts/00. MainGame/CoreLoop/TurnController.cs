@@ -1,16 +1,92 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
-public class TurnController : MonoBehaviour
+namespace ObservedProject
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    public class TurnController : MonoBehaviour
     {
-        
-    }
+        [Header("TimeSettings")]
+        public TextMeshProUGUI TimeCheck;
+        public TextMeshProUGUI TurnCheck;
+        public Button[] GameButtons;
+        public int TurnCount = 1;
+        private int dayCount;
+        private string[] Hours = { "00:00", "03:00", "06:00", "09:00", "12:00", "15:00", "18:00", "21:00" };
+        private int currentHourIndex;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
+        [Header("SleepButtons")]
+        public Button NormalSleepButton;
+        public Button DeepSleepButton;
+
+        [Header("BecomeZeroValue")]
+        public float MeatOrWaterDecreaseEnergy = 0.1f;
+
+
+        private GageController gageController;
+        private DiseaseController diseaseController;
+
+        private void Awake()
+        {
+            gageController = GetComponent<GageController>();
+            diseaseController = GetComponent<DiseaseController>();
+            dayCount = 1;
+            currentHourIndex = 0;
+
+            SetText();
+
+            for (int i = 0; i < GameButtons.Length; i++)
+            {
+                GameButtons[i].onClick.AddListener(OnPlayGame);
+            }
+            NormalSleepButton.onClick.AddListener(OnNormalSleep);
+            DeepSleepButton.onClick.AddListener(OnDeepSleep);
+        }
+
+        private void FlowTime(int skipTime)
+        {
+            currentHourIndex += skipTime;
+            if (currentHourIndex >= Hours.Length)
+            {
+                currentHourIndex -= Hours.Length;
+                dayCount++;
+                diseaseController.RemoveDiseaseStack();
+            }
+            TurnCount++;
+            SetText();
+
+            BecomeZeroValue(gageController.fullnessBar, skipTime);
+            BecomeZeroValue(gageController.hidrationBar, skipTime);
+        }
+
+        private void OnPlayGame()
+        {
+            FlowTime(1);
+            gageController.PlayGame();
+        }
+
+        private void OnNormalSleep()
+        {
+            FlowTime(2);
+            gageController.HaveNormalSleep();
+        }
+
+        private void OnDeepSleep()
+        {
+            FlowTime(2);
+            gageController.HaveDeepSleep();
+        }
+
+        private void BecomeZeroValue(Image bar, int skipTime)
+        {
+            if (bar.fillAmount <= gageController.minAmount)
+                gageController.GageUpdate(gageController.energyBar, (-MeatOrWaterDecreaseEnergy) * skipTime);
+        }
+
+        private void SetText()
+        {
+            TimeCheck.text = $"Day {dayCount} {Hours[currentHourIndex]}";
+            TurnCheck.text = $"Turn {TurnCount}";
+        }
     }
 }

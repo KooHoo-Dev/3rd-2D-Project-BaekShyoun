@@ -6,8 +6,6 @@ namespace PracticeProject
 {
     public class TurnController : MonoBehaviour
     {
-
-
         [Header("TimeSettings")]
         public TextMeshProUGUI TimeCheck;
         public TextMeshProUGUI TurnCheck;
