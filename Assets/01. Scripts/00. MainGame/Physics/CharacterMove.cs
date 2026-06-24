@@ -2,7 +2,7 @@ using Study.Utilities;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace PracticeProject
+namespace ObservedProject
 {
     public class CharacterMove : MonoBehaviour
     {
