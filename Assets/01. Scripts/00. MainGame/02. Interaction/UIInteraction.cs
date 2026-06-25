@@ -15,8 +15,16 @@ namespace ObservedProject
         public GameObject playerInventoryScreen;
         public GameObject exchangeInventoryScreen;
         public GameObject popUpScreen;
+
+        [Header("Pop Up")]
         public Button[] popUpButtons;
+
+        [Header("Player Inventory")]
         public Button playerInventoryExitButton;
+        public Button eatButton;
+        public Button discardButton;
+
+        [Header("Exchange Inventory")]
         public Button exchangePurchaseButton;
         public Button exchangeInventoryExitButton;
 
@@ -92,6 +100,8 @@ namespace ObservedProject
                 {
                     ScreenOn(playerInventoryScreen);
                     isInventoryOpen = true;
+                    eatButton.onClick.AddListener(ControlPopUpScreen);
+                    discardButton.onClick.AddListener(ControlPopUpScreen);
                 }
             }
             else

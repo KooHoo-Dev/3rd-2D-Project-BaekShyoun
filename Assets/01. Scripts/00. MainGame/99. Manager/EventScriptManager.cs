@@ -1,5 +1,6 @@
 using UnityEngine;
 using TMPro;
+using UnityEngine.UI;
 
 namespace ObservedProject
 {
@@ -15,6 +16,16 @@ namespace ObservedProject
         public void SampleText()
         {
             eventScriptText.text = "내가 사라져 볼게";
+        }
+
+        public void EatMeat()
+        {
+            eventScriptText.text = $"";
+        }
+
+        public void DrinkWater()
+        {
+            eventScriptText.text = $"";
         }
     }
 

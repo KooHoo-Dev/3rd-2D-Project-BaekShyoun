@@ -1832,6 +1832,8 @@ MonoBehaviour:
   - {fileID: 1295800035}
   - {fileID: 478857706}
   playerInventoryExitButton: {fileID: 1769872980}
+  eatButton: {fileID: 542076520}
+  discardButton: {fileID: 408826103}
   exchangePurchaseButton: {fileID: 1576102511}
   exchangeInventoryExitButton: {fileID: 321971357}
 --- !u!1 &320907108
@@ -4777,7 +4779,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &690141021
 Transform:
   m_ObjectHideFlags: 0
@@ -8801,7 +8803,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -12431,7 +12433,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Image
   m_Material: {fileID: 0}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
-  m_RaycastTarget: 1
+  m_RaycastTarget: 0
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1
   m_OnCullStateChanged:
