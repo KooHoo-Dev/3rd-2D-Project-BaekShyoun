@@ -36,6 +36,7 @@ namespace ObservedProject
             {
                 AddDiseaseStack(1);
                 Debug.Log("수상한 고기 3회 섭취로 질병 스택 +1 !");
+                suspiciousCount = 0;
             }
         }
 

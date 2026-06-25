@@ -12,8 +12,13 @@ namespace ObservedProject
         public GameObject statusScreen;
         public GameObject eventScriptScreen;
         public GameObject turnCheckScreen;
-        public GameObject inventoryScreen;
-        public Button inventoryExitButton;
+        public GameObject playerInventoryScreen;
+        public GameObject exchangeInventoryScreen;
+        public GameObject popUpScreen;
+        public Button[] popUpButtons;
+        public Button playerInventoryExitButton;
+        public Button exchangePurchaseButton;
+        public Button exchangeInventoryExitButton;
 
         private GameObject[] uiScreen;
         private TurnController turnController;
@@ -21,13 +26,12 @@ namespace ObservedProject
 
         private void Awake()
         {
-            inventoryExitButton.onClick.AddListener(CloseInventoryWithButton);
             turnController = GetComponentInParent<TurnController>();
         }
 
         private void Start()
         {
-            uiScreen = new GameObject[] { statusScreen, eventScriptScreen, turnCheckScreen, inventoryScreen };
+            uiScreen = new GameObject[] { statusScreen, eventScriptScreen, turnCheckScreen, playerInventoryScreen, exchangeInventoryScreen, popUpScreen };
             for (int i = 0; i < uiScreen.Length; i++)
             {
                 uiScreen[i].SetActive(false);
@@ -36,13 +40,26 @@ namespace ObservedProject
 
         private void Update()
         {
-            ControllStatusScreen();
-            ControllEventScriptScreen();
-            ControllTurnCheckScreen();
-            ControlInventoryScreen();
+            ControlStatusScreen();
+            ControlEventScriptScreen();
+            ControlTurnCheckScreen();
+            ControlPlayerInventoryScreen();
+            ControlExchangeInventoryScreen();
+            if (SimpleInput.GetKeyDown(Key.G))
+            {
+                ControlPopUpScreen();
+            }
+
         }
 
-        private void ControllStatusScreen()
+        public void ControlPopUpScreen()
+        {
+            ScreenOn(popUpScreen);
+            for (int i = 0; i < popUpButtons.Length; ++i)
+                popUpButtons[i].onClick.AddListener(ClosePopUpByButton);
+        } // 이후 Text 수정 필요
+
+        private void ControlStatusScreen()
         {
             if (SimpleInput.GetKeyDown(Key.Tab))
                 ScreenOn(statusScreen);
@@ -50,15 +67,15 @@ namespace ObservedProject
                 ScreenOff(statusScreen);
         }
 
-        private void ControllEventScriptScreen() // 이후 수정 필요
+        private void ControlEventScriptScreen()
         {
             if(SimpleInput.GetKeyDown(Key.V))
                 ScreenOn(eventScriptScreen);
             if (SimpleInput.GetKeyDown(Key.Space) || SimpleInput.GetKeyDown(Key.Enter))
                 ScreenOff(eventScriptScreen);
-        }
+        } // 이후 Text 수정 필요
 
-        private void ControllTurnCheckScreen()
+        private void ControlTurnCheckScreen()
         {
             if (turnController.isTimeFlow)
             {
@@ -67,13 +84,13 @@ namespace ObservedProject
             }
         }
 
-        private void ControlInventoryScreen()
+        private void ControlPlayerInventoryScreen()
         {
             if (isInventoryOpen==false)
             {
                 if (SimpleInput.GetKeyDown(Key.I))
                 {
-                    ScreenOn(inventoryScreen);
+                    ScreenOn(playerInventoryScreen);
                     isInventoryOpen = true;
                 }
             }
@@ -81,13 +98,24 @@ namespace ObservedProject
             {
                 if (SimpleInput.GetKeyDown(Key.I))
                 {
-                    ScreenOff(inventoryScreen);
+                    ScreenOff(playerInventoryScreen);
                     isInventoryOpen = false;
                 }
+                if (SimpleInput.GetKeyDown(Key.Escape))
+                    ScreenOff(playerInventoryScreen);
+                playerInventoryExitButton.onClick.AddListener(ClosePlayerInventoryByButton);
             }
-            if (SimpleInput.GetKeyDown(Key.Escape))
-                ScreenOff(inventoryScreen);
-        }
+        } // x버튼이나 Esc로 닫았을 때 I를 누르면 입력이 한 번 씹힘 > 일단 다른 기능 추가 후 수정
+
+        private void ControlExchangeInventoryScreen()
+        {
+            if (SimpleInput.GetKeyDown(Key.T))
+            {
+                ScreenOn(exchangeInventoryScreen);
+            }
+            exchangeInventoryExitButton.onClick.AddListener(CloseExchangeInventoryByButton);
+            exchangePurchaseButton.onClick.AddListener(ControlPopUpScreen);
+        }  // 구매 후 창이 닫히면 좋을 것 같은데, 여러개 계속 살 거면 그냥 열려 있는 게 나을 거 같기도... 추후 수정
 
         private void ScreenOn(GameObject uiScreen)
         {
@@ -99,9 +127,19 @@ namespace ObservedProject
             uiScreen.SetActive(false);
         }
 
-        private void CloseInventoryWithButton()
+        private void ClosePlayerInventoryByButton()
         {
-            inventoryScreen.SetActive(false);
+            ScreenOff(playerInventoryScreen);
+        }
+
+        private void ClosePopUpByButton()
+        {
+            ScreenOff(popUpScreen);
+        }
+
+        private void CloseExchangeInventoryByButton()
+        {
+            ScreenOff(exchangeInventoryScreen);
         }
 
         private IEnumerator TurnCheckScreenOffCoroutine()
