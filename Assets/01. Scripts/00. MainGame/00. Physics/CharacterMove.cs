@@ -8,10 +8,10 @@ namespace ObservedProject
     {
         public enum State
         {
-            Idle = 0,
+            Front = 0,
             Left,
             Right,
-            Up,
+            Back,
         }
 
         [Header("Settings")]
@@ -20,7 +20,7 @@ namespace ObservedProject
         public GameObject[] PlayerState;
 
 
-        private State currentState = State.Idle;
+        private State currentState = State.Front;
         private Vector3 externalDelta;
 
         private Rigidbody2D rBody;
@@ -67,12 +67,12 @@ namespace ObservedProject
             // 수직
             else if (SimpleInput.GetKey(Key.S))
             {
-                SetState(State.Idle);
+                SetState(State.Front);
                 vertical = -1.0f;
             }
             else if (SimpleInput.GetKey(Key.W))
             {
-                SetState(State.Up);
+                SetState(State.Back);
                 vertical = 1.0f;
             }
             else
