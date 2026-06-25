@@ -25,19 +25,25 @@ namespace ObservedProject
 
         private Rigidbody2D rBody;
         private Collider2D col;
+        private Animator currentAnimator;
 
         private void Awake()
         {
             rBody = GetComponent<Rigidbody2D>();
             col = GetComponent<Collider2D>();
+            currentAnimator = PlayerState[0].GetComponent<Animator>();
 
             rBody.bodyType = RigidbodyType2D.Kinematic;
+        }
 
+        private void Start()
+        {
             for (int i = 0; i < PlayerState.Length; ++i)
             {
                 PlayerState[i].SetActive(false);
             }
             PlayerState[0].SetActive(true);
+
         }
 
 
@@ -75,6 +81,8 @@ namespace ObservedProject
                 vertical = 0.0f;
             }
 
+            SetAnimation(horizontal, vertical);
+            
             // 이번 프레임에 움직이고 싶은 이동량
             Vector3 desireHorizontalMove =
                 new Vector3(horizontal * speed, 0) * Time.fixedDeltaTime + externalDelta;
@@ -96,6 +104,7 @@ namespace ObservedProject
             PlayerState[(int)currentState].SetActive(false);
             PlayerState[(int)state].SetActive(true);
             currentState = state;
+            currentAnimator = PlayerState[(int)state].GetComponent<Animator>();
         }
 
 
@@ -128,6 +137,18 @@ namespace ObservedProject
         public void AddExternalMovement(Vector3 delta)
         {
             externalDelta += delta;
+        }
+
+        private void SetAnimation(float horizontal, float vertical)
+        {
+            if (horizontal != 0.0f || vertical != 0.0f)
+            {
+                currentAnimator.SetBool("IsMove", true);
+            }
+            else
+            {
+                currentAnimator.SetBool("IsMove", false);
+            }
         }
     }
 
