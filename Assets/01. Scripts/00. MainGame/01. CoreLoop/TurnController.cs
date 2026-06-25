@@ -26,7 +26,7 @@ namespace ObservedProject
         private GageController gageController;
         private DiseaseController diseaseController;
 
-        public bool isTimeFlow { get; private set; } = false;
+        public bool isTimeFlow = false;
 
         private void Awake()
         {

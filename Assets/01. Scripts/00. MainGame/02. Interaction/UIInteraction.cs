@@ -1,4 +1,5 @@
 using Study.Utilities;
+using System.Collections;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -7,30 +8,26 @@ namespace ObservedProject
 {
     public class UIInteraction : MonoBehaviour
     {
-        // 1. Status창 : 기본 비활성화 > Tab키 입력 시 활성화
-        // 2. EventScript창 : 기본 비활성화 > EventScript 발생시 활성화 (Enter키 or Space키 입력 후 비활성화)
-        // 3. TurnCheck창 : 기본 비활성화 > 턴 변화시/일 변화시 잠시 활성화 후 Alpha값 서서히 감소
-        // 4. Inventory창 : 기본 비활성화 > I키 입력시 활성화 (Esc키 or X버튼 클릭 후 비활성화) > Inventory창 내부 상호작용은 따로 짤 거임
-
         [Header("UI Screen")]
-        public GameObject StatusScreen;
-        public GameObject EventScriptScreen;
-        public GameObject TurnCheckScreen;
-        public GameObject InventoryScreen;
-        public Button InventoryExitButton;
+        public GameObject statusScreen;
+        public GameObject eventScriptScreen;
+        public GameObject turnCheckScreen;
+        public GameObject inventoryScreen;
+        public Button inventoryExitButton;
 
         private GameObject[] uiScreen;
         private TurnController turnController;
+        private bool isInventoryOpen = false;
 
         private void Awake()
         {
-            InventoryExitButton.onClick.AddListener(CloseInventory);
+            inventoryExitButton.onClick.AddListener(CloseInventoryWithButton);
             turnController = GetComponentInParent<TurnController>();
         }
 
         private void Start()
         {
-            uiScreen = new GameObject[] { StatusScreen, EventScriptScreen, TurnCheckScreen, InventoryScreen };
+            uiScreen = new GameObject[] { statusScreen, eventScriptScreen, turnCheckScreen, inventoryScreen };
             for (int i = 0; i < uiScreen.Length; i++)
             {
                 uiScreen[i].SetActive(false);
@@ -48,43 +45,70 @@ namespace ObservedProject
         private void ControllStatusScreen()
         {
             if (SimpleInput.GetKeyDown(Key.Tab))
-                ScreenOn(StatusScreen);
+                ScreenOn(statusScreen);
             if (SimpleInput.GetKeyUp(Key.Tab))
-                ScreenOff(StatusScreen);
+                ScreenOff(statusScreen);
         }
 
-        private void ControllEventScriptScreen()
+        private void ControllEventScriptScreen() // 이후 수정 필요
         {
-
+            if(SimpleInput.GetKeyDown(Key.V))
+                ScreenOn(eventScriptScreen);
+            if (SimpleInput.GetKeyDown(Key.Space) || SimpleInput.GetKeyDown(Key.Enter))
+                ScreenOff(eventScriptScreen);
         }
 
         private void ControllTurnCheckScreen()
         {
             if (turnController.isTimeFlow)
             {
-                ScreenOn(TurnCheckScreen);
+                ScreenOn(turnCheckScreen);
+                StartCoroutine(TurnCheckScreenOffCoroutine());
             }
         }
 
         private void ControlInventoryScreen()
         {
-            if (SimpleInput.GetKeyDown(Key.I))
-                ScreenOn(InventoryScreen);
+            if (isInventoryOpen==false)
+            {
+                if (SimpleInput.GetKeyDown(Key.I))
+                {
+                    ScreenOn(inventoryScreen);
+                    isInventoryOpen = true;
+                }
+            }
+            else
+            {
+                if (SimpleInput.GetKeyDown(Key.I))
+                {
+                    ScreenOff(inventoryScreen);
+                    isInventoryOpen = false;
+                }
+            }
             if (SimpleInput.GetKeyDown(Key.Escape))
-                ScreenOff(InventoryScreen);
+                ScreenOff(inventoryScreen);
         }
 
         private void ScreenOn(GameObject uiScreen)
         {
             uiScreen.SetActive(true);
         }
+
         private void ScreenOff(GameObject uiScreen)
         {
             uiScreen.SetActive(false);
         }
-        private void CloseInventory()
+
+        private void CloseInventoryWithButton()
         {
-            InventoryScreen.SetActive(false);
+            inventoryScreen.SetActive(false);
+        }
+
+        private IEnumerator TurnCheckScreenOffCoroutine()
+        {
+            yield return new WaitForSeconds(3.0f);
+            ScreenOff(turnCheckScreen);
+            turnController.isTimeFlow = false;
         }
     }
 }
