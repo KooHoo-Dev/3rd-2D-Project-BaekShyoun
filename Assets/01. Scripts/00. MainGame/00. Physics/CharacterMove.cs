@@ -20,7 +20,7 @@ namespace ObservedProject
         public GameObject[] PlayerState;
 
 
-        private State currentState = State.Front;
+        public State currentState = State.Front;
         private Vector3 externalDelta;
 
         private Rigidbody2D rBody;

@@ -270,6 +270,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 618f763be87fccb46b22c1de3a6a52e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.MiniGameInteraction
+  player: {fileID: 282380402}
+  uiInteract: {fileID: 289824754}
 --- !u!1 &6368988
 GameObject:
   m_ObjectHideFlags: 0
@@ -759,6 +761,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d79de229a6f5544c9a4194ce45b700e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.ExchangeMachineInteraction
+  player: {fileID: 282380402}
+  uiInteract: {fileID: 289824754}
 --- !u!1 &82075798
 GameObject:
   m_ObjectHideFlags: 0
@@ -1133,6 +1137,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b39d0d7d940241479414a7925d7fbec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.BedInteraction
+  player: {fileID: 282380402}
+  uiInteract: {fileID: 289824754}
 --- !u!1 &161814927
 GameObject:
   m_ObjectHideFlags: 0
@@ -1421,6 +1427,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b39d0d7d940241479414a7925d7fbec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.BedInteraction
+  player: {fileID: 282380402}
+  uiInteract: {fileID: 289824754}
 --- !u!1 &207076332
 GameObject:
   m_ObjectHideFlags: 0
@@ -1816,6 +1824,7 @@ MonoBehaviour:
   - {fileID: 320907108}
   - {fileID: 1358760981}
   - {fileID: 1349388653}
+  currentState: 0
   collisionLayer:
     serializedVersion: 2
     m_Bits: 8
@@ -2729,6 +2738,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c1c55054cb05804f8e58340bc17709c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.EventScriptInteraction
+  player: {fileID: 282380402}
+  uiInteract: {fileID: 289824754}
 --- !u!1 &386708267
 GameObject:
   m_ObjectHideFlags: 0
@@ -4680,7 +4691,7 @@ GameObject:
   m_Component:
   - component: {fileID: 690141021}
   m_Layer: 0
-  m_Name: ObjectInterAction
+  m_Name: ObjectInteraction
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -5326,6 +5337,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 618f763be87fccb46b22c1de3a6a52e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.MiniGameInteraction
+  player: {fileID: 282380402}
+  uiInteract: {fileID: 289824754}
 --- !u!1 &848199194
 GameObject:
   m_ObjectHideFlags: 0
@@ -6183,6 +6196,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 618f763be87fccb46b22c1de3a6a52e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.MiniGameInteraction
+  player: {fileID: 282380402}
+  uiInteract: {fileID: 289824754}
 --- !u!1 &1060042139
 GameObject:
   m_ObjectHideFlags: 0
@@ -6830,6 +6845,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c1c55054cb05804f8e58340bc17709c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.EventScriptInteraction
+  player: {fileID: 282380402}
+  uiInteract: {fileID: 289824754}
 --- !u!1 &1152060236
 GameObject:
   m_ObjectHideFlags: 0
@@ -7655,6 +7672,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01e9434b4ea1e434da318b4856a6a10a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.BeastInteraction
+  player: {fileID: 282380402}
+  uiInteract: {fileID: 289824754}
 --- !u!1 &1269997867
 GameObject:
   m_ObjectHideFlags: 0
@@ -9919,6 +9938,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b39d0d7d940241479414a7925d7fbec, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.BedInteraction
+  player: {fileID: 282380402}
+  uiInteract: {fileID: 289824754}
 --- !u!1 &1589002542
 GameObject:
   m_ObjectHideFlags: 0
@@ -12031,6 +12052,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 618f763be87fccb46b22c1de3a6a52e4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.MiniGameInteraction
+  player: {fileID: 282380402}
+  uiInteract: {fileID: 289824754}
 --- !u!1 &1887058184
 GameObject:
   m_ObjectHideFlags: 0
@@ -12296,6 +12319,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c1c55054cb05804f8e58340bc17709c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.EventScriptInteraction
+  player: {fileID: 282380402}
+  uiInteract: {fileID: 289824754}
 --- !u!1 &1958296225
 GameObject:
   m_ObjectHideFlags: 0
@@ -13252,6 +13277,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6c1c55054cb05804f8e58340bc17709c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.EventScriptInteraction
+  player: {fileID: 282380402}
+  uiInteract: {fileID: 289824754}
 --- !u!1 &2117878682
 GameObject:
   m_ObjectHideFlags: 0

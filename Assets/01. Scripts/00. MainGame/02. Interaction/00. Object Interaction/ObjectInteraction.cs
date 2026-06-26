@@ -1,10 +1,22 @@
 using UnityEngine;
+using UnityEngine.InputSystem.XR.Haptics;
 
 namespace ObservedProject
 {
     public abstract class ObjectInteraction : MonoBehaviour
     {
         protected bool canInteract = false;
+        public GameObject player;
+        public GameObject uiInteract;
+        protected CharacterMove characterMove;
+        protected UIInteraction uiInteraction;
+
+        protected virtual void Awake()
+        {
+            characterMove = player.GetComponent<CharacterMove>();
+            Debug.Log($"{characterMove==null}");
+            uiInteraction = uiInteract.GetComponent<UIInteraction>();
+        }
 
         protected void OnTriggerEnter2D(Collider2D collision)
         {
@@ -24,9 +36,6 @@ namespace ObservedProject
             }
         }
 
-        protected void CheckPlayerState(CharacterMove.State state)
-        {
-
-        }
+        protected abstract void CheckPlayerState(CharacterMove.State state);
     }
 }
