@@ -7686,7 +7686,7 @@ GameObject:
   - component: {fileID: 1269997870}
   - component: {fileID: 1269997869}
   m_Layer: 5
-  m_Name: ExplanationText (TMP)
+  m_Name: DescriptionText (TMP)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -12099,6 +12099,7 @@ GameObject:
   - component: {fileID: 1908250659}
   - component: {fileID: 1908250661}
   - component: {fileID: 1908250660}
+  - component: {fileID: 1908250662}
   m_Layer: 5
   m_Name: PlayerInventoryImage
   m_TagString: Untagged
@@ -12168,6 +12169,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1908250658}
   m_CullTransparentMesh: 1
+--- !u!114 &1908250662
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1908250658}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b517dab26807c0c4781c80cbff9b952c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.InventoryUIController
+  itemButtons:
+  - {fileID: 1521198979}
+  - {fileID: 82075800}
+  - {fileID: 1817818266}
+  - {fileID: 337551394}
+  - {fileID: 2015583676}
+  - {fileID: 40757775}
+  eatButton: {fileID: 542076520}
+  discardButton: {fileID: 408826103}
+  description: {fileID: 1269997869}
 --- !u!1 &1923747032
 GameObject:
   m_ObjectHideFlags: 0
