@@ -10,7 +10,7 @@ namespace ObservedProject
         [field: SerializeField] public Slider timeBar { get; private set; }
         [field: SerializeField] public TextMeshProUGUI countDown { get; private set; }
         public bool isDecreased { get; private set; } = false;
-        private float currentValue = 100f;
+        public float currentValue = 100f;
         private float speed = 50.0f;
 
         private void Awake()
@@ -29,6 +29,13 @@ namespace ObservedProject
             currentValue -= (speed * Time.deltaTime);
             currentValue = Mathf.Clamp(currentValue, timeBar.minValue, timeBar.maxValue);
             timeBar.value = currentValue;
+        }
+
+        public void ResetTimeBar()
+        {
+            currentValue = 100.0f;
+            timeBar.value = currentValue;
+            isDecreased = false;
         }
 
         public IEnumerator ThreeSecCoroutine()

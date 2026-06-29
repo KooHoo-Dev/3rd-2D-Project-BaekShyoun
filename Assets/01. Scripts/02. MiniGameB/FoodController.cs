@@ -19,7 +19,8 @@ namespace ObservedProject
 
         public void SetFood(Food food)
         {
-            foodImage.sprite = images[(int)food];
+            currentFood = food;
+            foodImage.sprite = images[(int)currentFood];
         }
 
         public void SetRandomFood()

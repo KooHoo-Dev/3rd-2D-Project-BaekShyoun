@@ -13,12 +13,6 @@ namespace ObservedProject
             foodController = GetComponentInChildren<FoodController>();
         }
         
-        private void Start()
-        {
-            customerFood.SetActive(false);
-            SetCustomerFood();
-        }
-
         public void SetCustomerFood()
         {
             customerFood.SetActive(true);

@@ -10,11 +10,15 @@ namespace ObservedProject
         public GameObject timer;
         public GameObject[] foodImages;
         private TimeController timeController;
+        public FoodController[] pickedFoods { get; private set; }
+        private MiniGameBManager gameManager;
         private int currentIndex;
 
         private void Awake()
         {
             timeController = timer.GetComponent<TimeController>();
+            gameManager = GetComponentInParent<MiniGameBManager>();
+            pickedFoods = new FoodController[foodImages.Length];
             SetAllFoodsInactive();
         }
 
@@ -27,11 +31,14 @@ namespace ObservedProject
             }
             while(true)
             {
-                for (int i = 0; i < foodImages.Length; ++i)
+                if (currentIndex >= foodImages.Length) break;
+                if (timeController.timeBar.value <= 0)
                 {
-                    SetPressedFood();
-                    yield return null;
+                    gameManager.EraseHeart();
+                    yield break;
                 }
+                SetPressedFood();
+                yield return null;
             }
         }
 
@@ -40,22 +47,26 @@ namespace ObservedProject
             if (SimpleInput.GetKeyDown(Key.Q))
             {
                 AddFood(FoodController.Food.QFood);
+                Debug.Log("Q");
             }
             else if (SimpleInput.GetKeyDown(Key.W))
             {
                 AddFood(FoodController.Food.WFood);
+                Debug.Log("W");
             }
             else if (SimpleInput.GetKeyDown(Key.E))
             {
                 AddFood(FoodController.Food.EFood);
+                Debug.Log("E");
             }
             else if (SimpleInput.GetKeyDown(Key.R))
             {
                 AddFood(FoodController.Food.RFood);
+                Debug.Log("R");
             }
         }
 
-        private void SetAllFoodsInactive()
+        public void SetAllFoodsInactive()
         {
             for (int i = 0; i < foodImages.Length; ++i)
             {
@@ -67,12 +78,23 @@ namespace ObservedProject
         {
             if (currentIndex >= foodImages.Length) return;
 
-            FoodController slotFood = foodImages[currentIndex].GetComponent<FoodController>();
+            pickedFoods[currentIndex] = foodImages[currentIndex].GetComponent<FoodController>();
 
             foodImages[currentIndex].SetActive(true);
-            slotFood.SetFood(food);
-
+            pickedFoods[currentIndex].SetFood(food);
             currentIndex++;
+
+            if (currentIndex >= foodImages.Length)
+            {
+                gameManager.CheckAnswers();
+            }
+        }
+
+        public void ResetFoodChoice()
+        {
+            currentIndex = 0;
+            SetAllFoodsInactive();
+            StopAllCoroutines();
         }
     }
 }
