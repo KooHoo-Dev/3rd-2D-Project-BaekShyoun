@@ -17,16 +17,7 @@ namespace ObservedProject
             Fresh,
             Rotten
         }
-
-        [Header("MeatButtons")]
-        public Button freshMeatButton;
-        public Button suspiciousMeatButton;
-        public Button rottenMeatButton;
-
-        [Header("WaterButtons")]
-        public Button freshWaterButton;
-        public Button rottenWaterButton;
-
+        
         [Header("DesireSettings")]
         public float meatIncreaseFullness = 0.2f;
         public float waterIncreaseHidration = 0.1f;
@@ -42,11 +33,9 @@ namespace ObservedProject
             // Rotten 비활성화 > 인벤 로직 짜기 전까진 각주 처리
             // RottenMeatButton.gameObject.SetActive(false);
             // RottenWaterButton.gameObject.SetActive(false);
-
-            SetButtons();
         }
 
-        private void HaveMeat(MeatType meatType)
+        public void HaveMeat(MeatType meatType)
         {
             EnoughFullnessOrHidration(gageController.fullnessBar);
             gageController.GageUpdate(gageController.fullnessBar, meatIncreaseFullness);
@@ -63,7 +52,7 @@ namespace ObservedProject
             }
         }
 
-        private void HaveWater(WaterType waterType)
+        public void HaveWater(WaterType waterType)
         {
             EnoughFullnessOrHidration(gageController.hidrationBar);
             gageController.GageUpdate(gageController.hidrationBar, waterIncreaseHidration);
@@ -88,15 +77,6 @@ namespace ObservedProject
         public void GaveBeastMeat()
         {
 
-        }
-
-        private void SetButtons()
-        {
-            freshMeatButton.onClick.AddListener(() => HaveMeat(MeatType.Fresh));
-            suspiciousMeatButton.onClick.AddListener(() => HaveMeat(MeatType.Suspicious));
-            rottenMeatButton.onClick.AddListener(() => HaveMeat(MeatType.Rotten));
-            freshWaterButton.onClick.AddListener(() => HaveWater(WaterType.Fresh));
-            rottenWaterButton.onClick.AddListener(() => HaveWater(WaterType.Rotten));
         }
     }
 }

@@ -15,12 +15,15 @@ namespace ObservedProject
         public Button noButton;
         public TextMeshProUGUI noText;
         public TurnController turnController;
-        private ScoreManagerGameB scoreB;
-        public int point;
 
         private void Update()
         {
             CheckPlayerState(CharacterMove.State.Back);
+            if (ScoreManagerGameB.Instance != null && ScoreManagerGameB.Instance.IsEndGame)
+            {
+                ScoreManagerGameB.Instance.IsEndGame = false;
+                turnController.OnPlayGame();
+            }
         }
 
         protected override void CheckPlayerState(CharacterMove.State state)
@@ -49,15 +52,6 @@ namespace ObservedProject
         {
             if (this.name == "GameA") SceneManager.LoadScene(2, LoadSceneMode.Additive);
             if (this.name == "GameB") SceneManager.LoadScene(3, LoadSceneMode.Additive);
-            turnController.OnPlayGame();
-            // 이렇게 하면 다 좋은데 게임 끝나고 턴 체크가 표시가 안됨...
-            // tab키(스테이터스 창)로 보완 가능하긴 하지만 추후 다시 와서 고민해보면 좋을듯
-        }
-
-        private int GetScore()
-        {
-            point += scoreB.finalScore;
-            return point;
         }
     }
 }

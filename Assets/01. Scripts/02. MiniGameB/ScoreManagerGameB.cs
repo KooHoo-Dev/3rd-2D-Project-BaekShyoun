@@ -5,23 +5,23 @@ namespace ObservedProject
 {
     public class ScoreManagerGameB : MonoBehaviour
     {
-        public GameObject scoreManager;
-        public MiniGameBManager gameManager;
+        public static ScoreManagerGameB Instance;
+        public bool IsEndGame;
         public int finalScore = 0;
 
         private void Awake()
         {
-            DontDestroyOnLoad(scoreManager);
+            if(Instance != null)
+            {
+                Destroy(gameObject);
+            }
+            Instance = this;
+            DontDestroyOnLoad(gameObject);
         }
 
-        private void Update()
+        public int SaveScore(int score)
         {
-            UpdateScore();
-        }
-
-        public int UpdateScore()
-        {
-            finalScore = gameManager.currentScore;
+            finalScore = score;
             return finalScore;
         }
     }

@@ -102,34 +102,27 @@ namespace ObservedProject
                 {
                     ScreenOn(playerInventoryScreen);
                     isInventoryOpen = true;
-                    eatButton.onClick.AddListener(ControlPopUpScreen);
-                    discardButton.onClick.AddListener(ControlPopUpScreen);
                 }
             }
             else
             {
                 if (SimpleInput.GetKeyDown(Key.I))
                 {
-                    InactivePlayerInventory();
+                    ScreenOff(playerInventoryScreen);
                     isInventoryOpen = false;
                 }
                 if (SimpleInput.GetKeyDown(Key.Escape))
-                    InactivePlayerInventory();
-                playerInventoryExitButton.onClick.AddListener(InactivePlayerInventory);
+                    ScreenOff(playerInventoryScreen);
+                playerInventoryExitButton.onClick.AddListener(() => ScreenOff(playerInventoryScreen));
             }
         } // x버튼이나 Esc로 닫았을 때 I를 누르면 입력이 한 번 씹힘 > 일단 다른 기능 추가 후 수정
-
-        private void InactivePlayerInventory()
-        {
-            ScreenOff(playerInventoryScreen);
-        }
 
         public void ActivePlayerInventoryInForce()
         {
             ScreenOn(playerInventoryScreen);
             if (SimpleInput.GetKeyDown(Key.I) || SimpleInput.GetKeyDown(Key.Escape))
                 ScreenOff(playerInventoryScreen);
-            playerInventoryExitButton.onClick.AddListener(InactivePlayerInventory);
+            playerInventoryExitButton.onClick.AddListener(()=>ScreenOff(playerInventoryScreen));
         }
 
         #endregion
@@ -177,7 +170,7 @@ namespace ObservedProject
             uiScreen.SetActive(true);
         }
 
-        private void ScreenOff(GameObject uiScreen)
+        public void ScreenOff(GameObject uiScreen)
         {
             uiScreen.SetActive(false);
         }

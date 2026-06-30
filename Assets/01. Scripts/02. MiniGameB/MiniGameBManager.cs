@@ -34,6 +34,8 @@ namespace ObservedProject
         private OrderTurn orderTurn;
         private FoodChoice foodChoice;
         private TimeController timeController;
+        private bool isOver = false;
+        private bool isSaved = false;
 
         private void Awake()
         {
@@ -53,6 +55,23 @@ namespace ObservedProject
         private void Start()
         {
             StartCoroutine(PressEnterToStart());
+        }
+
+        private void Update()
+        {
+            if(isOver)
+            {
+                if(SimpleInput.AnyKeyDown())
+                {
+                    if(isSaved == false)
+                    {
+                        isSaved = true;
+                        ScoreManagerGameB.Instance.SaveScore(currentScore);
+                        ScoreManagerGameB.Instance.IsEndGame = true;
+                    }
+                    SceneManager.UnloadSceneAsync(3);
+                }
+            }
         }
 
         private IEnumerator PressEnterToStart()
@@ -129,8 +148,7 @@ namespace ObservedProject
         private void GameOver()
         {
             GameOverText.gameObject.SetActive(true);
-            if(SimpleInput.AnyKeyDown())
-                SceneManager.UnloadSceneAsync(3);
+            isOver = true;
         }
         #endregion
     }

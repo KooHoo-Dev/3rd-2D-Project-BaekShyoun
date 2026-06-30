@@ -42,10 +42,16 @@ namespace ObservedProject
             if (this.name == "Bed(Under)")
                 CheckPlayerState(CharacterMove.State.Back);
             if (this.name == "Bed(Side)")
+            {
                 CheckPlayerState(CharacterMove.State.Right);
+                CheckPlayerState(CharacterMove.State.Back);
+            }
             if (this.name == "Bed(Upper)")
                 CheckPlayerState(CharacterMove.State.Front);
         }
+
+        // 근데 이거 문제가 잘까 안잘까를 먼저 물어봤어야 했는데 수면권 쓸까 말까만 물어봐버려서
+        // 유저를 강제로 잠들게 해버림. 팝업 두개로 해야 할듯?
 
         private void SetPopUpText()
         {
