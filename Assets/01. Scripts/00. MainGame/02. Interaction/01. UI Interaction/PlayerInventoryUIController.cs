@@ -4,7 +4,7 @@ using TMPro;
 
 namespace ObservedProject
 {
-    public class InventoryUIController : MonoBehaviour
+    public class PlayerInventoryUIController : MonoBehaviour
     {
         public Button[] itemButtons;
         public Button eatButton;
@@ -17,9 +17,11 @@ namespace ObservedProject
         public TextMeshProUGUI yesText;
         public Button noButton;
         public TextMeshProUGUI noText;
+        public TextMeshProUGUI currentPoint;
 
         private UIInteraction uiInteraction;
         private ItemController itemController;
+        private InventoryItemSystem inventoryItemSystem;
 
         private void Awake()
         {
@@ -27,6 +29,7 @@ namespace ObservedProject
             SetTextEmpty();
             uiInteraction = GetComponentInParent<UIInteraction>();
             itemController = GetComponentInParent<ItemController>();
+            inventoryItemSystem = GetComponentInParent<InventoryItemSystem>();
             yesText.text = "네";
             noText.text = "아니오";
         }
@@ -39,6 +42,11 @@ namespace ObservedProject
                 button.onClick.RemoveAllListeners();
                 button.onClick.AddListener(() => SetDescriptionWhenClick(button));
             }
+        }
+
+        private void Update()
+        {
+            currentPoint.text = $"{inventoryItemSystem.currentPoint}";
         }
 
         private void SetObjectsActive()
@@ -91,7 +99,7 @@ namespace ObservedProject
                     break;
                 case "신선한 물":
                     eatButtonText.text = "마시기";
-                    description.text = "신선한 물.\n마시면 목을 축일 수 있을 것 같다.";
+                    description.text = "마시기 좋은 물.\n목을 축일 수 있을 것 같다.";
                     InteractEatButton(itemName);
                     break;
                 case "썩은 물":
@@ -123,13 +131,13 @@ namespace ObservedProject
 
         private void SetEatPopUpText(string itemName)
         {
-            popUpText.text = $"아이템 {itemName}을/를 사용하겠습니까?";
+            popUpText.text = $"아이템 {itemName}을(를) 사용하겠습니까?";
             SetButtonEffect(itemName);
         }
 
         private void SetDiscardPopUpText(string itemName)
         {
-            popUpText.text = $"아이템 {itemName}을/를 버리겠습니까?";
+            popUpText.text = $"아이템 {itemName}을(를) 버리겠습니까?";
         }
 
         private void SetButtonEffect(string itemName)
