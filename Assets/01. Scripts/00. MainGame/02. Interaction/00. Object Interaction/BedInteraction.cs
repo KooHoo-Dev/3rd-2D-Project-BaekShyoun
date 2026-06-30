@@ -16,14 +16,6 @@ namespace ObservedProject
         public TextMeshProUGUI eventScript;
         public TurnController turnController;
 
-        private void Start()
-        {
-            yesButton.onClick.RemoveAllListeners();
-            yesButton.onClick.AddListener(InteractYesButton);
-            noButton.onClick.RemoveAllListeners();
-            noButton.onClick.AddListener(InteractNoButton);
-        }
-
         private void Update()
         {
             CheckPlayerPos();
@@ -35,6 +27,10 @@ namespace ObservedProject
             {
                 if (SimpleInput.GetKeyDown(Key.F))
                 {
+                    yesButton.onClick.RemoveAllListeners();
+                    yesButton.onClick.AddListener(InteractYesButton);
+                    noButton.onClick.RemoveAllListeners();
+                    noButton.onClick.AddListener(InteractNoButton);
                     SetPopUpText();
                     uiInteraction.ControlPopUpScreen();
                 }
@@ -60,12 +56,14 @@ namespace ObservedProject
 
         private void InteractYesButton()
         {
+            uiInteraction.ActiveEventScriptScreen();
             eventScript.text = "수면권을 1개 사용하여 당신은 깊은 수면에 빠졌습니다!";
             turnController.OnDeepSleep();
         }
 
         private void InteractNoButton()
         {
+            uiInteraction.ActiveEventScriptScreen();
             eventScript.text = "당신은 조금 불편한 잠을 청했습니다!";
             turnController.OnNormalSleep();
         }

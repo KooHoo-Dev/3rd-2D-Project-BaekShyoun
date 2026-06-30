@@ -72,6 +72,8 @@ namespace ObservedProject
             if (currentValue <= minAmount) currentValue = minAmount;
             bar.fillAmount = currentValue;
         }
+
+        
     
     }
 }

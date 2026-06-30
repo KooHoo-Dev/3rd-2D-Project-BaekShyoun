@@ -30,7 +30,7 @@ namespace ObservedProject
 
         private GameObject[] uiScreen;
         private TurnController turnController;
-        private bool isInventoryOpen = false;
+        public bool isInventoryOpen { get; private set; } = false;
 
         private void Awake()
         {
@@ -124,6 +124,14 @@ namespace ObservedProject
             ScreenOff(playerInventoryScreen);
         }
 
+        public void ActivePlayerInventoryInForce()
+        {
+            ScreenOn(playerInventoryScreen);
+            if (SimpleInput.GetKeyDown(Key.I) || SimpleInput.GetKeyDown(Key.Escape))
+                ScreenOff(playerInventoryScreen);
+            playerInventoryExitButton.onClick.AddListener(InactivePlayerInventory);
+        }
+
         #endregion
 
         #region Exchange Inventory Screen
@@ -164,7 +172,7 @@ namespace ObservedProject
         #endregion
 
 
-        private void ScreenOn(GameObject uiScreen)
+        public void ScreenOn(GameObject uiScreen)
         {
             uiScreen.SetActive(true);
         }

@@ -18,12 +18,6 @@ namespace ObservedProject
         private ScoreManagerGameB scoreB;
         public int point;
 
-        private void Start()
-        {
-            yesButton.onClick.RemoveAllListeners();
-            yesButton.onClick.AddListener(InteractYesButton);
-        }
-
         private void Update()
         {
             CheckPlayerState(CharacterMove.State.Back);
@@ -35,6 +29,9 @@ namespace ObservedProject
             {
                 if (SimpleInput.GetKeyDown(Key.F))
                 {
+                    yesButton.onClick.RemoveAllListeners();
+                    yesButton.onClick.AddListener(InteractYesButton);
+                    noButton.onClick.RemoveAllListeners();
                     uiInteraction.ControlPopUpScreen();
                     SetPopUpText();
                 }

@@ -6849,7 +6849,6 @@ GameObject:
   - component: {fileID: 1152060237}
   - component: {fileID: 1152060239}
   - component: {fileID: 1152060238}
-  - component: {fileID: 1152060240}
   m_Layer: 5
   m_Name: EventScriptImage
   m_TagString: Untagged
@@ -6915,19 +6914,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152060236}
   m_CullTransparentMesh: 1
---- !u!114 &1152060240
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1152060236}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 82cb080cd2217ad4984e0bee24dfc41d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::EventScriptManager
-  eventScriptText: {fileID: 1373965469}
 --- !u!1 &1194459604
 GameObject:
   m_ObjectHideFlags: 0
@@ -7665,6 +7651,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.BeastInteraction
   player: {fileID: 282380402}
   uiInteract: {fileID: 289824754}
+  beastController: {fileID: 1643105498}
+  popUpText: {fileID: 1593439928}
+  yesButton: {fileID: 1295800035}
+  yesText: {fileID: 858225201}
+  noButton: {fileID: 478857706}
+  noText: {fileID: 657286042}
 --- !u!1 &1269997867
 GameObject:
   m_ObjectHideFlags: 0
@@ -9004,6 +8996,7 @@ MonoBehaviour:
   TimeCheckInStatus: {fileID: 1670476721}
   TurnCount: 1
   MeatOrWaterDecreaseEnergy: 0.1
+  beastController: {fileID: 1643105498}
   isTimeFlow: 0
 --- !u!1 &1484184684
 GameObject:
@@ -10299,6 +10292,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1643105496}
   - component: {fileID: 1643105497}
+  - component: {fileID: 1643105498}
   m_Layer: 0
   m_Name: SpawnedBeast
   m_TagString: Untagged
@@ -10380,6 +10374,23 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
+--- !u!114 &1643105498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1643105495}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88927d89101f7fe469a6a157a7838bf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BeastController
+  escapeDesire: 0
+  attackPercentage: 0
+  turnIncreaseEscape: 20
+  feedDecreaseEscape: 10
+  feedIncreaseAttack: 5
 --- !u!1 &1647040537
 GameObject:
   m_ObjectHideFlags: 0
