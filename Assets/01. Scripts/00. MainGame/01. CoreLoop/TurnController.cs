@@ -9,15 +9,10 @@ namespace ObservedProject
         [Header("TimeSettings")]
         public TextMeshProUGUI TimeCheck;
         public TextMeshProUGUI TimeCheckInStatus;
-        public Button[] GameButtons;
         public int TurnCount = 1;
         private int dayCount;
         private string[] Hours = { "00:00", "03:00", "06:00", "09:00", "12:00", "15:00", "18:00", "21:00" };
         private int currentHourIndex;
-
-        [Header("SleepButtons")]
-        public Button NormalSleepButton;
-        public Button DeepSleepButton;
 
         [Header("BecomeZeroValue")]
         public float MeatOrWaterDecreaseEnergy = 0.1f;
@@ -36,13 +31,6 @@ namespace ObservedProject
             currentHourIndex = 0;
 
             SetText();
-
-            for (int i = 0; i < GameButtons.Length; i++)
-            {
-                GameButtons[i].onClick.AddListener(OnPlayGame);
-            }
-            NormalSleepButton.onClick.AddListener(OnNormalSleep);
-            DeepSleepButton.onClick.AddListener(OnDeepSleep);
         }
 
         private void FlowTime(int skipTime)
@@ -62,19 +50,19 @@ namespace ObservedProject
             BecomeZeroValue(gageController.hidrationBar, skipTime);
         }
 
-        private void OnPlayGame()
+        public void OnPlayGame()
         {
             FlowTime(1);
             gageController.PlayGame();
         }
 
-        private void OnNormalSleep()
+        public void OnNormalSleep()
         {
             FlowTime(2);
             gageController.HaveNormalSleep();
         }
 
-        private void OnDeepSleep()
+        public void OnDeepSleep()
         {
             FlowTime(2);
             gageController.HaveDeepSleep();

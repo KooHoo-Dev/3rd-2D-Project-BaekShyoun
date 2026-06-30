@@ -1057,7 +1057,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -100
+  m_SortingOrder: 100
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
   m_Color: {r: 0, g: 0, b: 0, a: 1}
@@ -1600,7 +1600,6 @@ GameObject:
   m_Component:
   - component: {fileID: 857654098}
   - component: {fileID: 857654097}
-  - component: {fileID: 857654096}
   - component: {fileID: 857654099}
   m_Layer: 0
   m_Name: Main Camera
@@ -1609,14 +1608,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!81 &857654096
-AudioListener:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 857654095}
-  m_Enabled: 1
 --- !u!20 &857654097
 Camera:
   m_ObjectHideFlags: 0
@@ -2131,7 +2122,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: 90
+  m_SortingOrder: 300
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7114462918759368495, guid: 40355273d3a8ecb48ae80289a43dd7a4, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -2864,7 +2855,7 @@ SpriteRenderer:
   m_GlobalIlluminationMeshLod: 0
   m_SortingLayerID: 0
   m_SortingLayer: 0
-  m_SortingOrder: -90
+  m_SortingOrder: 200
   m_MaskInteraction: 0
   m_Sprite: {fileID: -3811555975539286577, guid: 902846c97d3397640a9629db88dfa179, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -3519,7 +3510,6 @@ RectTransform:
   - {fileID: 1249624126}
   - {fileID: 594848645}
   - {fileID: 158770978}
-  - {fileID: 2044719244}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
@@ -4142,11 +4132,11 @@ Transform:
   m_GameObject: {fileID: 2044719243}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 960, y: 540, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1794737321}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &2044719245
 MonoBehaviour:
@@ -4161,6 +4151,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManagerr
   scoreManager: {fileID: 2044719243}
+  gameManager: {fileID: 1794737322}
   finalScore: 0
 --- !u!1 &2069674341
 GameObject:
@@ -4301,4 +4292,5 @@ SceneRoots:
   - {fileID: 1002186921}
   - {fileID: 1568761105}
   - {fileID: 1794737321}
+  - {fileID: 2044719244}
   - {fileID: 924741022}

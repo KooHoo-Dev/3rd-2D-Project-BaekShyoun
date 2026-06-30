@@ -6,12 +6,11 @@ namespace ObservedProject
     public class ScoreManagerGameB : MonoBehaviour
     {
         public GameObject scoreManager;
-        private MiniGameBManager gameManager;
+        public MiniGameBManager gameManager;
         public int finalScore = 0;
 
         private void Awake()
         {
-            gameManager = scoreManager.GetComponentInParent<MiniGameBManager>();
             DontDestroyOnLoad(scoreManager);
         }
 

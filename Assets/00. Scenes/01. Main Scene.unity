@@ -130,7 +130,6 @@ GameObject:
   - component: {fileID: 2856508}
   - component: {fileID: 2856509}
   - component: {fileID: 2856510}
-  - component: {fileID: 2856511}
   m_Layer: 0
   m_Name: GameD
   m_TagString: InteractiveObject
@@ -258,20 +257,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &2856511
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2856507}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 618f763be87fccb46b22c1de3a6a52e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.MiniGameInteraction
-  player: {fileID: 282380402}
-  uiInteract: {fileID: 289824754}
 --- !u!1 &6368988
 GameObject:
   m_ObjectHideFlags: 0
@@ -1139,6 +1124,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.BedInteraction
   player: {fileID: 282380402}
   uiInteract: {fileID: 289824754}
+  popUpText: {fileID: 1593439928}
+  yesButton: {fileID: 1295800035}
+  yesText: {fileID: 858225201}
+  noButton: {fileID: 478857706}
+  noText: {fileID: 657286042}
+  eventScript: {fileID: 1373965469}
+  turnController: {fileID: 1458262910}
 --- !u!1 &161814927
 GameObject:
   m_ObjectHideFlags: 0
@@ -1429,6 +1421,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.BedInteraction
   player: {fileID: 282380402}
   uiInteract: {fileID: 289824754}
+  popUpText: {fileID: 1593439928}
+  yesButton: {fileID: 1295800035}
+  yesText: {fileID: 858225201}
+  noButton: {fileID: 478857706}
+  noText: {fileID: 657286042}
+  eventScript: {fileID: 1373965469}
+  turnController: {fileID: 1458262910}
 --- !u!1 &207076332
 GameObject:
   m_ObjectHideFlags: 0
@@ -5197,7 +5196,6 @@ GameObject:
   - component: {fileID: 818842766}
   - component: {fileID: 818842767}
   - component: {fileID: 818842768}
-  - component: {fileID: 818842769}
   m_Layer: 0
   m_Name: GameA
   m_TagString: InteractiveObject
@@ -5325,20 +5323,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &818842769
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 818842765}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 618f763be87fccb46b22c1de3a6a52e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.MiniGameInteraction
-  player: {fileID: 282380402}
-  uiInteract: {fileID: 289824754}
 --- !u!1 &848199194
 GameObject:
   m_ObjectHideFlags: 0
@@ -6198,6 +6182,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.MiniGameInteraction
   player: {fileID: 282380402}
   uiInteract: {fileID: 289824754}
+  popUpText: {fileID: 1593439928}
+  yesButton: {fileID: 1295800035}
+  yesText: {fileID: 858225201}
+  noButton: {fileID: 478857706}
+  noText: {fileID: 657286042}
+  turnController: {fileID: 1458262910}
+  point: 0
 --- !u!1 &1060042139
 GameObject:
   m_ObjectHideFlags: 0
@@ -9011,12 +9002,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.TurnController
   TimeCheck: {fileID: 1871000767}
   TimeCheckInStatus: {fileID: 1670476721}
-  GameButtons:
-  - {fileID: 1851743914}
-  - {fileID: 1999588144}
   TurnCount: 1
-  NormalSleepButton: {fileID: 1060042141}
-  DeepSleepButton: {fileID: 1817818266}
   MeatOrWaterDecreaseEnergy: 0.1
   isTimeFlow: 0
 --- !u!1 &1484184684
@@ -9940,6 +9926,13 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.BedInteraction
   player: {fileID: 282380402}
   uiInteract: {fileID: 289824754}
+  popUpText: {fileID: 1593439928}
+  yesButton: {fileID: 1295800035}
+  yesText: {fileID: 858225201}
+  noButton: {fileID: 478857706}
+  noText: {fileID: 657286042}
+  eventScript: {fileID: 1373965469}
+  turnController: {fileID: 1458262910}
 --- !u!1 &1589002542
 GameObject:
   m_ObjectHideFlags: 0
@@ -11912,7 +11905,6 @@ GameObject:
   - component: {fileID: 1886827320}
   - component: {fileID: 1886827321}
   - component: {fileID: 1886827322}
-  - component: {fileID: 1886827323}
   m_Layer: 0
   m_Name: GameC
   m_TagString: InteractiveObject
@@ -12040,20 +12032,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1, y: 1}
   m_EdgeRadius: 0
---- !u!114 &1886827323
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1886827319}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 618f763be87fccb46b22c1de3a6a52e4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.MiniGameInteraction
-  player: {fileID: 282380402}
-  uiInteract: {fileID: 289824754}
 --- !u!1 &1887058184
 GameObject:
   m_ObjectHideFlags: 0
@@ -13446,6 +13424,6 @@ SceneRoots:
   - {fileID: 669658065}
   - {fileID: 1194459605}
   - {fileID: 282380403}
-  - {fileID: 1589002544}
   - {fileID: 83212245}
+  - {fileID: 1589002544}
   - {fileID: 644896088}
