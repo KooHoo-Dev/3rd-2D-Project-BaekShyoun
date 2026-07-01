@@ -17,7 +17,6 @@ namespace ObservedProject
         public TextMeshProUGUI yesText;
         public Button noButton;
         public TextMeshProUGUI noText;
-        public TextMeshProUGUI currentPoint;
 
         private UIInteraction uiInteraction;
         private ItemController itemController;
@@ -42,11 +41,6 @@ namespace ObservedProject
                 button.onClick.RemoveAllListeners();
                 button.onClick.AddListener(() => SetDescriptionWhenClick(button));
             }
-        }
-
-        private void Update()
-        {
-            currentPoint.text = $"{inventoryItemSystem.currentPoint}";
         }
 
         private void SetObjectsActive()
@@ -143,9 +137,9 @@ namespace ObservedProject
         private void SetButtonEffect(string itemName)
         {
             yesButton.onClick.RemoveAllListeners();
-            switch(itemName)
+            switch (itemName)
             {
-                case "신선한 고기":
+                case "신선한 고기": // 0 3 4 1 5
                     yesButton.onClick.AddListener(() => itemController.HaveMeat(ItemController.MeatType.Fresh));
                     break;
                 case "수상한 고기":
@@ -161,7 +155,7 @@ namespace ObservedProject
                     yesButton.onClick.AddListener(() => itemController.HaveWater(ItemController.WaterType.Rotten));
                     break;
             }
-            yesButton.onClick.AddListener(() => uiInteraction.ScreenOff(uiInteraction.popUpScreen));
+            
         }
     }
 }

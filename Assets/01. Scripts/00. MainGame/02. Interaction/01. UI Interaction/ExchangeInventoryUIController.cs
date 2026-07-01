@@ -69,25 +69,25 @@ namespace ObservedProject
             {
                 case "FreshMeat":
                     description.text = "<b>신선한 고기</b>\n먹기 좋아보이는 고기.\n상태는 신선해 보인다.";
-                    priceText.text = $"{inventoryItemSystem.freshMeatPrice}";
+                    priceText.text = $"{inventoryItemSystem.freshMeatPrice} pt";
                     SetPopUpText("신선한 고기");
                     yesButton.onClick.AddListener(inventoryItemSystem.BuyFreshMeat);
                     break;
                 case "SuspiciousMeat":
                     description.text = "<b>수상한 고기</b>\n난생 처음 본 고기.\n맛은 좀 이상하지만 그래도 배는 찬다.";
-                    priceText.text = $"{inventoryItemSystem.suspiciousMeatPrice}";
+                    priceText.text = $"{inventoryItemSystem.suspiciousMeatPrice} pt";
                     SetPopUpText("수상한 고기");
                     yesButton.onClick.AddListener(inventoryItemSystem.BuySuspiciousMeat);
                     break;
                 case "FreshWater":
                     description.text = "<b>신선한 물</b>\n마시기 좋은 물.\n목을 축일 수 있을 것 같다.";
-                    priceText.text = $"{inventoryItemSystem.freshWaterPrice}";
+                    priceText.text = $"{inventoryItemSystem.freshWaterPrice} pt";
                     SetPopUpText("신선한 물");
                     yesButton.onClick.AddListener(inventoryItemSystem.BuyFreshWater);
                     break;
                 case "SleepTicket":
                     description.text = "<b>수면권</b>\n침대 옆 단말기에 사용하면\n조금 더 편히 잘 수 있을 것 같다.";
-                    priceText.text = $"{inventoryItemSystem.sleepTicketPrice}";
+                    priceText.text = $"{inventoryItemSystem.sleepTicketPrice} pt";
                     SetPopUpText("수면권");
                     yesButton.onClick.AddListener(inventoryItemSystem.BuySleepTicket);
                     break;

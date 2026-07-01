@@ -65,6 +65,12 @@ namespace ObservedProject
 
         #region Event Script Screen
 
+        public void ControlEventScript()
+        {
+            ActiveEventScriptScreen();
+            InactiveEventScriptScreen();
+        }
+
         public void ActiveEventScriptScreen()
         {
             ScreenOn(eventScriptScreen);

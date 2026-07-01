@@ -3260,7 +3260,6 @@ GameObject:
   - component: {fileID: 449088612}
   - component: {fileID: 449088614}
   - component: {fileID: 449088613}
-  - component: {fileID: 449088615}
   m_Layer: 5
   m_Name: PopUpImage
   m_TagString: Untagged
@@ -3328,18 +3327,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 449088611}
   m_CullTransparentMesh: 1
---- !u!114 &449088615
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 449088611}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 7597b38dfe6e3334aae5239f10379894, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::PopUpScriptManager
 --- !u!1 &450559444
 GameObject:
   m_ObjectHideFlags: 0
@@ -7391,6 +7378,7 @@ GameObject:
   - component: {fileID: 1152060237}
   - component: {fileID: 1152060239}
   - component: {fileID: 1152060238}
+  - component: {fileID: 1152060240}
   m_Layer: 5
   m_Name: EventScriptImage
   m_TagString: Untagged
@@ -7456,6 +7444,29 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1152060236}
   m_CullTransparentMesh: 1
+--- !u!223 &1152060240
+Canvas:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1152060236}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_RenderMode: 2
+  m_Camera: {fileID: 0}
+  m_PlaneDistance: 100
+  m_PixelPerfect: 0
+  m_ReceivesEvents: 1
+  m_OverrideSorting: 1
+  m_OverridePixelPerfect: 0
+  m_SortingBucketNormalizedSize: 0
+  m_VertexColorAlwaysGammaSpace: 0
+  m_AdditionalShaderChannelsFlag: 0
+  m_UpdateRectTransformForStandalone: 0
+  m_SortingLayerID: 0
+  m_SortingOrder: 10
+  m_TargetDisplay: 0
 --- !u!1 &1194459604
 GameObject:
   m_ObjectHideFlags: 0
@@ -9700,13 +9711,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9d2a9921f5b94e54ca86d90678722430, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::inventorySystem
-  currentPoint: 0
+  currentPoint: 1000
   freshMeatCount: 0
   suspiciousMeatCount: 0
   rottenMeatCount: 0
   freshWaterCount: 0
   rottenWaterCount: 0
   sleepTicketCount: 0
+  countTexts:
+  - {fileID: 1920220053}
+  - {fileID: 227932393}
+  - {fileID: 853355603}
+  - {fileID: 2140416524}
+  - {fileID: 597418643}
+  - {fileID: 1423799642}
+  currentPointText: {fileID: 2094205427}
   freshMeatPrice: 200
   freshWaterPrice: 100
   suspiciousMeatPrice: 50
@@ -13090,7 +13109,6 @@ MonoBehaviour:
   yesText: {fileID: 858225201}
   noButton: {fileID: 478857706}
   noText: {fileID: 657286042}
-  currentPoint: {fileID: 2094205427}
 --- !u!1 &1920220051
 GameObject:
   m_ObjectHideFlags: 0

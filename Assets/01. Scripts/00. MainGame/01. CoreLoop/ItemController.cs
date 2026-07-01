@@ -29,10 +29,6 @@ namespace ObservedProject
         {
             gageController = GetComponent<GageController>();
             diseaseController = GetComponent<DiseaseController>();
-
-            // Rotten 비활성화 > 인벤 로직 짜기 전까진 각주 처리
-            // RottenMeatButton.gameObject.SetActive(false);
-            // RottenWaterButton.gameObject.SetActive(false);
         }
 
         public void HaveMeat(MeatType meatType)
@@ -74,7 +70,7 @@ namespace ObservedProject
             }
         }
 
-        public void GaveBeastMeat()
+        public void GaveBeastMeat(MeatType meatType)
         {
 
         }
