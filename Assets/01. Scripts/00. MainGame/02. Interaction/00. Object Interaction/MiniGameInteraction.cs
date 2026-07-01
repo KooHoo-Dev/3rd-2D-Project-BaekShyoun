@@ -15,6 +15,8 @@ namespace ObservedProject
         public Button noButton;
         public TextMeshProUGUI noText;
         public TurnController turnController;
+        public InventoryItemSystem inventoryItemSystem;
+        public int getPoint;
 
         private void Update()
         {
@@ -23,6 +25,9 @@ namespace ObservedProject
             {
                 ScoreManagerGameB.Instance.IsEndGame = false;
                 turnController.OnPlayGame();
+                getPoint = ScoreManagerGameB.Instance.finalScore;
+                inventoryItemSystem.currentPoint += getPoint;
+                inventoryItemSystem.currentPointText.text = $"{inventoryItemSystem.currentPoint} pt";
             }
         }
 
@@ -48,6 +53,7 @@ namespace ObservedProject
             noText.text = "아니오";
         }
 
+        // 씬 불러오는 동안 메인 씬 ui 상호작용 전부 작동하지 않게 하는 방법 생각해보기 (나중에)
         private void InteractYesButton()
         {
             if (this.name == "GameA") SceneManager.LoadScene(2, LoadSceneMode.Additive);

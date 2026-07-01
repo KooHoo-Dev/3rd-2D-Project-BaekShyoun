@@ -1,3 +1,4 @@
+using NUnit.Framework.Constraints;
 using Study.Utilities;
 using System.Collections;
 using UnityEngine;
@@ -30,11 +31,15 @@ namespace ObservedProject
 
         private GameObject[] uiScreen;
         private TurnController turnController;
+        private PlayerInventoryUIController playerInventory;
         public bool isInventoryOpen { get; private set; } = false;
+        public bool isPopUpOpen { get; private set; } = false;
+        public bool isTurnCheckOpen { get; private set; } = false;
 
         private void Awake()
         {
             turnController = GetComponentInParent<TurnController>();
+            playerInventory = GetComponentInChildren<PlayerInventoryUIController>(true);
         }
 
         private void Start()
@@ -44,6 +49,7 @@ namespace ObservedProject
             {
                 uiScreen[i].SetActive(false);
             }
+            playerInventoryExitButton.onClick.AddListener(CloseInventoryByButton);
         }
 
         private void Update()
@@ -89,8 +95,9 @@ namespace ObservedProject
 
         private void ControlTurnCheckScreen()
         {
-            if (turnController.isTimeFlow)
+            if (turnController.isTimeFlow && isTurnCheckOpen == false)
             {
+                isTurnCheckOpen = true;
                 ScreenOn(turnCheckScreen);
                 StartCoroutine(TurnCheckScreenOffCoroutine());
             }
@@ -102,10 +109,14 @@ namespace ObservedProject
 
         private void ControlPlayerInventoryScreen()
         {
+            if (isPopUpOpen)
+                return;
             if (isInventoryOpen == false)
             {
                 if (SimpleInput.GetKeyDown(Key.I))
                 {
+                    playerInventory.SetObjectsInactive();
+                    playerInventory.isBeastInventory = false;
                     ScreenOn(playerInventoryScreen);
                     isInventoryOpen = true;
                 }
@@ -118,13 +129,24 @@ namespace ObservedProject
                     isInventoryOpen = false;
                 }
                 if (SimpleInput.GetKeyDown(Key.Escape))
+                {
                     ScreenOff(playerInventoryScreen);
-                playerInventoryExitButton.onClick.AddListener(() => ScreenOff(playerInventoryScreen));
+                    isInventoryOpen = false;
+                }
             }
-        } // x버튼이나 Esc로 닫았을 때 I를 누르면 입력이 한 번 씹힘 > 일단 다른 기능 추가 후 수정
+        }
+
+        private void CloseInventoryByButton()
+        {
+            ScreenOff(playerInventoryScreen);
+            isInventoryOpen = false;
+        }
 
         public void ActivePlayerInventoryInForce()
         {
+            if (isPopUpOpen)
+                return;
+            playerInventory.SetObjectsInactive();
             ScreenOn(playerInventoryScreen);
             if (SimpleInput.GetKeyDown(Key.I) || SimpleInput.GetKeyDown(Key.Escape))
                 ScreenOff(playerInventoryScreen);
@@ -137,6 +159,9 @@ namespace ObservedProject
 
         public void ControlExchangeInventoryScreen()
         {
+            if (isPopUpOpen)
+                return;
+
             ScreenOn(exchangeInventoryScreen);
             exchangeInventoryExitButton.onClick.AddListener(CloseExchangeInventoryByButton);
             exchangePurchaseButton.onClick.AddListener(ControlPopUpScreen);
@@ -157,17 +182,29 @@ namespace ObservedProject
 
         #region Pop-up Screen
 
+        public void OpenPopUp()
+        {
+            isPopUpOpen = true;
+            ScreenOn(popUpScreen);
+        }
+
         public void ControlPopUpScreen()
         {
-            ScreenOn(popUpScreen);
+            OpenPopUp();
             for (int i = 0; i < popUpButtons.Length; ++i)
-                popUpButtons[i].onClick.AddListener(ClosePopUpByButton);
-        } // 이후 Text 수정 필요
+            {
+                popUpButtons[i].onClick.AddListener(ClosePopUp);
+            }    
+                
+        }
 
-        private void ClosePopUpByButton()
+        public void ClosePopUp()
         {
+            isPopUpOpen = false;
             ScreenOff(popUpScreen);
         }
+
+
         #endregion
 
 
@@ -186,6 +223,7 @@ namespace ObservedProject
             yield return new WaitForSeconds(3.0f);
             ScreenOff(turnCheckScreen);
             turnController.isTimeFlow = false;
+            isTurnCheckOpen = false;
         }
     }
 }

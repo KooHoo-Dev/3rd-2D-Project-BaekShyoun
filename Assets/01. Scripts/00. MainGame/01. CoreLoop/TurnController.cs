@@ -28,7 +28,6 @@ namespace ObservedProject
         {
             gageController = GetComponent<GageController>();
             diseaseController = GetComponent<DiseaseController>();
-            beastController = GetComponent<BeastController>();
             dayCount = 1;
             currentHourIndex = 0;
 
@@ -47,7 +46,7 @@ namespace ObservedProject
             turnCount++;
             SetText();
             isTimeFlow = true;
-            //beastController.ChangedTurn(skipTime);
+            beastController.ChangedTurn(skipTime);
             BecomeZeroValue(gageController.fullnessBar, skipTime);
             BecomeZeroValue(gageController.hidrationBar, skipTime);
         }

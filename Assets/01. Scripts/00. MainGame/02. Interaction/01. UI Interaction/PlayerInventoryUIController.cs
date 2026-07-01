@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 using UnityEditor;
+using Unity.VisualScripting;
 
 namespace ObservedProject
 {
@@ -21,6 +22,8 @@ namespace ObservedProject
 
         private UIInteraction uiInteraction;
         private ItemController itemController;
+        private InventoryItemSystem inventoryItemSystem;
+        public BeastController beastController;
         public bool isBeastInventory =false;
 
 
@@ -30,28 +33,30 @@ namespace ObservedProject
             SetTextEmpty();
             uiInteraction = GetComponentInParent<UIInteraction>();
             itemController = GetComponentInParent<ItemController>();
+            inventoryItemSystem = GetComponentInParent<InventoryItemSystem>();
             yesText.text = "네";
             noText.text = "아니오";
         }
 
         private void Start()
         {
+            SetObjectsInactive();
+            SetTextEmpty();
             for (int i = 0; i < itemButtons.Length; ++i)
             {
                 Button button = itemButtons[i];
                 button.onClick.RemoveAllListeners();
-                if(isBeastInventory)
+                button.onClick.AddListener(() =>
                 {
-                    button.onClick.AddListener(() => SetButtonsForBeast(button));
-                }
-                else
-                {
-                    button.onClick.AddListener(() => SetDescriptionWhenClick(button));
-                }
+                    if (isBeastInventory)
+                        SetButtonsForBeast(button);
+                    else
+                        SetDescriptionWhenClick(button);
+                });
             }
         }
 
-        #region 상태 관리
+        #region 오브젝트 상태 관리
         private void SetObjectsActive()
         {
             eatButton.gameObject.SetActive(true);
@@ -59,7 +64,7 @@ namespace ObservedProject
             description.gameObject.SetActive(true);
         }
 
-        private void SetObjectsInactive()
+        public void SetObjectsInactive()
         {
             eatButton.gameObject.SetActive(false);
             discardButton.gameObject.SetActive(false);
@@ -78,6 +83,9 @@ namespace ObservedProject
         #region ForPlayer
         private void SetDescriptionWhenClick(Button button)
         {
+            eatButton.onClick.RemoveAllListeners();
+            discardButton.onClick.RemoveAllListeners();
+
             SetObjectsActive();
             SetTextEmpty();
 
@@ -123,12 +131,14 @@ namespace ObservedProject
 
         private void InteractEatButton(string itemName)
         {
+            eatButton.onClick.RemoveAllListeners();
             eatButton.onClick.AddListener(uiInteraction.ControlPopUpScreen);
             eatButton.onClick.AddListener(()=>SetEatPopUpText(itemName));
         }
 
         private void InteractDiscardButton(string itemName)
         {
+            discardButton.onClick.RemoveAllListeners();
             discardButton.onClick.AddListener(uiInteraction.ControlPopUpScreen);
             discardButton.onClick.AddListener(()=>SetDiscardPopUpText(itemName));
         }
@@ -150,32 +160,63 @@ namespace ObservedProject
             switch (itemName)
             {
                 case "신선한 고기": // 0 3 4 1 5
-                    yesButton.onClick.AddListener(() => itemController.HaveMeat(ItemController.MeatType.Fresh));
+                    yesButton.onClick.AddListener(() =>
+                    {
+                        if (inventoryItemSystem.DecreaseItem(0))
+                        {
+                            itemController.HaveMeat(ItemController.MeatType.Fresh);
+                        }
+                    });
                     break;
                 case "수상한 고기":
-                    yesButton.onClick.AddListener(() => itemController.HaveMeat(ItemController.MeatType.Suspicious));
+                    yesButton.onClick.AddListener(() =>
+                    {
+                        if (inventoryItemSystem.DecreaseItem(3))
+                        {
+                            itemController.HaveMeat(ItemController.MeatType.Suspicious);
+                        }
+                    });
                     break;
                 case "부패한 고기":
-                    yesButton.onClick.AddListener(() => itemController.HaveMeat(ItemController.MeatType.Rotten));
+                    yesButton.onClick.AddListener(() =>
+                    {
+                        if (inventoryItemSystem.DecreaseItem(4))
+                        {
+                            itemController.HaveMeat(ItemController.MeatType.Rotten);
+                        }
+                    });
                     break;
                 case "신선한 물":
-                    yesButton.onClick.AddListener(() => itemController.HaveWater(ItemController.WaterType.Fresh));
+                    yesButton.onClick.AddListener(() =>
+                    {
+                        if (inventoryItemSystem.DecreaseItem(1))
+                        {
+                            itemController.HaveWater(ItemController.WaterType.Fresh);
+                        }
+                    });
                     break;
                 case "썩은 물":
-                    yesButton.onClick.AddListener(() => itemController.HaveWater(ItemController.WaterType.Rotten));
+                    yesButton.onClick.AddListener(() =>
+                    {
+                        if (inventoryItemSystem.DecreaseItem(5))
+                        {
+                            itemController.HaveWater(ItemController.WaterType.Rotten);
+                        }
+                    });
                     break;
             }
+            yesButton.onClick.AddListener(uiInteraction.ClosePopUp);
         }
+
         #endregion
-        // SetDescriptionWhenClick > 기본적인 문구 바꾸고 버튼 텍스트 변경 이후 eatbutton에 연결(InteractEatButton)
-        // InteractEatButton > eat 버튼이 눌렸을 시 팝업이 뜨고(SetEatPopUPText) 다시 팝업 상호작용(SetButtonEffect)으로 이동
-        // SetButtonEffect > yes버튼을 누르게 될때 어떤 효과가 있을지 확인할 수 있다. (Beast의 경우 BeastController의 내용을 관리)
 
         #region ForBeast
 
-
         private void SetButtonsForBeast(Button button)
         {
+            eatButton.onClick.RemoveAllListeners();
+            discardButton.onClick.RemoveAllListeners();
+
             SetObjectsActive();
             SetTextEmpty();
             discardButton.gameObject.SetActive(false);
@@ -183,24 +224,71 @@ namespace ObservedProject
             switch (itemName)
             {
                 case "신선한 물" or "수면권" or "썩은 물":
-                    description.text = "해당 아이템은 맹수에게 급여할 수 없습니다!";
+                    description.text = "해당 아이템은 맹수에게 급여할 수 없다.";
                     eatButton.gameObject.SetActive(false);
                     break;
-                case "신선한 고기" or "수상한 고기" or "부패한 고기":
+                case "신선한 고기":
                     eatButtonText.text = "먹이기";
-                    SetFeedPopUpText(itemName);
-                    eatButton.onClick.AddListener(uiInteraction.ControlEventScript);
+                    description.text = "맹수가 가장 좋아할 것 같은 고기다.";
+                    InteractFeedButton(itemName);
+                    break;
+                case "수상한 고기" or "부패한 고기":
+                    eatButtonText.text = "먹이기";
+                    description.text = "줘서 좋을 게 없을 듯하지만\n급한 불은 끌 수 있을 것 같다.";
+                    InteractFeedButton(itemName);
                     break;
             }
+        }
+
+        private void InteractFeedButton(string itemName)
+        {
+            eatButton.onClick.RemoveAllListeners();
+            eatButton.onClick.AddListener(uiInteraction.ControlPopUpScreen);
+            eatButton.onClick.AddListener(() => SetFeedPopUpText(itemName));
+
         }
         private void SetFeedPopUpText(string itemName)
         {
             popUpText.text = $"{itemName}을(를) 맹수에게 건네겠습니까?";
+            SetBeastButtonEffect(itemName);
         }
 
-        private void SetBeastButtonEffect()
+        private void SetBeastButtonEffect(string itemName)
         {
-
+            yesButton.onClick.RemoveAllListeners();
+            Debug.Log($"itemName: {itemName}");
+            Debug.Log($"beastController: {beastController}");
+            switch (itemName)
+            {
+                case "신선한 고기":
+                    yesButton.onClick.AddListener(() =>
+                    {
+                        if (inventoryItemSystem.DecreaseItem(0))
+                        {
+                            beastController.FeedFreshMeat();
+                        }
+                    });
+                    break;
+                case "수상한 고기":
+                    yesButton.onClick.AddListener(() =>
+                    { 
+                        if(inventoryItemSystem.DecreaseItem(3))
+                        {
+                            beastController.FeedOtherMeat();
+                        }
+                    });
+                    break;
+                case "부패한 고기":
+                    yesButton.onClick.AddListener(() =>
+                    { 
+                        if(inventoryItemSystem.DecreaseItem(4))
+                        {
+                            beastController.FeedOtherMeat();
+                        }
+                    });
+                    break;
+            }
+            yesButton.onClick.AddListener(uiInteraction.ClosePopUp);
         }
         #endregion
     }

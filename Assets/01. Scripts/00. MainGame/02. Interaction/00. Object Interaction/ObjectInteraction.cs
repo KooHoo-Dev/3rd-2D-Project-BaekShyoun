@@ -14,7 +14,6 @@ namespace ObservedProject
         protected virtual void Awake()
         {
             characterMove = player.GetComponent<CharacterMove>();
-            Debug.Log($"{characterMove==null}");
             uiInteraction = uiInteract.GetComponent<UIInteraction>();
         }
 

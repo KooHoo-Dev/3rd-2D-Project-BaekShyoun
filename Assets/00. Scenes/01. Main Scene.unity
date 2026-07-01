@@ -1130,11 +1130,10 @@ MonoBehaviour:
   uiInteract: {fileID: 289824754}
   popUpText: {fileID: 1593439928}
   yesButton: {fileID: 1295800035}
-  yesText: {fileID: 858225201}
   noButton: {fileID: 478857706}
-  noText: {fileID: 657286042}
   eventScript: {fileID: 1373965469}
   turnController: {fileID: 1458262910}
+  inventoryItemSystem: {fileID: 1450747812}
 --- !u!1 &170199518
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,11 +1289,10 @@ MonoBehaviour:
   uiInteract: {fileID: 289824754}
   popUpText: {fileID: 1593439928}
   yesButton: {fileID: 1295800035}
-  yesText: {fileID: 858225201}
   noButton: {fileID: 478857706}
-  noText: {fileID: 657286042}
   eventScript: {fileID: 1373965469}
   turnController: {fileID: 1458262910}
+  inventoryItemSystem: {fileID: 1450747812}
 --- !u!1 &207076332
 GameObject:
   m_ObjectHideFlags: 0
@@ -6718,6 +6716,8 @@ MonoBehaviour:
   noButton: {fileID: 478857706}
   noText: {fileID: 657286042}
   turnController: {fileID: 1458262910}
+  inventoryItemSystem: {fileID: 1450747812}
+  getPoint: 0
 --- !u!1 &1060042139
 GameObject:
   m_ObjectHideFlags: 0
@@ -8067,20 +8067,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.BeastInteraction
   player: {fileID: 282380402}
   uiInteract: {fileID: 289824754}
-  beastController: {fileID: 1643105498}
+  beastController: {fileID: 0}
   popUpText: {fileID: 1593439928}
   yesButton: {fileID: 1295800035}
   noButton: {fileID: 478857706}
-  itemButtons:
-  - {fileID: 1521198979}
-  - {fileID: 82075800}
-  - {fileID: 1817818266}
-  - {fileID: 337551394}
-  - {fileID: 2015583676}
-  - {fileID: 40757775}
-  description: {fileID: 1269997869}
-  eatButton: {fileID: 542076520}
-  discardButton: {fileID: 408826103}
   inventory: {fileID: 1450747810}
 --- !u!1 &1269997867
 GameObject:
@@ -9847,7 +9837,7 @@ MonoBehaviour:
   TimeCheckInStatus: {fileID: 1670476721}
   turnCount: 1
   MeatOrWaterDecreaseEnergy: 0.1
-  beastController: {fileID: 1643105498}
+  beastController: {fileID: 1887058186}
   isTimeFlow: 0
 --- !u!1 &1484184684
 GameObject:
@@ -10849,11 +10839,10 @@ MonoBehaviour:
   uiInteract: {fileID: 289824754}
   popUpText: {fileID: 1593439928}
   yesButton: {fileID: 1295800035}
-  yesText: {fileID: 858225201}
   noButton: {fileID: 478857706}
-  noText: {fileID: 657286042}
   eventScript: {fileID: 1373965469}
   turnController: {fileID: 1458262910}
+  inventoryItemSystem: {fileID: 1450747812}
 --- !u!1 &1589002542
 GameObject:
   m_ObjectHideFlags: 0
@@ -11220,7 +11209,6 @@ GameObject:
   m_Component:
   - component: {fileID: 1643105496}
   - component: {fileID: 1643105497}
-  - component: {fileID: 1643105498}
   m_Layer: 0
   m_Name: SpawnedBeast
   m_TagString: Untagged
@@ -11302,23 +11290,6 @@ SpriteRenderer:
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!114 &1643105498
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1643105495}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 88927d89101f7fe469a6a157a7838bf3, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BeastController
-  escapeDesire: 0
-  attackPercentage: 0
-  turnIncreaseEscape: 20
-  feedDecreaseEscape: 10
-  feedIncreaseAttack: 5
 --- !u!1 &1647040537
 GameObject:
   m_ObjectHideFlags: 0
@@ -12982,6 +12953,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1887058185}
+  - component: {fileID: 1887058186}
   m_Layer: 0
   m_Name: Beast
   m_TagString: Untagged
@@ -13007,6 +12979,24 @@ Transform:
   - {fileID: 1923747033}
   m_Father: {fileID: 690141021}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1887058186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1887058184}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88927d89101f7fe469a6a157a7838bf3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BeastController
+  escapeDesire: 0
+  attackPercentage: 0
+  turnIncreaseEscape: 20
+  feedDecreaseEscape: 10
+  feedIncreaseAttack: 5
+  uiInteraction: {fileID: 289824756}
 --- !u!1 &1908250658
 GameObject:
   m_ObjectHideFlags: 0
@@ -13118,6 +13108,7 @@ MonoBehaviour:
   yesText: {fileID: 858225201}
   noButton: {fileID: 478857706}
   noText: {fileID: 657286042}
+  beastController: {fileID: 1887058186}
   isBeastInventory: 0
 --- !u!1 &1920220051
 GameObject:

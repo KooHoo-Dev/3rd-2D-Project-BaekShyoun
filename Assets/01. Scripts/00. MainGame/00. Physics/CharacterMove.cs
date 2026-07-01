@@ -27,6 +27,8 @@ namespace ObservedProject
         private Collider2D col;
         private Animator currentAnimator;
 
+        public bool canMove;
+
         private void Awake()
         {
             rBody = GetComponent<Rigidbody2D>();

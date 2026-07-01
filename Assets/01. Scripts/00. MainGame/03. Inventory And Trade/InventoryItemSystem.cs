@@ -49,11 +49,11 @@ namespace ObservedProject
             }
         }
 
-        #region Rotten 전환
+        //#region Rotten 전환
 
 
 
-        #endregion
+        //#endregion
 
 
         #region 교환 자판기 이용
@@ -98,6 +98,9 @@ namespace ObservedProject
         }
         #endregion
 
+
+        #region 개수 관리
+        
         private void SetBoughtCountText(int count, int countIndex)
         {
             switch(countIndex)
@@ -128,5 +131,70 @@ namespace ObservedProject
                     break;
             }
         }
+
+        public bool DecreaseItem(int countIndex)
+        {
+            switch (countIndex)
+            {
+                case 0:
+                    if (freshMeatCount <= 0)
+                    {
+                        uiInteraction.ControlEventScript();
+                        return false;
+                    }
+                    freshMeatCount--;
+                    countTexts[countIndex].text = $"{freshMeatCount}";
+                    return true;
+                case 1:
+                    if (freshWaterCount <= 0)
+                    {
+                        uiInteraction.ControlEventScript();
+                        return false;
+                    }
+                    freshWaterCount--;
+                    countTexts[countIndex].text = $"{freshWaterCount}";
+                    return true;
+                case 2:
+                    if (sleepTicketCount <= 0)
+                    {
+                        uiInteraction.ControlEventScript();
+                        // 이벤트 스크립트 내용 바꿔야함 추후에!
+                        return false;
+                    }
+                    sleepTicketCount--;
+                    countTexts[countIndex].text = $"{sleepTicketCount}";
+                    return true;
+                case 3:
+                    if (suspiciousMeatCount <= 0)
+                    {
+                        uiInteraction.ControlEventScript();
+                        return false;
+                    }
+                    suspiciousMeatCount--;
+                    countTexts[countIndex].text = $"{suspiciousMeatCount}";
+                    return true;
+                case 4:
+                    if (rottenMeatCount <= 0)
+                    {
+                        uiInteraction.ControlEventScript();
+                        return false;
+                    }
+                    rottenMeatCount--;
+                    countTexts[countIndex].text = $"{rottenMeatCount}";
+                    return true;
+                case 5:
+                    if (rottenWaterCount <= 0)
+                    {
+                        uiInteraction.ControlEventScript();
+                        return false;
+                    }
+                    rottenWaterCount--;
+                    countTexts[countIndex].text = $"{rottenWaterCount}";
+                    return true;
+            }
+            return false;
+        }
+
+        #endregion
     }
 }

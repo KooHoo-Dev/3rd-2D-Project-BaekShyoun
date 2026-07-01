@@ -15,33 +15,29 @@ public class BeastController : MonoBehaviour
 
     public UIInteraction uiInteraction;
 
-    private void Awake()
-    {
-        uiInteraction = GetComponent<UIInteraction>();
-    }
-
     public void FeedFreshMeat()
     {
-        GageUpdate(escapeDesire, -feedDecreaseEscape);
+        escapeDesire = GageUpdate(escapeDesire, -feedDecreaseEscape);
     }
 
     public void FeedOtherMeat()
     {
         FeedFreshMeat();
-        GageUpdate(attackPercentage, feedIncreaseAttack);
+        attackPercentage = GageUpdate(attackPercentage, feedIncreaseAttack);
     }
 
     public void ChangedTurn(int skipTime)
     {
-        GageUpdate(escapeDesire, turnIncreaseEscape * skipTime);
+        escapeDesire = GageUpdate(escapeDesire, turnIncreaseEscape * skipTime);
     }
 
 
-    public void GageUpdate(int currentGage, int gage)
+    public int GageUpdate(int currentGage, int gage)
     {
         currentGage += gage;
         if (currentGage >= maxNumber) currentGage = maxNumber;
         if (currentGage <= minNumber) currentGage = minNumber;
+        return currentGage;
     }
 
     public void EscapeBeast()

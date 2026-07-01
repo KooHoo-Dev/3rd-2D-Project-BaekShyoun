@@ -10,11 +10,21 @@ namespace ObservedProject
     {
         public TextMeshProUGUI popUpText;
         public Button yesButton;
-        public TextMeshProUGUI yesText;
+        private TextMeshProUGUI yesText;
         public Button noButton;
-        public TextMeshProUGUI noText;
+        private TextMeshProUGUI noText;
         public TextMeshProUGUI eventScript;
         public TurnController turnController;
+        public InventoryItemSystem inventoryItemSystem;
+
+        protected override void Awake()
+        {
+            base.Awake();
+            yesText = yesButton.GetComponentInChildren<TextMeshProUGUI>();
+            noText = noButton.GetComponentInChildren<TextMeshProUGUI>();
+            yesText.text = "네";
+            noText.text = "아니오";
+        }
 
         private void Update()
         {
@@ -28,11 +38,11 @@ namespace ObservedProject
                 if (SimpleInput.GetKeyDown(Key.F))
                 {
                     yesButton.onClick.RemoveAllListeners();
-                    yesButton.onClick.AddListener(InteractYesButton);
+                    yesButton.onClick.AddListener(InteractFirstYesButton);
                     noButton.onClick.RemoveAllListeners();
-                    noButton.onClick.AddListener(InteractNoButton);
-                    SetPopUpText();
-                    uiInteraction.ControlPopUpScreen();
+                    noButton.onClick.AddListener(uiInteraction.ClosePopUp);
+                    SetFirstPopUpText();
+                    uiInteraction.OpenPopUp();
                 }
             }
         }
@@ -50,25 +60,42 @@ namespace ObservedProject
                 CheckPlayerState(CharacterMove.State.Front);
         }
 
-        // 근데 이거 문제가 잘까 안잘까를 먼저 물어봤어야 했는데 수면권 쓸까 말까만 물어봐버려서
-        // 유저를 강제로 잠들게 해버림. 팝업 두개로 해야 할듯?
+        private void SetFirstPopUpText()
+        {
+            popUpText.text = "잠을 청하시겠습니까?";
+            yesButton.onClick.RemoveAllListeners();
+            yesButton.onClick.AddListener(InteractFirstYesButton);
+        }
 
-        private void SetPopUpText()
+        private void InteractFirstYesButton()
+        {
+            SetSecondPopUpText();
+        }
+
+        private void SetSecondPopUpText()
         {
             popUpText.text = "수면권을 사용하시겠습니까?";
-            yesText.text = "네";
-            noText.text = "아니오";
+            yesButton.onClick.RemoveAllListeners();
+            yesButton.onClick.AddListener(InteractSecondYesButton);
+            noButton.onClick.RemoveAllListeners();
+            noButton.onClick.AddListener(InteractSecondNoButton);
         }
 
-        private void InteractYesButton()
+        private void InteractSecondYesButton()
         {
+            uiInteraction.ClosePopUp();
             uiInteraction.ActiveEventScriptScreen();
             eventScript.text = "수면권을 1개 사용하여 당신은 깊은 수면에 빠졌습니다!";
-            turnController.OnDeepSleep();
+            
+            if(inventoryItemSystem.DecreaseItem(2))
+            {
+                turnController.OnDeepSleep();
+            }
         }
 
-        private void InteractNoButton()
+        private void InteractSecondNoButton()
         {
+            uiInteraction.ClosePopUp();
             uiInteraction.ActiveEventScriptScreen();
             eventScript.text = "당신은 조금 불편한 잠을 청했습니다!";
             turnController.OnNormalSleep();
