@@ -56,6 +56,7 @@ namespace ObservedProject
 
         private void InteractYesButton()
         {
+            uiInteraction.ClosePopUp();
             playerInventory.isBeastInventory = true;
             uiInteraction.ActivePlayerInventoryInForce();
         }

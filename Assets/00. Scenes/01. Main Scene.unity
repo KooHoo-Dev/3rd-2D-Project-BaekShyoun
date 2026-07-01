@@ -1901,6 +1901,7 @@ MonoBehaviour:
   - {fileID: 1358760981}
   - {fileID: 1349388653}
   currentState: 0
+  canMove: 0
   collisionLayer:
     serializedVersion: 2
     m_Bits: 8
