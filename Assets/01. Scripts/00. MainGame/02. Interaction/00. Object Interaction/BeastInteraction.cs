@@ -11,15 +11,26 @@ namespace ObservedProject
         public BeastController beastController;
         public TextMeshProUGUI popUpText;
         public Button yesButton;
-        public TextMeshProUGUI yesText;
+        private TextMeshProUGUI yesText;
         public Button noButton;
-        public TextMeshProUGUI noText;
+        private TextMeshProUGUI noText;
+        public Button[] itemButtons;
+        public TextMeshProUGUI description;
+        public Button eatButton;
+        private TextMeshProUGUI eatText;
+        public Button discardButton;
+
+        public GameObject inventory;
+        private PlayerInventoryUIController playerInventory;
 
         protected override void Awake()
         {
             base.Awake();
             beastController = GetComponent<BeastController>();
-            
+            playerInventory = inventory.GetComponentInChildren<PlayerInventoryUIController>(true);
+            yesText = yesButton.GetComponentInChildren<TextMeshProUGUI>();
+            noText = noButton.GetComponentInChildren<TextMeshProUGUI>();
+            eatText = eatButton.GetComponentInChildren<TextMeshProUGUI>();
         }
 
         private void Update()
@@ -31,6 +42,7 @@ namespace ObservedProject
         {
             if (characterMove.currentState == state && canInteract)
             {
+                playerInventory.isBeastInventory = true;
                 if (SimpleInput.GetKeyDown(Key.F))
                 {
                     yesButton.onClick.RemoveAllListeners();

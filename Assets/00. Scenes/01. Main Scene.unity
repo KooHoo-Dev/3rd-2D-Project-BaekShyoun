@@ -1443,7 +1443,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3
+  m_text: n
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0e6526eea5243fd4c9e380ccbfcb967c, type: 2}
   m_sharedMaterial: {fileID: -2906160258409483521, guid: 0e6526eea5243fd4c9e380ccbfcb967c, type: 2}
@@ -4237,7 +4237,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3
+  m_text: n
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0e6526eea5243fd4c9e380ccbfcb967c, type: 2}
   m_sharedMaterial: {fileID: -2906160258409483521, guid: 0e6526eea5243fd4c9e380ccbfcb967c, type: 2}
@@ -5810,7 +5810,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3
+  m_text: n
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0e6526eea5243fd4c9e380ccbfcb967c, type: 2}
   m_sharedMaterial: {fileID: -2906160258409483521, guid: 0e6526eea5243fd4c9e380ccbfcb967c, type: 2}
@@ -8070,9 +8070,18 @@ MonoBehaviour:
   beastController: {fileID: 1643105498}
   popUpText: {fileID: 1593439928}
   yesButton: {fileID: 1295800035}
-  yesText: {fileID: 858225201}
   noButton: {fileID: 478857706}
-  noText: {fileID: 657286042}
+  itemButtons:
+  - {fileID: 1521198979}
+  - {fileID: 82075800}
+  - {fileID: 1817818266}
+  - {fileID: 337551394}
+  - {fileID: 2015583676}
+  - {fileID: 40757775}
+  description: {fileID: 1269997869}
+  eatButton: {fileID: 542076520}
+  discardButton: {fileID: 408826103}
+  inventory: {fileID: 1450747810}
 --- !u!1 &1269997867
 GameObject:
   m_ObjectHideFlags: 0
@@ -9548,7 +9557,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3
+  m_text: n
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0e6526eea5243fd4c9e380ccbfcb967c, type: 2}
   m_sharedMaterial: {fileID: -2906160258409483521, guid: 0e6526eea5243fd4c9e380ccbfcb967c, type: 2}
@@ -13109,6 +13118,7 @@ MonoBehaviour:
   yesText: {fileID: 858225201}
   noButton: {fileID: 478857706}
   noText: {fileID: 657286042}
+  isBeastInventory: 0
 --- !u!1 &1920220051
 GameObject:
   m_ObjectHideFlags: 0
@@ -13166,7 +13176,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3
+  m_text: n
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0e6526eea5243fd4c9e380ccbfcb967c, type: 2}
   m_sharedMaterial: {fileID: -2906160258409483521, guid: 0e6526eea5243fd4c9e380ccbfcb967c, type: 2}
@@ -14628,7 +14638,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: 3
+  m_text: n
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0e6526eea5243fd4c9e380ccbfcb967c, type: 2}
   m_sharedMaterial: {fileID: -2906160258409483521, guid: 0e6526eea5243fd4c9e380ccbfcb967c, type: 2}

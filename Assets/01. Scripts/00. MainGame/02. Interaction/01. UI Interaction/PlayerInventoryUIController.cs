@@ -1,6 +1,7 @@
 using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
+using UnityEditor;
 
 namespace ObservedProject
 {
@@ -20,7 +21,8 @@ namespace ObservedProject
 
         private UIInteraction uiInteraction;
         private ItemController itemController;
-        private InventoryItemSystem inventoryItemSystem;
+        public bool isBeastInventory =false;
+
 
         private void Awake()
         {
@@ -28,7 +30,6 @@ namespace ObservedProject
             SetTextEmpty();
             uiInteraction = GetComponentInParent<UIInteraction>();
             itemController = GetComponentInParent<ItemController>();
-            inventoryItemSystem = GetComponentInParent<InventoryItemSystem>();
             yesText.text = "네";
             noText.text = "아니오";
         }
@@ -39,10 +40,18 @@ namespace ObservedProject
             {
                 Button button = itemButtons[i];
                 button.onClick.RemoveAllListeners();
-                button.onClick.AddListener(() => SetDescriptionWhenClick(button));
+                if(isBeastInventory)
+                {
+                    button.onClick.AddListener(() => SetButtonsForBeast(button));
+                }
+                else
+                {
+                    button.onClick.AddListener(() => SetDescriptionWhenClick(button));
+                }
             }
         }
 
+        #region 상태 관리
         private void SetObjectsActive()
         {
             eatButton.gameObject.SetActive(true);
@@ -64,7 +73,9 @@ namespace ObservedProject
             discardButtonText.text = string.Empty;
             popUpText.text = string.Empty;
         }
+        #endregion
 
+        #region ForPlayer
         private void SetDescriptionWhenClick(Button button)
         {
             SetObjectsActive();
@@ -116,7 +127,6 @@ namespace ObservedProject
             eatButton.onClick.AddListener(()=>SetEatPopUpText(itemName));
         }
 
-
         private void InteractDiscardButton(string itemName)
         {
             discardButton.onClick.AddListener(uiInteraction.ControlPopUpScreen);
@@ -155,7 +165,43 @@ namespace ObservedProject
                     yesButton.onClick.AddListener(() => itemController.HaveWater(ItemController.WaterType.Rotten));
                     break;
             }
-            
         }
+        #endregion
+        // SetDescriptionWhenClick > 기본적인 문구 바꾸고 버튼 텍스트 변경 이후 eatbutton에 연결(InteractEatButton)
+        // InteractEatButton > eat 버튼이 눌렸을 시 팝업이 뜨고(SetEatPopUPText) 다시 팝업 상호작용(SetButtonEffect)으로 이동
+        // SetButtonEffect > yes버튼을 누르게 될때 어떤 효과가 있을지 확인할 수 있다. (Beast의 경우 BeastController의 내용을 관리)
+
+        #region ForBeast
+
+
+        private void SetButtonsForBeast(Button button)
+        {
+            SetObjectsActive();
+            SetTextEmpty();
+            discardButton.gameObject.SetActive(false);
+            string itemName = button.GetComponentInChildren<TextMeshProUGUI>().text;
+            switch (itemName)
+            {
+                case "신선한 물" or "수면권" or "썩은 물":
+                    description.text = "해당 아이템은 맹수에게 급여할 수 없습니다!";
+                    eatButton.gameObject.SetActive(false);
+                    break;
+                case "신선한 고기" or "수상한 고기" or "부패한 고기":
+                    eatButtonText.text = "먹이기";
+                    SetFeedPopUpText(itemName);
+                    eatButton.onClick.AddListener(uiInteraction.ControlEventScript);
+                    break;
+            }
+        }
+        private void SetFeedPopUpText(string itemName)
+        {
+            popUpText.text = $"{itemName}을(를) 맹수에게 건네겠습니까?";
+        }
+
+        private void SetBeastButtonEffect()
+        {
+
+        }
+        #endregion
     }
 }

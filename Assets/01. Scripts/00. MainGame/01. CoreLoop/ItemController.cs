@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -72,7 +73,15 @@ namespace ObservedProject
 
         public void GaveBeastMeat(MeatType meatType)
         {
-
+            switch(meatType)
+            {
+                case MeatType.Fresh:
+                    break;
+                case MeatType.Suspicious:
+                    break;
+                case MeatType.Rotten:
+                    break;
+            }
         }
     }
 }
