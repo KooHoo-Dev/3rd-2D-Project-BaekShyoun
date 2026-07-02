@@ -1,6 +1,6 @@
+using System.Collections;
 using UnityEngine;
-using UnityEngine.SceneManagement
-;
+using UnityEngine.SceneManagement;
 
 namespace ObservedProject
 {
@@ -13,11 +13,15 @@ namespace ObservedProject
         public bool isDeadByDisease = false;
         public bool isDeadByBeast = false;
 
+        public FadeController fadeController;
+
         private void Awake()
         {
+            fadeController = GetComponentInChildren<FadeController>();
             if (Instance != null)
             {
                 Destroy(gameObject);
+                return;
             }
             Instance = this;
             DontDestroyOnLoad(gameObject);
@@ -28,9 +32,15 @@ namespace ObservedProject
         /// </summary>
         public void GameOverByDisease()
         {
-            if(diseaseController.diseaseStack>=5)
+            StartCoroutine(GameOverByDiseaseCoroutine());
+        }
+
+        public IEnumerator GameOverByDiseaseCoroutine()
+        {
+            if (diseaseController.diseaseStack >= 5)
             {
                 isDeadByDisease = true;
+                yield return StartCoroutine(fadeController.FadeInCoroutine());
                 SceneManager.LoadScene(4);
             }
         }
@@ -40,12 +50,27 @@ namespace ObservedProject
         /// </summary>
         public void GameOverByBeast()
         {
+            StartCoroutine(GameOverByBeastCoroutine());
+        }
+
+        public IEnumerator GameOverByBeastCoroutine()
+        {
+            Debug.Log(fadeController);
+            Debug.Log(beastController);
+            Debug.Log(diseaseController);
             int randNum = Random.Range(1, 101);
             if (randNum <= beastController.attackPercentage)
             {
                 isDeadByBeast = true;
+                yield return StartCoroutine(fadeController.FadeInCoroutine());
                 SceneManager.LoadScene(4);
             }
+        }
+
+        public void DestroyManager()
+        {
+            Instance = null;
+            Destroy(gameObject);
         }
     }
 }

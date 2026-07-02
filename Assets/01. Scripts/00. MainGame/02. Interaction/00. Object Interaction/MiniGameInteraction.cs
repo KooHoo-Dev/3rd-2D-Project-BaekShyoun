@@ -18,6 +18,13 @@ namespace ObservedProject
         public InventoryItemSystem inventoryItemSystem;
         public int getPoint;
 
+        public GageController gageController;
+
+        protected override void Awake()
+        {
+            base.Awake();
+        }
+
         private void Update()
         {
             CheckPlayerState(CharacterMove.State.Back);
@@ -28,6 +35,7 @@ namespace ObservedProject
                 getPoint = ScoreManagerGameB.Instance.finalScore;
                 inventoryItemSystem.currentPoint += getPoint;
                 inventoryItemSystem.currentPointText.text = $"{inventoryItemSystem.currentPoint} pt";
+                ScoreManagerGameB.Instance.DestroyManager();
             }
         }
 

@@ -24,5 +24,11 @@ namespace ObservedProject
             finalScore = score;
             return finalScore;
         }
+
+        public void DestroyManager()
+        {
+            Instance = null;
+            Destroy(gameObject);
+        }
     }
 }

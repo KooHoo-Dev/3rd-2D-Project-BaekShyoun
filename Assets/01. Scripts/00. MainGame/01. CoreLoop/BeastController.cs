@@ -16,7 +16,7 @@ public class BeastController : MonoBehaviour
     // Beast Gage Controller
     [Header("BeastSettings")]
     public int escapeDesire = 0;
-    public int attackPercentage = 0;
+    public int attackPercentage = 50;
     public int turnIncreaseEscape = 20;
     public int feedDecreaseEscape = 10;
     public int feedIncreaseAttack = 5;
@@ -26,6 +26,8 @@ public class BeastController : MonoBehaviour
     public UIInteraction uiInteraction;
     public TextMeshProUGUI eventScriptText;
     public GameObject spawnedBeast;
+
+    public bool hasBeast = true;
 
     private void Start()
     {
@@ -105,12 +107,17 @@ public class BeastController : MonoBehaviour
 
     public void EscapeBeast()
     {
+        if (hasBeast == false)
+            return;
         if (escapeDesire >= maxNumber)
         {
+            hasBeast = false;
             spawnedBeast.SetActive(false);
             escapeDesire = maxNumber;
             uiInteraction.ControlEventScript();
             eventScriptText.text = "배고픔을 견디지 못한 맹수가 탈출했습니다!";
+
+            GameManagerMain.Instance.GameOverByBeast();
         }
     }
 

@@ -9,9 +9,17 @@ using UnityEngine.SceneManagement;
 public class GameOverSceneManager : MonoBehaviour
 {
     public TextMeshProUGUI reasonOfDeath;
+    private FadeController fadeController;
+
+    private void Awake()
+    {
+        fadeController = GetComponentInChildren<FadeController>();
+    }
 
     private void Start()
     {
+        GameManagerMain.Instance.fadeController.fadeImage.enabled = false;
+        StartCoroutine(fadeController.FadeOutCoroutine());
         StartCoroutine(GoBackToTitle());
     }
 
@@ -31,6 +39,7 @@ public class GameOverSceneManager : MonoBehaviour
     private IEnumerator GoBackToTitle()
     {
         yield return new WaitUntil(() => SimpleInput.GetKeyDown(Key.Enter));
+        GameManagerMain.Instance.DestroyManager();
         SceneManager.LoadScene(0);
     }
 }

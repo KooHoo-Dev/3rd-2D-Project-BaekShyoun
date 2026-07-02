@@ -1,3 +1,4 @@
+using System.Collections;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -9,6 +10,13 @@ namespace ObservedProject
         [field: SerializeField] public Button GameStartButton { get; private set; }
         [field: SerializeField] public Button GameEndButton { get; private set; }
 
+        private FadeController fadeController;
+
+        private void Awake()
+        {
+            fadeController = GetComponentInChildren<FadeController>();
+        }
+
         private void Start()
         {
             GameStartButton.onClick.AddListener(StartGame);
@@ -17,6 +25,12 @@ namespace ObservedProject
 
         private void StartGame()
         {
+            StartCoroutine(StartGameCoroutine());
+        }
+
+        private IEnumerator StartGameCoroutine()
+        {
+            yield return StartCoroutine(fadeController.FadeInCoroutine());
             SceneManager.LoadScene(1);
         }
 

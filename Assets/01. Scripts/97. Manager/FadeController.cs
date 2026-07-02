@@ -21,30 +21,52 @@ namespace ObservedProject
         public IEnumerator FadeInCoroutine()
         {
             fadeImage.enabled = true;
+
+            color = fadeImage.color;
             color.a = 0.0f;
-            while(true)
+            fadeImage.color = color;
+
+            while (true)
             {
-                color = fadeImage.color;
-                if (color.a >= maxAlpha) yield break;
-                color.a += 0.01f;
+                if (color.a >= maxAlpha) break;
+                color.a += 0.05f;
                 fadeImage.color = color;
-                Debug.Log(fadeImage.color);
                 yield return new WaitForSeconds(0.02f);
             }
+
+            color.a = maxAlpha;
+            fadeImage.color = color;
         }
 
         public IEnumerator FadeOutCoroutine()
         {
+            fadeImage.enabled = true;
+
+            color = fadeImage.color;
             color.a = 1.0f;
+            fadeImage.color = color;
+
             while (true)
             {
-                color = fadeImage.color;
-                if (color.a <= minAlpha) yield break;
-                color.a -= 0.01f;
+                if (color.a <= minAlpha) break;
+                color.a -= 0.05f;
                 fadeImage.color = color;
-                Debug.Log(fadeImage.color);
                 yield return new WaitForSeconds(0.02f);
             }
+
+            color.a = minAlpha;
+            fadeImage.color = color;
+            fadeImage.enabled = false;
+        }
+
+        public IEnumerator FadeInAndOutCoroutine(float waitTime)
+        {
+            yield return StartCoroutine(FadeInCoroutine());
+
+            if (waitTime > 0f)
+                yield return new WaitForSeconds(waitTime);
+
+            yield return StartCoroutine(FadeOutCoroutine());
         }
     }
 }

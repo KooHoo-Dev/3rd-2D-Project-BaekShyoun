@@ -44,6 +44,8 @@ namespace ObservedProject
         {
             diseaseStack += amount;
             SetDiseaseText();
+
+            GameManagerMain.Instance.GameOverByDisease();
         }
 
         public float ChangeStatIfSick(float amount)

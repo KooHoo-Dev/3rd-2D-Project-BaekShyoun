@@ -1,5 +1,7 @@
+using System.Collections;
 using TMPro;
 using UnityEngine;
+using UnityEngine.EventSystems;
 using UnityEngine.UI;
 
 namespace ObservedProject
@@ -21,6 +23,7 @@ namespace ObservedProject
         public BeastController beastController;
         private GageController gageController;
         private DiseaseController diseaseController;
+        private FadeController fadeController;
 
         public bool isTimeFlow = false;
 
@@ -28,13 +31,19 @@ namespace ObservedProject
         {
             gageController = GetComponent<GageController>();
             diseaseController = GetComponent<DiseaseController>();
+            fadeController = GetComponentInChildren<FadeController>();
             dayCount = 1;
             currentHourIndex = 0;
 
             SetText();
         }
 
-        private void FlowTime(int skipTime)
+        private void Start()
+        {
+            StartCoroutine(fadeController.FadeOutCoroutine());
+        }
+
+        public void FlowTime(int skipTime)
         {
             currentHourIndex += skipTime;
             if (currentHourIndex >= Hours.Length)
@@ -59,16 +68,35 @@ namespace ObservedProject
 
         public void OnNormalSleep()
         {
+            StartCoroutine(OnNormalSleepCoroutine());
+        }
+
+        private IEnumerator OnNormalSleepCoroutine()
+        {
+            yield return StartCoroutine(fadeController.FadeInAndOutCoroutine(1f));
             FlowTime(2);
             gageController.HaveNormalSleep();
-            beastController.SpawnBeast();
+            if(beastController.hasBeast)
+            {
+                beastController.SpawnBeast();
+            }
         }
 
         public void OnDeepSleep()
         {
+            StartCoroutine(OnDeepSleepCoroutine());
+            
+        }
+
+        private IEnumerator OnDeepSleepCoroutine()
+        {
+            yield return StartCoroutine(fadeController.FadeInAndOutCoroutine(1f));
             FlowTime(2);
             gageController.HaveDeepSleep();
-            beastController.SpawnBeast();
+            if (beastController.hasBeast)
+            {
+                beastController.SpawnBeast();
+            }
         }
 
         private void BecomeZeroValue(Image bar, int skipTime)
