@@ -11,7 +11,7 @@ namespace ObservedProject
         public float diseaseDebuff = 1.2f;
         public TextMeshProUGUI diseaseStackText;
 
-        private int diseaseStack;
+        public int diseaseStack { get; private set; }
         private int suspiciousCount;
 
         private void Awake()
@@ -19,7 +19,7 @@ namespace ObservedProject
             // 질병 스택 0으로 초기화
             diseaseStack = 0;
             suspiciousCount = 0;
-            SetText();
+            SetDiseaseText();
         }
 
         public void GotDiseaseByRotten(int percentage)
@@ -43,7 +43,7 @@ namespace ObservedProject
         public void AddDiseaseStack(int amount)
         {
             diseaseStack += amount;
-            SetText();
+            SetDiseaseText();
         }
 
         public float ChangeStatIfSick(float amount)
@@ -62,10 +62,10 @@ namespace ObservedProject
             if (number <= removeDiseasePercentage) diseaseStack--;
             Debug.Log($"Disease Remove number : {number}");
             if (diseaseStack < 0) diseaseStack = 0;
-            SetText();
+            SetDiseaseText();
         }
 
-        public void SetText()
+        public void SetDiseaseText()
         {
             diseaseStackText.text = $"질병 {diseaseStack} 중첩";
         }

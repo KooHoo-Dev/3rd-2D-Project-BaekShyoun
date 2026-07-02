@@ -61,12 +61,14 @@ namespace ObservedProject
         {
             FlowTime(2);
             gageController.HaveNormalSleep();
+            beastController.SpawnBeast();
         }
 
         public void OnDeepSleep()
         {
             FlowTime(2);
             gageController.HaveDeepSleep();
+            beastController.SpawnBeast();
         }
 
         private void BecomeZeroValue(Image bar, int skipTime)

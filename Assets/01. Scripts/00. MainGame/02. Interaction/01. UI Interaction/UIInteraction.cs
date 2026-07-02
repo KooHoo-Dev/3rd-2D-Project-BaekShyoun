@@ -35,6 +35,7 @@ namespace ObservedProject
         public bool isInventoryOpen { get; private set; } = false;
         public bool isPopUpOpen { get; private set; } = false;
         public bool isTurnCheckOpen { get; private set; } = false;
+        public bool isEventScriptOpen { get; private set; } = false;
 
         private void Awake()
         {
@@ -79,12 +80,14 @@ namespace ObservedProject
 
         public void ActiveEventScriptScreen()
         {
+            isEventScriptOpen = true;
             ScreenOn(eventScriptScreen);
 
         } // 이후 Text 수정 필요
 
         public void InactiveEventScriptScreen()
         {
+            isEventScriptOpen = false;
             if (SimpleInput.GetKeyDown(Key.Space) || SimpleInput.GetKeyDown(Key.Enter))
                 ScreenOff(eventScriptScreen);
         }
@@ -184,6 +187,11 @@ namespace ObservedProject
 
         public void OpenPopUp()
         {
+            if(isEventScriptOpen)
+            {
+                ClosePopUp();
+                return;
+            }
             isPopUpOpen = true;
             ScreenOn(popUpScreen);
         }

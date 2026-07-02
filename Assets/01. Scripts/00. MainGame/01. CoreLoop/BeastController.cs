@@ -1,5 +1,6 @@
 using ObservedProject;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class BeastController : MonoBehaviour
@@ -24,10 +25,12 @@ public class BeastController : MonoBehaviour
 
     public UIInteraction uiInteraction;
     public TextMeshProUGUI eventScriptText;
+    public GameObject spawnedBeast;
 
     private void Start()
     {
         eventScriptText.text = string.Empty;
+        spawnedBeast.SetActive(true);
     }
     private void Update()
     {
@@ -104,10 +107,16 @@ public class BeastController : MonoBehaviour
     {
         if (escapeDesire >= maxNumber)
         {
+            spawnedBeast.SetActive(false);
             escapeDesire = maxNumber;
             uiInteraction.ControlEventScript();
             eventScriptText.text = "배고픔을 견디지 못한 맹수가 탈출했습니다!";
         }
+    }
+
+    public void SpawnBeast()
+    {
+        spawnedBeast.SetActive(true);
     }
 
     public void SetGage()

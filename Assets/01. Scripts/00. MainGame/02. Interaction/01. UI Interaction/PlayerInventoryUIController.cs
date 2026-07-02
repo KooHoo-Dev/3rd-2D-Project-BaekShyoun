@@ -29,8 +29,6 @@ namespace ObservedProject
 
         private void Awake()
         {
-            SetObjectsInactive();
-            SetTextEmpty();
             uiInteraction = GetComponentInParent<UIInteraction>();
             itemController = GetComponentInParent<ItemController>();
             inventoryItemSystem = GetComponentInParent<InventoryItemSystem>();
@@ -146,15 +144,16 @@ namespace ObservedProject
         private void SetEatPopUpText(string itemName)
         {
             popUpText.text = $"아이템 {itemName}을(를) 사용하겠습니까?";
-            SetButtonEffect(itemName);
+            SetEatButtonEffect(itemName);
         }
 
         private void SetDiscardPopUpText(string itemName)
         {
             popUpText.text = $"아이템 {itemName}을(를) 버리겠습니까?";
+            SetDiscardButtonEffect(itemName);
         }
 
-        private void SetButtonEffect(string itemName)
+        private void SetEatButtonEffect(string itemName)
         {
             yesButton.onClick.RemoveAllListeners();
             switch (itemName)
@@ -208,6 +207,32 @@ namespace ObservedProject
             yesButton.onClick.AddListener(uiInteraction.ClosePopUp);
         }
 
+        private void SetDiscardButtonEffect(string itemName)
+        {
+            yesButton.onClick.RemoveAllListeners();
+            switch (itemName)
+            {
+                case "신선한 고기": // 0 3 4 1 5 2
+                    yesButton.onClick.AddListener(() => inventoryItemSystem.DecreaseItem(0));
+                    break;
+                case "수상한 고기":
+                    yesButton.onClick.AddListener(() => inventoryItemSystem.DecreaseItem(3));
+                    break;
+                case "부패한 고기":
+                    yesButton.onClick.AddListener(() => inventoryItemSystem.DecreaseItem(4));
+                    break;
+                case "신선한 물":
+                    yesButton.onClick.AddListener(() => inventoryItemSystem.DecreaseItem(1));
+                    break;
+                case "썩은 물":
+                    yesButton.onClick.AddListener(() => inventoryItemSystem.DecreaseItem(5));
+                    break;
+                case "수면권":
+                    yesButton.onClick.AddListener(() => inventoryItemSystem.DecreaseItem(2));
+                    break;
+            }
+            yesButton.onClick.AddListener(uiInteraction.ClosePopUp);
+        }
         #endregion
 
         #region ForBeast

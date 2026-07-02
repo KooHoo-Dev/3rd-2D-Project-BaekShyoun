@@ -17,6 +17,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/00. Scenes/03. Mini Game B.unity
     guid: 1466f7d56b3b05844b5fa2937c9e5331
+  - enabled: 1
+    path: Assets/00. Scenes/04. GameOver Scene.unity
+    guid: 6a399c25204febf4cbc9ae1c61289e31
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

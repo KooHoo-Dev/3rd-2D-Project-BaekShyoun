@@ -19,6 +19,7 @@ namespace ObservedProject
         public int sleepTicketCount = 0;
         public TextMeshProUGUI[] countTexts;
         public TextMeshProUGUI currentPointText;
+        public TextMeshProUGUI eventScriptText;
 
         [Header("ExchangeMachineSettings")]
         public int freshMeatPrice = 200;
@@ -134,12 +135,13 @@ namespace ObservedProject
 
         public bool DecreaseItem(int countIndex)
         {
+            eventScriptText.text = string.Empty;
             switch (countIndex)
             {
                 case 0:
                     if (freshMeatCount <= 0)
                     {
-                        uiInteraction.ControlEventScript();
+                        SetEventScript();
                         return false;
                     }
                     freshMeatCount--;
@@ -148,7 +150,7 @@ namespace ObservedProject
                 case 1:
                     if (freshWaterCount <= 0)
                     {
-                        uiInteraction.ControlEventScript();
+                        SetEventScript();
                         return false;
                     }
                     freshWaterCount--;
@@ -157,8 +159,7 @@ namespace ObservedProject
                 case 2:
                     if (sleepTicketCount <= 0)
                     {
-                        uiInteraction.ControlEventScript();
-                        // 이벤트 스크립트 내용 바꿔야함 추후에!
+                        SetEventScript();
                         return false;
                     }
                     sleepTicketCount--;
@@ -167,7 +168,7 @@ namespace ObservedProject
                 case 3:
                     if (suspiciousMeatCount <= 0)
                     {
-                        uiInteraction.ControlEventScript();
+                        SetEventScript();
                         return false;
                     }
                     suspiciousMeatCount--;
@@ -176,7 +177,7 @@ namespace ObservedProject
                 case 4:
                     if (rottenMeatCount <= 0)
                     {
-                        uiInteraction.ControlEventScript();
+                        SetEventScript();
                         return false;
                     }
                     rottenMeatCount--;
@@ -185,7 +186,7 @@ namespace ObservedProject
                 case 5:
                     if (rottenWaterCount <= 0)
                     {
-                        uiInteraction.ControlEventScript();
+                        SetEventScript();
                         return false;
                     }
                     rottenWaterCount--;
@@ -193,6 +194,12 @@ namespace ObservedProject
                     return true;
             }
             return false;
+        }
+
+        private void SetEventScript()
+        {
+            uiInteraction.ControlEventScript();
+            eventScriptText.text = "아이템이 존재하지 않습니다.";
         }
 
         #endregion

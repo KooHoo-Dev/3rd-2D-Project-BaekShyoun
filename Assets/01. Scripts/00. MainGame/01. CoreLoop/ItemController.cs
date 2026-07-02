@@ -65,7 +65,8 @@ namespace ObservedProject
 
         public void EnoughFullnessOrHidration(Image bar)
         {
-            if (bar.fillAmount >= gageController.maxAmount)
+            int randNum = Random.Range(1, 101);
+            if (bar.fillAmount >= gageController.maxAmount && randNum <= 50)
             {
                 diseaseController.AddDiseaseStack(1);
             }

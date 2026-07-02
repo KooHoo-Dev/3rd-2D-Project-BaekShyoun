@@ -9229,8 +9229,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 40
-  m_fontSizeBase: 40
+  m_fontSize: 35
+  m_fontSizeBase: 35
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -9730,6 +9730,7 @@ MonoBehaviour:
   - {fileID: 597418643}
   - {fileID: 1423799642}
   currentPointText: {fileID: 2094205427}
+  eventScriptText: {fileID: 1373965469}
   freshMeatPrice: 200
   freshWaterPrice: 100
   suspiciousMeatPrice: 50
@@ -12997,12 +12998,13 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::BeastController
   escapeDesire: 0
-  attackPercentage: 0
+  attackPercentage: 90
   turnIncreaseEscape: 20
   feedDecreaseEscape: 10
   feedIncreaseAttack: 5
   uiInteraction: {fileID: 289824756}
   eventScriptText: {fileID: 1373965469}
+  spawnedBeast: {fileID: 1643105495}
 --- !u!1 &1908250658
 GameObject:
   m_ObjectHideFlags: 0
@@ -13408,6 +13410,54 @@ MonoBehaviour:
   uiInteract: {fileID: 289824754}
   eventScriptText: {fileID: 1373965469}
   beast: {fileID: 1887058184}
+--- !u!1 &1939254221
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1939254222}
+  - component: {fileID: 1939254223}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1939254222
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939254221}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.81131, y: 0.80193, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1939254223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939254221}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0ea0e6b799258ac47ad88548955e1b00, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.GameManagerMain
+  diseaseController: {fileID: 1458262907}
+  beastController: {fileID: 1887058186}
+  isDeadByDisease: 0
+  isDeadByBeast: 0
 --- !u!1 &1952504555
 GameObject:
   m_ObjectHideFlags: 0
@@ -14724,6 +14774,7 @@ SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
   - {fileID: 669658065}
+  - {fileID: 1939254222}
   - {fileID: 1194459605}
   - {fileID: 282380403}
   - {fileID: 83212245}
