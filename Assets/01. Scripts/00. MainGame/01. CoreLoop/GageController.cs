@@ -80,8 +80,12 @@ namespace ObservedProject
         {
             if (isBlackOut) return;
 
-            eventScriptText.text = string.Empty;
-            StartCoroutine(GetBlackOutCoroutine());
+            if (energyBar.fillAmount <= minAmount)
+            {
+                isBlackOut = true;
+                eventScriptText.text = string.Empty;
+                StartCoroutine(GetBlackOutCoroutine());
+            }
         }
         #endregion
 
@@ -101,13 +105,17 @@ namespace ObservedProject
 
         public void GageUpdate(Image bar, float fillAmount)
         {
+            Debug.Log($"GageUpdate 실행: {bar.name}, amount: {fillAmount}");
             fillAmount = diseaseController.ChangeStatIfSick(fillAmount);
             float currentValue = bar.fillAmount;
             currentValue += fillAmount;
             if (currentValue >= maxAmount) currentValue = maxAmount;
             if (currentValue <= minAmount) currentValue = minAmount;
-            if (energyBar.fillAmount <= minAmount)
+            Debug.Log($"energy fill: {energyBar.fillAmount}, same: {bar == energyBar}");
+            if (bar == energyBar && isBlackOut == false)
+            {
                 GetBlackOut();
+            }
             bar.fillAmount = currentValue;
         }
     }
