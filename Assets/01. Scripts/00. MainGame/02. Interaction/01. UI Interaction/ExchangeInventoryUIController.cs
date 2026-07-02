@@ -22,6 +22,7 @@ namespace ObservedProject
         private void Awake()
         {
             SetObjectsInactive();
+            SetTextEmpty();
             uiInteraction = GetComponentInParent<UIInteraction>();
             inventoryItemSystem = GetComponentInParent<InventoryItemSystem>();
             yesText.text = "네";

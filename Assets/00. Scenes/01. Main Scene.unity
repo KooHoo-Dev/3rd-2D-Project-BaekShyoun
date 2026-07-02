@@ -2818,6 +2818,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.EventScriptInteraction
   player: {fileID: 282380402}
   uiInteract: {fileID: 289824754}
+  eventScriptText: {fileID: 1373965469}
+  beast: {fileID: 1887058184}
 --- !u!1 &386708267
 GameObject:
   m_ObjectHideFlags: 0
@@ -7368,6 +7370,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.EventScriptInteraction
   player: {fileID: 282380402}
   uiInteract: {fileID: 289824754}
+  eventScriptText: {fileID: 1373965469}
+  beast: {fileID: 1887058184}
 --- !u!1 &1152060236
 GameObject:
   m_ObjectHideFlags: 0
@@ -12998,6 +13002,7 @@ MonoBehaviour:
   feedDecreaseEscape: 10
   feedIncreaseAttack: 5
   uiInteraction: {fileID: 289824756}
+  eventScriptText: {fileID: 1373965469}
 --- !u!1 &1908250658
 GameObject:
   m_ObjectHideFlags: 0
@@ -13401,6 +13406,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.EventScriptInteraction
   player: {fileID: 282380402}
   uiInteract: {fileID: 289824754}
+  eventScriptText: {fileID: 1373965469}
+  beast: {fileID: 1887058184}
 --- !u!1 &1952504555
 GameObject:
   m_ObjectHideFlags: 0
@@ -14436,6 +14443,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.EventScriptInteraction
   player: {fileID: 282380402}
   uiInteract: {fileID: 289824754}
+  eventScriptText: {fileID: 1373965469}
+  beast: {fileID: 1887058184}
 --- !u!1 &2094205425
 GameObject:
   m_ObjectHideFlags: 0
