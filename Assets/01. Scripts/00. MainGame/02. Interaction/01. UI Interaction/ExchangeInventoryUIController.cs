@@ -13,8 +13,17 @@ namespace ObservedProject
         public Button yesButton;
         public TextMeshProUGUI yesText;
         public Button noButton;
+        public TextMeshProUGUI eventScriptText;
         public TextMeshProUGUI noText;
         public TextMeshProUGUI priceText;
+        public TextMeshProUGUI itemCountText;
+
+        public int exchangeFreshMeatCount = 5;
+        public int exchangeSuspiciousMeatCount = 5;
+        public int exchangeWaterCount = 5;
+        public int exchangeSleepTicketCount = 5;
+
+        public int[] exchangeCounts { get; private set; }
 
         private UIInteraction uiInteraction;
         private InventoryItemSystem inventoryItemSystem;
@@ -25,6 +34,7 @@ namespace ObservedProject
             SetTextEmpty();
             uiInteraction = GetComponentInParent<UIInteraction>();
             inventoryItemSystem = GetComponentInParent<InventoryItemSystem>();
+            exchangeCounts = new int[4] { exchangeFreshMeatCount, exchangeSuspiciousMeatCount, exchangeWaterCount, exchangeSleepTicketCount };
             yesText.text = "네";
             noText.text = "아니오";
         }
@@ -56,6 +66,7 @@ namespace ObservedProject
             description.text = string.Empty;
             popUpText.text = string.Empty;
             priceText.text = string.Empty;
+            
         }
 
         private void SetDescriptionWhenClick(Button button)
@@ -70,27 +81,39 @@ namespace ObservedProject
             {
                 case "FreshMeat":
                     description.text = "<b>신선한 고기</b>\n먹기 좋아보이는 고기.\n상태는 신선해 보인다.";
+                    itemCountText.text = string.Empty;
                     priceText.text = $"{inventoryItemSystem.freshMeatPrice} pt";
+                    itemCountText.text = $"개수 : {exchangeFreshMeatCount}";
                     SetPopUpText("신선한 고기");
                     yesButton.onClick.AddListener(inventoryItemSystem.BuyFreshMeat);
+                    yesButton.onClick.AddListener(() => DecreaseItem(0));
                     break;
                 case "SuspiciousMeat":
                     description.text = "<b>수상한 고기</b>\n난생 처음 본 고기.\n맛은 좀 이상하지만 그래도 배는 찬다.";
+                    itemCountText.text = string.Empty;
                     priceText.text = $"{inventoryItemSystem.suspiciousMeatPrice} pt";
+                    itemCountText.text = $"개수 : {exchangeSuspiciousMeatCount}";
                     SetPopUpText("수상한 고기");
                     yesButton.onClick.AddListener(inventoryItemSystem.BuySuspiciousMeat);
+                    yesButton.onClick.AddListener(() => DecreaseItem(1));
                     break;
                 case "FreshWater":
                     description.text = "<b>신선한 물</b>\n마시기 좋은 물.\n목을 축일 수 있을 것 같다.";
+                    itemCountText.text = string.Empty;
                     priceText.text = $"{inventoryItemSystem.freshWaterPrice} pt";
+                    itemCountText.text = $"개수 : {exchangeWaterCount}";
                     SetPopUpText("신선한 물");
                     yesButton.onClick.AddListener(inventoryItemSystem.BuyFreshWater);
+                    yesButton.onClick.AddListener(() => DecreaseItem(2));
                     break;
                 case "SleepTicket":
                     description.text = "<b>수면권</b>\n침대 옆 단말기에 사용하면\n조금 더 편히 잘 수 있을 것 같다.";
+                    itemCountText.text = string.Empty;
                     priceText.text = $"{inventoryItemSystem.sleepTicketPrice} pt";
+                    itemCountText.text = $"개수 : {exchangeSleepTicketCount}";
                     SetPopUpText("수면권");
                     yesButton.onClick.AddListener(inventoryItemSystem.BuySleepTicket);
+                    yesButton.onClick.AddListener(() => DecreaseItem(3));
                     break;
             }
             yesButton.onClick.AddListener(() => uiInteraction.ScreenOff(uiInteraction.popUpScreen));
@@ -100,6 +123,28 @@ namespace ObservedProject
         {
             popUpText.text = $"{text}을(를) 구매하시겠습니까?";
         }
+
+        public void DecreaseItem(int index)
+        {
+            eventScriptText.text = string.Empty;
+
+            if (exchangeCounts[index] <= 0) 
+            {
+                exchangeCounts[index] = 0;
+                itemCountText.text = $"개수 : {exchangeCounts[index]}";
+                SetEventScript();
+            }
+            exchangeCounts[index]--;
+            Debug.Log($"인덱스: {index}, 개수 : {exchangeCounts[index]}");
+            itemCountText.text = $"개수 : {exchangeCounts[index]}";
         
+        }
+
+        private void SetEventScript()
+        {
+            uiInteraction.ControlEventScript();
+            eventScriptText.text = "더 이상 구매가 불가능합니다.";
+        }
+
     }
 }

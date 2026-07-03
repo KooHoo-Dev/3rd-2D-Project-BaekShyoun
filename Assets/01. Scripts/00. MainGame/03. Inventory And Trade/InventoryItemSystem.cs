@@ -1,9 +1,6 @@
 using UnityEngine;
-using System.Collections.Generic;
-using UnityEngine.UI;
 using TMPro;
-using NUnit.Framework.Constraints;
-using UnityEditor;
+using Unity.VisualScripting;
 
 namespace ObservedProject
 {
@@ -29,10 +26,12 @@ namespace ObservedProject
 
         public int[] counts { get; private set; }
         private UIInteraction uiInteraction;
+        private ExchangeInventoryUIController exchangeInventory;
 
         private void Awake()
         {
             uiInteraction = GetComponentInParent<UIInteraction>();
+            exchangeInventory = GetComponentInChildren<ExchangeInventoryUIController>(true);
             currentPoint = 1000;
             currentPointText.text = $"{currentPoint} pt";
             for (int i = 0; i < countTexts.Length; ++i)
@@ -59,19 +58,28 @@ namespace ObservedProject
 
         #region 교환 자판기 이용
 
-        private void BuyItems(int count, int price, int countIndex)
+        private void BuyItems(int playerCount, int price, int countIndex)
         {
             while(true)
             {
                 if (currentPoint < price)
                 {
                     uiInteraction.ControlEventScript();
+                    eventScriptText.text = "보유하고 있는 포인트가 부족합니다.";
                     break;
                 }
-                count++;
-                SetBoughtCountText(count, countIndex);
+                for (int i = 0; i < exchangeInventory.exchangeCounts.Length; ++i)
+                {
+                    if (exchangeInventory.exchangeCounts[i] <= 0)
+                    {
+                        return;
+                    }
+                }
+                playerCount++;
+                SetBoughtCountText(playerCount, countIndex);
                 currentPoint -= price;
                 currentPointText.text = $"{currentPoint} pt";
+
                 return;
             }
             
