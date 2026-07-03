@@ -9,15 +9,15 @@ namespace ObservedProject
     public class TurnController : MonoBehaviour
     {
         [Header("TimeSettings")]
-        public TextMeshProUGUI TimeCheck;
-        public TextMeshProUGUI TimeCheckInStatus;
+        public TextMeshProUGUI timeCheck;
+        public TextMeshProUGUI timeCheckInStatus;
         public int turnCount = 1;
         private int dayCount;
-        private string[] Hours = { "00:00", "03:00", "06:00", "09:00", "12:00", "15:00", "18:00", "21:00" };
+        private string[] hours = { "00:00", "03:00", "06:00", "09:00", "12:00", "15:00", "18:00", "21:00" };
         private int currentHourIndex;
 
         [Header("BecomeZeroValue")]
-        public float MeatOrWaterDecreaseEnergy = 0.1f;
+        public float meatOrWaterDecreaseEnergy = 0.1f;
 
         [Header("OtherSettings")]
         public BeastController beastController;
@@ -35,7 +35,7 @@ namespace ObservedProject
             dayCount = 1;
             currentHourIndex = 0;
 
-            SetText();
+            SetTurnText();
         }
 
         private void Start()
@@ -46,14 +46,14 @@ namespace ObservedProject
         public void FlowTime(int skipTime)
         {
             currentHourIndex += skipTime;
-            if (currentHourIndex >= Hours.Length)
+            if (currentHourIndex >= hours.Length)
             {
-                currentHourIndex -= Hours.Length;
+                currentHourIndex -= hours.Length;
                 dayCount++;
                 diseaseController.RemoveDiseaseStack();
             }
             turnCount++;
-            SetText();
+            SetTurnText();
             isTimeFlow = true;
             beastController.ChangedTurn(skipTime);
             BecomeZeroValue(gageController.fullnessBar, skipTime);
@@ -102,13 +102,13 @@ namespace ObservedProject
         private void BecomeZeroValue(Image bar, int skipTime)
         {
             if (bar.fillAmount <= gageController.minAmount)
-                gageController.GageUpdate(gageController.energyBar, (-MeatOrWaterDecreaseEnergy) * skipTime);
+                gageController.GageUpdate(gageController.energyBar, (-meatOrWaterDecreaseEnergy) * skipTime);
         }
 
-        private void SetText()
+        private void SetTurnText()
         {
-            TimeCheck.text = $"Day {dayCount} {Hours[currentHourIndex]}";
-            TimeCheckInStatus.text = $"Day {dayCount} {Hours[currentHourIndex]}";
+            timeCheck.text = $"Day {dayCount} {hours[currentHourIndex]}";
+            timeCheckInStatus.text = $"Day {dayCount} {hours[currentHourIndex]}";
         }
     }
 }

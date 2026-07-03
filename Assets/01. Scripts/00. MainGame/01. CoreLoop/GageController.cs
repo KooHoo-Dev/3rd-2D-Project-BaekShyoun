@@ -35,6 +35,7 @@ namespace ObservedProject
         private FadeController fadeController;
         private UIInteraction uiInteraction;
         private TurnController turnController;
+        
         private bool isBlackOut = false;
 
         private void Awake()
@@ -43,6 +44,7 @@ namespace ObservedProject
             diseaseController = GetComponent<DiseaseController>();
             fadeController = GetComponentInChildren<FadeController>();
             uiInteraction = GetComponentInChildren<UIInteraction>();
+            
         }
 
         private void Start()

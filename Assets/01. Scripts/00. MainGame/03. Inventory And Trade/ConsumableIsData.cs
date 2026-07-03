@@ -4,7 +4,7 @@ namespace ObservedProject
 {
     public class ConsumablesData
     {
-        public int gainedTurn;
+        public int registeredTurn;
         public bool isRotten;
     }
 }

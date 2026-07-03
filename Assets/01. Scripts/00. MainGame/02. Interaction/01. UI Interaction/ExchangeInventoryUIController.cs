@@ -31,7 +31,6 @@ namespace ObservedProject
         private void Awake()
         {
             SetObjectsInactive();
-            SetTextEmpty();
             uiInteraction = GetComponentInParent<UIInteraction>();
             inventoryItemSystem = GetComponentInParent<InventoryItemSystem>();
             exchangeCounts = new int[4] { exchangeFreshMeatCount, exchangeSuspiciousMeatCount, exchangeWaterCount, exchangeSleepTicketCount };
@@ -81,7 +80,6 @@ namespace ObservedProject
             {
                 case "FreshMeat":
                     description.text = "<b>신선한 고기</b>\n먹기 좋아보이는 고기.\n상태는 신선해 보인다.";
-                    itemCountText.text = string.Empty;
                     priceText.text = $"{inventoryItemSystem.freshMeatPrice} pt";
                     itemCountText.text = $"개수 : {exchangeFreshMeatCount}";
                     SetPopUpText("신선한 고기");
@@ -90,7 +88,6 @@ namespace ObservedProject
                     break;
                 case "SuspiciousMeat":
                     description.text = "<b>수상한 고기</b>\n난생 처음 본 고기.\n맛은 좀 이상하지만 그래도 배는 찬다.";
-                    itemCountText.text = string.Empty;
                     priceText.text = $"{inventoryItemSystem.suspiciousMeatPrice} pt";
                     itemCountText.text = $"개수 : {exchangeSuspiciousMeatCount}";
                     SetPopUpText("수상한 고기");
@@ -99,7 +96,6 @@ namespace ObservedProject
                     break;
                 case "FreshWater":
                     description.text = "<b>신선한 물</b>\n마시기 좋은 물.\n목을 축일 수 있을 것 같다.";
-                    itemCountText.text = string.Empty;
                     priceText.text = $"{inventoryItemSystem.freshWaterPrice} pt";
                     itemCountText.text = $"개수 : {exchangeWaterCount}";
                     SetPopUpText("신선한 물");
@@ -108,7 +104,6 @@ namespace ObservedProject
                     break;
                 case "SleepTicket":
                     description.text = "<b>수면권</b>\n침대 옆 단말기에 사용하면\n조금 더 편히 잘 수 있을 것 같다.";
-                    itemCountText.text = string.Empty;
                     priceText.text = $"{inventoryItemSystem.sleepTicketPrice} pt";
                     itemCountText.text = $"개수 : {exchangeSleepTicketCount}";
                     SetPopUpText("수면권");

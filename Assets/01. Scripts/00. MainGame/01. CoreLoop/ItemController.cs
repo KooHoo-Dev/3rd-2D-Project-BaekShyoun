@@ -25,11 +25,13 @@ namespace ObservedProject
 
         private GageController gageController;
         private DiseaseController diseaseController;
+        private EventScriptTextManager eventScriptTextManager;
 
         private void Awake()
         {
             gageController = GetComponent<GageController>();
             diseaseController = GetComponent<DiseaseController>();
+            eventScriptTextManager = GetComponent<EventScriptTextManager>();
         }
 
         public void HaveMeat(MeatType meatType)
@@ -47,6 +49,7 @@ namespace ObservedProject
                     diseaseController.GotDiseaseByRotten(diseaseController.getDiseasePercentage);
                     break;
             }
+            eventScriptTextManager.SetTextHaveMeat((int)(meatIncreaseFullness * 100), diseaseController.diseaseStack);
         }
 
         public void HaveWater(WaterType waterType)
@@ -61,6 +64,7 @@ namespace ObservedProject
                     diseaseController.GotDiseaseByRotten(diseaseController.getDiseasePercentage);
                     break;
             }
+            eventScriptTextManager.SetTextHaveWater((int)(waterIncreaseHidration * 100), diseaseController.diseaseStack);
         }
 
         public void EnoughFullnessOrHidration(Image bar)

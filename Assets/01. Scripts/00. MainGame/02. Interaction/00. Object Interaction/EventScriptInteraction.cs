@@ -57,6 +57,9 @@ namespace ObservedProject
                 case "Clock":
                     CheckClock();
                     break;
+                case "GameC" or "GameD":
+                    CheckGameMachine();
+                    break;
             }
         }
 
@@ -81,7 +84,13 @@ namespace ObservedProject
         private void CheckClock()
         {
             eventScriptText.text = string.Empty;
-            eventScriptText.text = "시계는 있지만 고장난 듯하다";
+            eventScriptText.text = "시계는 있지만 고장난 듯하다.";
+        }
+
+        private void CheckGameMachine()
+        {
+            eventScriptText.text = string.Empty;
+            eventScriptText.text = "고장난 건지 작동하지 않는다.";
         }
     }
 }

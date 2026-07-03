@@ -1,6 +1,6 @@
 using UnityEngine;
 using TMPro;
-using Unity.VisualScripting;
+using System.Collections.Generic;
 
 namespace ObservedProject
 {
@@ -28,6 +28,13 @@ namespace ObservedProject
         private UIInteraction uiInteraction;
         private ExchangeInventoryUIController exchangeInventory;
 
+        #region Rotten 관련
+
+        private List<ConsumablesData> meatList;
+        private List<ConsumablesData> waterList;
+
+        #endregion
+
         private void Awake()
         {
             uiInteraction = GetComponentInParent<UIInteraction>();
@@ -47,13 +54,35 @@ namespace ObservedProject
                     uiInteraction.ControlEventScript();
                 }
             }
+
+            meatList = new List<ConsumablesData>();
+            waterList = new List<ConsumablesData>();
         }
 
-        //#region Rotten 전환
+        #region Rotten 전환
+
+        // 목표 : 신선한 고기 2턴 후 부패한 고기로, 신선한 물 4턴 후 썩은 물로 바꾸기
+        // (내가 생각하는) 필요한 요소들
+        // 1. List 필요(고기, 물 나누는게 느낌상 더 편할듯) > 일단 만듦
+        //    - Add로 상점에서 구매할때마다 List에 추가해주기 ( 고로 freshMeatCount같은 건 .Count로 계산하면 될듯)
+        // 2. Add로 추가할 때 turnController에서 currentTurn 저장하기(저장한 데이터 : registeredTurn)
+        //    - currentTurn - registeredTurn = 2 또는 4가 되었을 때 rotten 데이터 +1, 리스트는 .Remove(0)
+        //                                                                            > 제일 먼저 들어간 애가 당연히 제일 먼저 썩을테니 젤 앞에 있는 애를 지워야 할듯?
+        // 걱정되는 점들
+        // - DecreaseItem : 똑같이 .Remove(0)을 하면 될 거 같긴 한데, 지금까지 될 거 같은 건 맨날 막혔었음..ㅠ
+
+        private void AddMeatItem(ConsumablesData meat)
+        {
+            meatList.Add(meat);
+        }
+
+        private void AddWaterItem(ConsumablesData water)
+        {
+            waterList.Add(water);
+        }
 
 
-
-        //#endregion
+        #endregion
 
 
         #region 교환 자판기 이용

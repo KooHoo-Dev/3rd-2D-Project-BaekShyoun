@@ -27,6 +27,7 @@ namespace ObservedProject
 
         private void Awake()
         {
+            SetObjectsInactive();
             uiInteraction = GetComponentInParent<UIInteraction>();
             itemController = GetComponentInParent<ItemController>();
             inventoryItemSystem = GetComponentInParent<InventoryItemSystem>();
@@ -36,8 +37,6 @@ namespace ObservedProject
 
         private void Start()
         {
-            SetObjectsInactive();
-            SetTextEmpty();
             for (int i = 0; i < itemButtons.Length; ++i)
             {
                 Button button = itemButtons[i];
