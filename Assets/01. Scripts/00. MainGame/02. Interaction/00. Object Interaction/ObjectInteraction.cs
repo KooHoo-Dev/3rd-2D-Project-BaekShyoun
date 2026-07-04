@@ -36,5 +36,6 @@ namespace ObservedProject
         }
 
         protected abstract void CheckPlayerState(CharacterMove.State state);
+
     }
 }

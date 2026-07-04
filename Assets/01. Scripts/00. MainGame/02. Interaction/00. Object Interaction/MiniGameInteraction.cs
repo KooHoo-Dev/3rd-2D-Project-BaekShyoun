@@ -19,6 +19,7 @@ namespace ObservedProject
         public int getPoint;
 
         public GageController gageController;
+        public GameObject mainGameUI;
 
         protected override void Awake()
         {
@@ -31,6 +32,8 @@ namespace ObservedProject
             if (ScoreManagerGameB.Instance != null && ScoreManagerGameB.Instance.IsEndGame)
             {
                 ScoreManagerGameB.Instance.IsEndGame = false;
+                characterMove.canMove = true;
+                mainGameUI.SetActive(true);
                 turnController.OnPlayGame();
                 getPoint = ScoreManagerGameB.Instance.finalScore;
                 inventoryItemSystem.currentPoint += getPoint;
@@ -64,6 +67,8 @@ namespace ObservedProject
         // 씬 불러오는 동안 메인 씬 ui 상호작용 전부 작동하지 않게 하는 방법 생각해보기 (나중에)
         private void InteractYesButton()
         {
+            characterMove.canMove = false;
+            mainGameUI.SetActive(false);
             if (this.name == "GameA") SceneManager.LoadScene(2, LoadSceneMode.Additive);
             if (this.name == "GameB") SceneManager.LoadScene(3, LoadSceneMode.Additive);
         }

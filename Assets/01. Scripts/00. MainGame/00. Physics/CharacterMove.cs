@@ -31,6 +31,7 @@ namespace ObservedProject
 
         private void Awake()
         {
+            canMove = true;
             rBody = GetComponent<Rigidbody2D>();
             col = GetComponent<Collider2D>();
             currentAnimator = PlayerState[0].GetComponent<Animator>();
@@ -51,6 +52,11 @@ namespace ObservedProject
 
         private void FixedUpdate()
         {
+            if (canMove == false)
+            {
+                currentAnimator.SetBool("IsMove", false);
+                return;
+            }
             float horizontal = 0.0f;
             float vertical = 0.0f;
 

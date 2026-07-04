@@ -1,10 +1,19 @@
 fileFormatVersion: 2
-guid: a45975cc6eb40e04392a72e88f24abb2
+guid: d0ee76ca30cb2ca45888fa786ac5f5bb
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5815666125746370927
-    second: 448_288_0
+      213: -7209077683318751195
+    second: bouttons_0
+  - first:
+      213: 47233831427313581
+    second: bouttons_1
+  - first:
+      213: -7060149397061161001
+    second: bouttons_2
+  - first:
+      213: 6132504501955884574
+    second: bouttons_3
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -113,13 +122,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: 448_288_0
+      name: bouttons_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 64
-        height: 96
+        x: 457
+        y: 342
+        width: 351
+        height: 140
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -128,8 +137,74 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f697265578565b050800000000000000
-      internalID: 5815666125746370927
+      spriteID: 5200797da0634fb90800000000000000
+      internalID: -7209077683318751195
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bouttons_1
+      rect:
+        serializedVersion: 2
+        x: 223
+        y: 75
+        width: 159
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: daf0b9f5beec7a000800000000000000
+      internalID: 47233831427313581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bouttons_2
+      rect:
+        serializedVersion: 2
+        x: 445
+        y: 75
+        width: 159
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7df2bf6978f450e90800000000000000
+      internalID: -7060149397061161001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: bouttons_3
+      rect:
+        serializedVersion: 2
+        x: 649
+        y: 75
+        width: 159
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1670966a580b1550800000000000000
+      internalID: 6132504501955884574
       vertices: []
       indices: 
       edges: []
@@ -148,7 +223,10 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      448_288_0: 5815666125746370927
+      bouttons_0: -7209077683318751195
+      bouttons_1: 47233831427313581
+      bouttons_2: -7060149397061161001
+      bouttons_3: 6132504501955884574
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

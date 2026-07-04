@@ -5,6 +5,5 @@ namespace ObservedProject
     public class ConsumablesData
     {
         public int registeredTurn;
-        public bool isRotten;
     }
 }

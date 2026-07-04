@@ -16,7 +16,10 @@ namespace ObservedProject
             if (characterMove.currentState == state && canInteract)
             {
                 if (SimpleInput.GetKeyDown(Key.F))
+                {
                     uiInteraction.ControlExchangeInventoryScreen();
+                    characterMove.canMove = false;
+                }
                 uiInteraction.CloseExchangeInventoryScreenByKeyboard();
             }
         }

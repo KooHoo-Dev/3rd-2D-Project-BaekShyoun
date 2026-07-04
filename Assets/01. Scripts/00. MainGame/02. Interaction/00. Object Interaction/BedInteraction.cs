@@ -84,8 +84,6 @@ namespace ObservedProject
         private void InteractSecondYesButton()
         {
             uiInteraction.ClosePopUp();
-            uiInteraction.ActiveEventScriptScreen();
-            eventScript.text = "수면권을 1개 사용하여 당신은 깊은 수면에 빠졌습니다!";
             
             if(inventoryItemSystem.DecreaseItem(2))
             {
@@ -96,8 +94,6 @@ namespace ObservedProject
         private void InteractSecondNoButton()
         {
             uiInteraction.ClosePopUp();
-            uiInteraction.ActiveEventScriptScreen();
-            eventScript.text = "당신은 조금 불편한 잠을 청했습니다!";
             turnController.OnNormalSleep();
         }
     }

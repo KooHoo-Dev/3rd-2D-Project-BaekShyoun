@@ -46,7 +46,6 @@ namespace ObservedProject
                 }
             }
         }
-
         private void SetPopUpText()
         {
             popUpText.text = "짐승에게 먹이를 주겠습니까?";

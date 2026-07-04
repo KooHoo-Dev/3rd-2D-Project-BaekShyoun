@@ -29,6 +29,8 @@ namespace ObservedProject
         public Button exchangePurchaseButton;
         public Button exchangeInventoryExitButton;
 
+        public CharacterMove characterMove;
+
         private GameObject[] uiScreen;
         private TurnController turnController;
         private PlayerInventoryUIController playerInventory;
@@ -50,7 +52,7 @@ namespace ObservedProject
             {
                 uiScreen[i].SetActive(false);
             }
-            playerInventoryExitButton.onClick.AddListener(CloseInventoryByButton);
+            playerInventoryExitButton.onClick.AddListener(ClosePlayerInventory);
         }
 
         private void Update()
@@ -58,6 +60,7 @@ namespace ObservedProject
             ControlStatusScreen();
             ControlTurnCheckScreen();
             ControlPlayerInventoryScreen();
+            InactiveEventScriptScreen();
         }
 
         #region Status Screen
@@ -81,15 +84,23 @@ namespace ObservedProject
         public void ActiveEventScriptScreen()
         {
             isEventScriptOpen = true;
+            characterMove.canMove = false;
             ScreenOn(eventScriptScreen);
 
         } // 이후 Text 수정 필요
 
         public void InactiveEventScriptScreen()
         {
-            isEventScriptOpen = false;
+            if (!isEventScriptOpen)
+                return;
             if (SimpleInput.GetKeyDown(Key.Space) || SimpleInput.GetKeyDown(Key.Enter))
+            {
+                isEventScriptOpen = false;
                 ScreenOff(eventScriptScreen);
+                if (!isPopUpOpen && !isInventoryOpen)
+                    characterMove.canMove = true;
+            }
+                
         }
 
         #endregion
@@ -139,7 +150,7 @@ namespace ObservedProject
             }
         }
 
-        private void CloseInventoryByButton()
+        public void ClosePlayerInventory()
         {
             ScreenOff(playerInventoryScreen);
             isInventoryOpen = false;
@@ -147,6 +158,7 @@ namespace ObservedProject
 
         public void ActivePlayerInventoryInForce()
         {
+            characterMove.canMove = false;
             if (isPopUpOpen)
                 return;
             playerInventory.SetObjectsInactive();
@@ -168,7 +180,7 @@ namespace ObservedProject
             ScreenOn(exchangeInventoryScreen);
             exchangeInventoryExitButton.onClick.AddListener(CloseExchangeInventoryByButton);
             exchangePurchaseButton.onClick.AddListener(ControlPopUpScreen);
-        }  // 구매 후 창이 닫히면 좋을 것 같은데, 여러개 계속 살 거면 그냥 열려 있는 게 나을 거 같기도... 추후 수정
+        }
 
         public void CloseExchangeInventoryScreenByKeyboard()
         {
@@ -187,12 +199,13 @@ namespace ObservedProject
 
         public void OpenPopUp()
         {
-            if(isEventScriptOpen)
+            if (isEventScriptOpen)
             {
                 ClosePopUp();
                 return;
             }
             isPopUpOpen = true;
+            characterMove.canMove = false;
             ScreenOn(popUpScreen);
         }
 
@@ -210,6 +223,8 @@ namespace ObservedProject
         {
             isPopUpOpen = false;
             ScreenOff(popUpScreen);
+            if (!isEventScriptOpen && !isInventoryOpen)
+                characterMove.canMove = true;
         }
 
 
@@ -232,6 +247,9 @@ namespace ObservedProject
             ScreenOff(turnCheckScreen);
             turnController.isTimeFlow = false;
             isTurnCheckOpen = false;
+
+            if (!isPopUpOpen && !isEventScriptOpen && !isInventoryOpen)
+                characterMove.canMove = true;
         }
     }
 }

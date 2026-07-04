@@ -2126,6 +2126,7 @@ MonoBehaviour:
   discardButton: {fileID: 408826103}
   exchangePurchaseButton: {fileID: 1576102511}
   exchangeInventoryExitButton: {fileID: 321971357}
+  characterMove: {fileID: 282380407}
 --- !u!1001 &305050737
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -5860,6 +5861,7 @@ MonoBehaviour:
   inventoryItemSystem: {fileID: 1450747812}
   getPoint: 0
   gageController: {fileID: 1458262909}
+  mainGameUI: {fileID: 289824754}
 --- !u!1 &848199194
 GameObject:
   m_ObjectHideFlags: 0
@@ -6807,10 +6809,6 @@ MonoBehaviour:
   noText: {fileID: 657286042}
   priceText: {fileID: 322054753}
   itemCountText: {fileID: 271444085}
-  exchangeFreshMeatCount: 5
-  exchangeSuspiciousMeatCount: 5
-  exchangeWaterCount: 5
-  exchangeSleepTicketCount: 5
 --- !u!1 &1052477414
 GameObject:
   m_ObjectHideFlags: 0
@@ -6973,6 +6971,7 @@ MonoBehaviour:
   inventoryItemSystem: {fileID: 1450747812}
   getPoint: 0
   gageController: {fileID: 1458262909}
+  mainGameUI: {fileID: 289824754}
 --- !u!1 &1063993702
 GameObject:
   m_ObjectHideFlags: 0
@@ -9847,10 +9846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::inventorySystem
   currentPoint: 5000
-  freshMeatCount: 0
-  suspiciousMeatCount: 0
   rottenMeatCount: 0
-  freshWaterCount: 0
   rottenWaterCount: 0
   sleepTicketCount: 0
   countTexts:

@@ -24,6 +24,7 @@ namespace ObservedProject
         private GageController gageController;
         private DiseaseController diseaseController;
         private FadeController fadeController;
+        private InventoryItemSystem inventoryItemSystem;
 
         public bool isTimeFlow = false;
 
@@ -32,6 +33,7 @@ namespace ObservedProject
             gageController = GetComponent<GageController>();
             diseaseController = GetComponent<DiseaseController>();
             fadeController = GetComponentInChildren<FadeController>();
+            inventoryItemSystem = GetComponentInChildren<InventoryItemSystem>();
             dayCount = 1;
             currentHourIndex = 0;
 
@@ -52,8 +54,9 @@ namespace ObservedProject
                 dayCount++;
                 diseaseController.RemoveDiseaseStack();
             }
-            turnCount++;
+            turnCount += skipTime;
             SetTurnText();
+            inventoryItemSystem.CheckRottenItems();
             isTimeFlow = true;
             beastController.ChangedTurn(skipTime);
             BecomeZeroValue(gageController.fullnessBar, skipTime);

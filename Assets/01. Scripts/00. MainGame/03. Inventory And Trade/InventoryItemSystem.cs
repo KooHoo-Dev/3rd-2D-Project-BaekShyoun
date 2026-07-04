@@ -8,10 +8,7 @@ namespace ObservedProject
     {
         [Header("PlayerSettings")]
         public int currentPoint = 1000;
-        public int freshMeatCount = 0;
-        public int suspiciousMeatCount = 0;
         public int rottenMeatCount = 0;
-        public int freshWaterCount = 0;
         public int rottenWaterCount = 0;
         public int sleepTicketCount = 0;
         public TextMeshProUGUI[] countTexts;
@@ -25,27 +22,33 @@ namespace ObservedProject
         public int sleepTicketPrice = 200;
 
         public int[] counts { get; private set; }
+        private TurnController turnController;
         private UIInteraction uiInteraction;
-        private ExchangeInventoryUIController exchangeInventory;
 
         #region Rotten 관련
 
-        private List<ConsumablesData> meatList;
-        private List<ConsumablesData> waterList;
+        public List<ConsumablesData> freshMeatList;
+        public List<ConsumablesData> suspiciousMeatList;
+        public List<ConsumablesData> freshWaterList;
 
         #endregion
 
         private void Awake()
         {
+            turnController = GetComponentInParent<TurnController>();
             uiInteraction = GetComponentInParent<UIInteraction>();
-            exchangeInventory = GetComponentInChildren<ExchangeInventoryUIController>(true);
             currentPoint = 1000;
             currentPointText.text = $"{currentPoint} pt";
+
+            freshMeatList = new List<ConsumablesData>();
+            suspiciousMeatList = new List<ConsumablesData>();
+            freshWaterList = new List<ConsumablesData>();
+
             for (int i = 0; i < countTexts.Length; ++i)
             {
                 SetBoughtCountText(0, i);
             }
-            counts = new int[6] { freshMeatCount, suspiciousMeatCount, rottenMeatCount, freshWaterCount, rottenWaterCount, sleepTicketCount };
+            counts = new int[6] { freshMeatList.Count, freshWaterList.Count, sleepTicketCount, suspiciousMeatList.Count, rottenMeatCount,  rottenWaterCount };
             for (int i = 0; i < counts.Length; ++i)
             {
                 if (counts[i] < 0)
@@ -54,86 +57,103 @@ namespace ObservedProject
                     uiInteraction.ControlEventScript();
                 }
             }
-
-            meatList = new List<ConsumablesData>();
-            waterList = new List<ConsumablesData>();
         }
 
-        #region Rotten 전환
-
-        // 목표 : 신선한 고기 2턴 후 부패한 고기로, 신선한 물 4턴 후 썩은 물로 바꾸기
-        // (내가 생각하는) 필요한 요소들
-        // 1. List 필요(고기, 물 나누는게 느낌상 더 편할듯) > 일단 만듦
-        //    - Add로 상점에서 구매할때마다 List에 추가해주기 ( 고로 freshMeatCount같은 건 .Count로 계산하면 될듯)
-        // 2. Add로 추가할 때 turnController에서 currentTurn 저장하기(저장한 데이터 : registeredTurn)
-        //    - currentTurn - registeredTurn = 2 또는 4가 되었을 때 rotten 데이터 +1, 리스트는 .Remove(0)
-        //                                                                            > 제일 먼저 들어간 애가 당연히 제일 먼저 썩을테니 젤 앞에 있는 애를 지워야 할듯?
-        // 걱정되는 점들
-        // - DecreaseItem : 똑같이 .Remove(0)을 하면 될 거 같긴 한데, 지금까지 될 거 같은 건 맨날 막혔었음..ㅠ
-
-        private void AddMeatItem(ConsumablesData meat)
+        private void AddFreshMeat()
         {
-            meatList.Add(meat);
+            ConsumablesData freshMeat = new ConsumablesData();
+            freshMeat.registeredTurn = turnController.turnCount;
+
+            freshMeatList.Add(freshMeat);
+
+            counts[0] = freshMeatList.Count;
+            SetBoughtCountText(counts[0], 0);
         }
 
-        private void AddWaterItem(ConsumablesData water)
+        private void AddFreshWater()
         {
-            waterList.Add(water);
+            ConsumablesData water = new ConsumablesData();
+            water.registeredTurn = turnController.turnCount;
+
+            freshWaterList.Add(water);
+
+            counts[1] = freshWaterList.Count;
+            SetBoughtCountText(counts[1], 1);
         }
 
+        private void AddSuspiciousMeat()
+        {
+            ConsumablesData meat = new ConsumablesData();
+            meat.registeredTurn = turnController.turnCount;
 
-        #endregion
+            suspiciousMeatList.Add(meat);
 
+            counts[3] = suspiciousMeatList.Count;
+            SetBoughtCountText(counts[3], 3);
+        }
 
         #region 교환 자판기 이용
 
-        private void BuyItems(int playerCount, int price, int countIndex)
+        private bool BuyItems(int price)
         {
-            while(true)
+            if (currentPoint < price)
             {
-                if (currentPoint < price)
-                {
-                    uiInteraction.ControlEventScript();
-                    eventScriptText.text = "보유하고 있는 포인트가 부족합니다.";
-                    break;
-                }
-                for (int i = 0; i < exchangeInventory.exchangeCounts.Length; ++i)
-                {
-                    if (exchangeInventory.exchangeCounts[i] <= 0)
-                    {
-                        return;
-                    }
-                }
-                playerCount++;
-                SetBoughtCountText(playerCount, countIndex);
-                currentPoint -= price;
-                currentPointText.text = $"{currentPoint} pt";
-
-                return;
+                uiInteraction.ControlEventScript();
+                eventScriptText.text = "보유하고 있는 포인트가 부족합니다.";
+                return false;
             }
+            currentPoint -= price;
+            currentPointText.text = $"{currentPoint} pt";
+            return true;
+
             
         }
 
-        public void BuyFreshMeat()
+        public bool BuyFreshMeat()
         {
-            BuyItems(freshMeatCount, freshMeatPrice, 0);
-            
+            if (BuyItems(freshMeatPrice))
+            {
+                AddFreshMeat();
+                return true;
+            }
+
+            return false;
         }
 
-        public void BuySuspiciousMeat() //3
+        public bool BuyFreshWater()
         {
-            BuyItems(suspiciousMeatCount, suspiciousMeatPrice, 3);
+            if (BuyItems(freshWaterPrice))
+            {
+                AddFreshWater();
+                return true;
+            }
+
+            return false;
         }
 
-        public void BuyFreshWater() //1
+        public bool BuySleepTicket()
         {
-            BuyItems(freshWaterCount, freshWaterPrice, 1);
+            if (BuyItems(sleepTicketPrice))
+            {
+                sleepTicketCount++;
+                counts[2] = sleepTicketCount;
+                SetBoughtCountText(counts[2], 2);
+                return true;
+            }
+            return false;
         }
 
-        public void BuySleepTicket() //2
+        public bool BuySuspiciousMeat()
         {
-            BuyItems(sleepTicketCount, sleepTicketPrice, 2);
+            if (BuyItems(suspiciousMeatPrice))
+            {
+                AddSuspiciousMeat();
+                return true;
+            }
+
+            return false;
         }
+
         #endregion
 
 
@@ -141,33 +161,7 @@ namespace ObservedProject
         
         private void SetBoughtCountText(int count, int countIndex)
         {
-            switch(countIndex)
-            {
-                case 0:
-                    freshMeatCount = count;
-                    countTexts[countIndex].text = $"{count}";
-                    break;
-                case 1:
-                    freshWaterCount = count;
-                    countTexts[countIndex].text = $"{count}";
-                    break;
-                case 2:
-                    sleepTicketCount = count;
-                    countTexts[countIndex].text = $"{count}";
-                    break;
-                case 3:
-                    suspiciousMeatCount = count;
-                    countTexts[countIndex].text = $"{count}";
-                    break;
-                case 4:
-                    rottenMeatCount = count;
-                    countTexts[countIndex].text = $"{count}";
-                    break;
-                case 5:
-                    rottenWaterCount = count;
-                    countTexts[countIndex].text = $"{count}";
-                    break;
-            }
+            countTexts[countIndex].text = $"{count}";
         }
 
         public bool DecreaseItem(int countIndex)
@@ -176,61 +170,127 @@ namespace ObservedProject
             switch (countIndex)
             {
                 case 0:
-                    if (freshMeatCount <= 0)
+                    if (freshMeatList.Count <= 0)
                     {
                         SetEventScript();
                         return false;
                     }
-                    freshMeatCount--;
-                    countTexts[countIndex].text = $"{freshMeatCount}";
+
+                    freshMeatList.RemoveAt(0);
+                    counts[0] = freshMeatList.Count;
+                    SetBoughtCountText(counts[0], 0);
                     return true;
+
                 case 1:
-                    if (freshWaterCount <= 0)
+                    if (freshWaterList.Count <= 0)
                     {
                         SetEventScript();
                         return false;
                     }
-                    freshWaterCount--;
-                    countTexts[countIndex].text = $"{freshWaterCount}";
+
+                    freshWaterList.RemoveAt(0);
+                    counts[1] = freshWaterList.Count;
+                    SetBoughtCountText(counts[1], 1);
                     return true;
+
                 case 2:
                     if (sleepTicketCount <= 0)
                     {
                         SetEventScript();
                         return false;
                     }
+
                     sleepTicketCount--;
-                    countTexts[countIndex].text = $"{sleepTicketCount}";
+                    counts[2] = sleepTicketCount;
+                    SetBoughtCountText(counts[2], 2);
                     return true;
+
                 case 3:
-                    if (suspiciousMeatCount <= 0)
+                    if (suspiciousMeatList.Count <= 0)
                     {
                         SetEventScript();
                         return false;
                     }
-                    suspiciousMeatCount--;
-                    countTexts[countIndex].text = $"{suspiciousMeatCount}";
+
+                    suspiciousMeatList.RemoveAt(0);
+                    counts[3] = suspiciousMeatList.Count;
+                    SetBoughtCountText(counts[3], 3);
                     return true;
+
                 case 4:
                     if (rottenMeatCount <= 0)
                     {
                         SetEventScript();
                         return false;
                     }
+
                     rottenMeatCount--;
-                    countTexts[countIndex].text = $"{rottenMeatCount}";
+                    counts[4] = rottenMeatCount;
+                    SetBoughtCountText(counts[4], 4);
                     return true;
+
                 case 5:
                     if (rottenWaterCount <= 0)
                     {
                         SetEventScript();
                         return false;
                     }
+
                     rottenWaterCount--;
-                    countTexts[countIndex].text = $"{rottenWaterCount}";
+                    counts[5] = rottenWaterCount;
+                    SetBoughtCountText(counts[5], 5);
                     return true;
             }
+
             return false;
+        }
+
+        public void CheckRottenItems()
+        {
+            for (int i = freshMeatList.Count - 1; i >= 0; i--)
+            {
+                int passedTurn = turnController.turnCount - freshMeatList[i].registeredTurn;
+
+                if (passedTurn >= 2)
+                {
+                    freshMeatList.RemoveAt(i);
+                    rottenMeatCount++;
+                }
+            }
+
+            for (int i = suspiciousMeatList.Count - 1; i >= 0; i--)
+            {
+                int passedTurn = turnController.turnCount - suspiciousMeatList[i].registeredTurn;
+
+                if (passedTurn >= 2)
+                {
+                    suspiciousMeatList.RemoveAt(i);
+                    rottenMeatCount++;
+                }
+            }
+
+            for (int i = freshWaterList.Count - 1; i >= 0; i--)
+            {
+                int passedTurn = turnController.turnCount - freshWaterList[i].registeredTurn;
+
+                if (passedTurn >= 4)
+                {
+                    freshWaterList.RemoveAt(i);
+                    rottenWaterCount++;
+                }
+            }
+
+            counts[0] = freshMeatList.Count;
+            counts[1] = freshWaterList.Count;
+            counts[3] = suspiciousMeatList.Count;
+            counts[4] = rottenMeatCount;
+            counts[5] = rottenWaterCount;
+
+            SetBoughtCountText(counts[0], 0);
+            SetBoughtCountText(counts[1], 1);
+            SetBoughtCountText(counts[3], 3);
+            SetBoughtCountText(counts[4], 4);
+            SetBoughtCountText(counts[5], 5);
         }
 
         private void SetEventScript()

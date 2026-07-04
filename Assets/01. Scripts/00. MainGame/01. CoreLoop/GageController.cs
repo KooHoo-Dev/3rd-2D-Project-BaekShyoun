@@ -35,6 +35,7 @@ namespace ObservedProject
         private FadeController fadeController;
         private UIInteraction uiInteraction;
         private TurnController turnController;
+        private EventScriptTextManager eventScriptTextManager;
         
         private bool isBlackOut = false;
 
@@ -44,6 +45,7 @@ namespace ObservedProject
             diseaseController = GetComponent<DiseaseController>();
             fadeController = GetComponentInChildren<FadeController>();
             uiInteraction = GetComponentInChildren<UIInteraction>();
+            eventScriptTextManager = GetComponent<EventScriptTextManager>();
             
         }
 
@@ -59,23 +61,29 @@ namespace ObservedProject
         #region ForPlayer
         public void PlayGame()
         {
-            GageUpdate(fullnessBar, -gameDecreaseFullness);
-            GageUpdate(hidrationBar, -gameDecreaseHidration);
-            GageUpdate(energyBar, -gameDecreaseEnergy);
+            float actualFullness = GageUpdate(fullnessBar, -gameDecreaseFullness);
+            float actualHidration = GageUpdate(hidrationBar, -gameDecreaseHidration);
+            float actualEnergy = GageUpdate(energyBar, -gameDecreaseEnergy);
+
+            eventScriptTextManager.SetTextPlayGame((int)(actualFullness * 100), (int)(actualHidration * 100), (int)(actualEnergy * 100), diseaseController.diseaseStack);
         }
 
         public void HaveNormalSleep()
         {
-            GageUpdate(fullnessBar, -sleepDecreaseFullness);
-            GageUpdate(hidrationBar, -sleepDecreaseHidration);
-            GageUpdate(energyBar, normalSleepIncreaseEnergy);
+            float actualFullness = GageUpdate(fullnessBar, -sleepDecreaseFullness);
+            float actualHidration = GageUpdate(hidrationBar, -sleepDecreaseHidration);
+            float actualEnergy = GageUpdate(energyBar, normalSleepIncreaseEnergy);
+
+            eventScriptTextManager.SetTextTakeNormalSleep((int)(actualFullness * 100), (int)(actualHidration * 100), (int)(actualEnergy * 100), diseaseController.diseaseStack);
         }
 
         public void HaveDeepSleep()
         {
-            GageUpdate(fullnessBar, -sleepDecreaseFullness);
-            GageUpdate(hidrationBar, -sleepDecreaseHidration);
-            GageUpdate(energyBar, deepSleepIncreaseEnergy);
+            float actualFullness = GageUpdate(fullnessBar, -sleepDecreaseFullness);
+            float actualHidration = GageUpdate(hidrationBar, -sleepDecreaseHidration);
+            float actualEnergy = GageUpdate(energyBar, deepSleepIncreaseEnergy);
+
+            eventScriptTextManager.SetTextTakeDeepSleep((int)(actualFullness * 100), (int)(actualHidration * 100), (int)(actualEnergy * 100), diseaseController.diseaseStack);
         }
 
         public void GetBlackOut()
@@ -105,7 +113,7 @@ namespace ObservedProject
             isBlackOut = false;
         }
 
-        public void GageUpdate(Image bar, float fillAmount)
+        public float GageUpdate(Image bar, float fillAmount)
         {
             Debug.Log($"GageUpdate 실행: {bar.name}, amount: {fillAmount}");
             fillAmount = diseaseController.ChangeStatIfSick(fillAmount);
@@ -119,6 +127,8 @@ namespace ObservedProject
                 GetBlackOut();
             }
             bar.fillAmount = currentValue;
+
+            return fillAmount;
         }
     }
 }

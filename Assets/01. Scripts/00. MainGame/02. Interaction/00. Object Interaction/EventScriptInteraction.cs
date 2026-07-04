@@ -33,11 +33,6 @@ namespace ObservedProject
                     uiInteraction.ActiveEventScriptScreen();
                     CheckObjects(this.name);
                 }
-                uiInteraction.InactiveEventScriptScreen();
-            }
-            else
-            {
-                uiInteraction.InactiveEventScriptScreen();
             }
         }
 

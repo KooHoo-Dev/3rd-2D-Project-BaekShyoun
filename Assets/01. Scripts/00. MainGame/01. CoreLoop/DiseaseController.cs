@@ -62,7 +62,6 @@ namespace ObservedProject
         {
             int number = Random.Range(1, 101);
             if (number <= removeDiseasePercentage) diseaseStack--;
-            Debug.Log($"Disease Remove number : {number}");
             if (diseaseStack < 0) diseaseStack = 0;
             SetDiseaseText();
         }
