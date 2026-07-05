@@ -5,7 +5,8 @@ TagManager:
   serializedVersion: 3
   tags:
   - InteractiveObject
-  - Cards
+  - EnterPoint
+  - GoalPoint
   layers:
   - Default
   - TransparentFX
