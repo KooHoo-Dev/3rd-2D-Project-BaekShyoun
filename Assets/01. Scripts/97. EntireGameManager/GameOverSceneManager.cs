@@ -31,9 +31,9 @@ public class GameOverSceneManager : MonoBehaviour
     private void SetTextAboutDeath()
     {
         if (GameManagerMain.Instance.isDeadByDisease)
-            reasonOfDeath.text = "당신은 질병으로 인해 사망했습니다!";
+            reasonOfDeath.text = "당신은 질병으로 인해\n사망했습니다!";
         if (GameManagerMain.Instance.isDeadByBeast)
-            reasonOfDeath.text = "당신은 탈출한 짐승에게 잡아먹혔습니다!";
+            reasonOfDeath.text = "당신은 탈출한 짐승에게\n잡아먹혔습니다!";
     }
 
     private IEnumerator GoBackToTitle()

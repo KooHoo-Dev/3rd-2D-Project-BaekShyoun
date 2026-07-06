@@ -78,10 +78,17 @@ namespace ObservedProject
         // 씬 불러오는 동안 메인 씬 ui 상호작용 전부 작동하지 않게 하는 방법 생각해보기 (나중에)
         private void InteractYesButton()
         {
-            characterMove.canMove = false;
             mainGameUI.SetActive(false);
-            if (this.name == "GameA") SceneManager.LoadScene(2, LoadSceneMode.Additive);
-            if (this.name == "GameB") SceneManager.LoadScene(3, LoadSceneMode.Additive);
+            if (this.name == "GameA")
+            {
+                SceneManager.LoadScene(2, LoadSceneMode.Additive);
+                characterMove.canMove = false;
+            }
+            if (this.name == "GameB")
+            {
+                SceneManager.LoadScene(3, LoadSceneMode.Additive);
+                characterMove.canMove = false;
+            }
         }
     }
 }
