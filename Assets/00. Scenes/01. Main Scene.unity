@@ -2419,7 +2419,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: "\uAC00\uACA9 nn pt"
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 0e6526eea5243fd4c9e380ccbfcb967c, type: 2}
   m_sharedMaterial: {fileID: -2906160258409483521, guid: 0e6526eea5243fd4c9e380ccbfcb967c, type: 2}
