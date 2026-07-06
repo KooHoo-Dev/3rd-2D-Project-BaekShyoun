@@ -33,6 +33,7 @@ namespace ObservedProject
             {
                 ScoreManagerGameA.Instance.isEndGame = false;
                 characterMove.canMove = true;
+                characterMove.enabled = true;
                 mainGameUI.SetActive(true);
                 turnController.OnPlayGame();
                 getPoint = ScoreManagerGameA.Instance.finalScore;
@@ -44,6 +45,7 @@ namespace ObservedProject
             {
                 ScoreManagerGameB.Instance.isEndGame = false;
                 characterMove.canMove = true;
+                characterMove.enabled = true;
                 mainGameUI.SetActive(true);
                 turnController.OnPlayGame();
                 getPoint = ScoreManagerGameB.Instance.finalScore;
@@ -78,16 +80,19 @@ namespace ObservedProject
         // 씬 불러오는 동안 메인 씬 ui 상호작용 전부 작동하지 않게 하는 방법 생각해보기 (나중에)
         private void InteractYesButton()
         {
+            characterMove.canMove = false;
             mainGameUI.SetActive(false);
+            Debug.Log($"이동 잠금됨: {characterMove.canMove}");
             if (this.name == "GameA")
             {
                 SceneManager.LoadScene(2, LoadSceneMode.Additive);
-                characterMove.canMove = false;
+                characterMove.enabled = false;
+
             }
             if (this.name == "GameB")
             {
                 SceneManager.LoadScene(3, LoadSceneMode.Additive);
-                characterMove.canMove = false;
+                characterMove.enabled = false;
             }
         }
     }

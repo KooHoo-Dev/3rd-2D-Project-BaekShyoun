@@ -155,6 +155,9 @@ namespace ObservedProject
         {
             ScreenOff(playerInventoryScreen);
             isInventoryOpen = false;
+
+            if (!isPopUpOpen && !isEventScriptOpen)
+                characterMove.canMove = true;
         }
 
         public void ActivePlayerInventoryInForce()
@@ -173,6 +176,7 @@ namespace ObservedProject
 
         private void OpenBeastInventory()
         {
+            isInventoryOpen = true;
             characterMove.canMove = false;
             ScreenOn(playerInventoryScreen);
         }
@@ -186,6 +190,9 @@ namespace ObservedProject
             if (isPopUpOpen)
                 return;
 
+            isInventoryOpen = true;
+            characterMove.canMove = false;
+
             ScreenOn(exchangeInventoryScreen);
             exchangeInventoryExitButton.onClick.AddListener(CloseExchangeInventoryByButton);
             exchangePurchaseButton.onClick.AddListener(ControlPopUpScreen);
@@ -196,6 +203,7 @@ namespace ObservedProject
             if (SimpleInput.GetKeyDown(Key.Escape))
             {
                 ScreenOff(exchangeInventoryScreen);
+                isInventoryOpen = false;
                 characterMove.canMove = true;
             }
         }
@@ -203,6 +211,7 @@ namespace ObservedProject
         private void CloseExchangeInventoryByButton()
         {
             ScreenOff(exchangeInventoryScreen);
+            isInventoryOpen = false;
             characterMove.canMove = true;
         }
 

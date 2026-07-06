@@ -13,6 +13,7 @@ namespace ObservedProject
         public FoodController[] pickedFoods { get; private set; }
         private MiniGameBManager gameManager;
         private int currentIndex;
+        private bool isCheck = false;
 
         private void Awake()
         {
@@ -84,14 +85,23 @@ namespace ObservedProject
             pickedFoods[currentIndex].SetFood(food);
             currentIndex++;
 
-            if (currentIndex >= foodImages.Length)
+            if (currentIndex >= foodImages.Length && isCheck == false)
             {
-                gameManager.CheckAnswers();
+                isCheck = true;
+                StartCoroutine(CheckAnswersAfterDelay());
             }
         }
 
+        private IEnumerator CheckAnswersAfterDelay()
+        {
+            yield return new WaitForSeconds(0.1f);
+            gameManager.CheckAnswers();
+        }
+
+
         public void ResetFoodChoice()
         {
+            isCheck = false;
             currentIndex = 0;
             SetAllFoodsInactive();
             StopAllCoroutines();

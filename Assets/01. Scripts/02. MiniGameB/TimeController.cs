@@ -11,7 +11,7 @@ namespace ObservedProject
         [field: SerializeField] public TextMeshProUGUI countDown { get; private set; }
         public bool isDecreased { get; private set; } = false;
         public float currentValue = 100f;
-        private float speed = 50.0f;
+        private float speed = 80.0f;
 
         private void Awake()
         {
