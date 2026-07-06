@@ -86,16 +86,18 @@ namespace ObservedProject
         {
             GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
 
+            uiInteraction.ClosePopUp(); // 이거 추가
+
             characterMove.canMove = false;
             mainGameUI.SetActive(false);
-            Debug.Log($"이동 잠금됨: {characterMove.canMove}");
+
             if (this.name == "GameA")
             {
                 GameSoundManager.Instance.PlayBGM(GameSoundManager.Instance.miniGameABGM);
                 SceneManager.LoadScene(2, LoadSceneMode.Additive);
                 characterMove.enabled = false;
-
             }
+
             if (this.name == "GameB")
             {
                 GameSoundManager.Instance.PlayBGM(GameSoundManager.Instance.miniGameBBGM);

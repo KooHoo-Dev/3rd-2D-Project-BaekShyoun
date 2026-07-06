@@ -40,6 +40,7 @@ namespace ObservedProject
         public AudioClip purchase; // exchangeMachine에서 아이템을 구매했을 때 나는 소리
         public AudioClip uiMove; // 이벤트 스크립트 넘길 때 나오는 소리
         public AudioClip buttonClick; // 버튼 클릭 시 나오는 소리
+        public AudioClip openInvenUI; // 인벤(플레이어, 교환) 오픈 시 나오는 소리
 
         #endregion
 

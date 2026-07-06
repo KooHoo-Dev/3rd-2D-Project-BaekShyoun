@@ -97,8 +97,6 @@ namespace Jay
 
 #if UNITY_EDITOR
                 DestroyImmediate((instance as MonoBehaviour)?.gameObject);
-#else
-                Destroy((_instance as MonoBehaviour)?.gameObject);
 #endif
                 instance = null;
                 isInitialized = false;

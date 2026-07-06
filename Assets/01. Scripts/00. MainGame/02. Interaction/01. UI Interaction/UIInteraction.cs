@@ -35,7 +35,8 @@ namespace ObservedProject
         private GameObject[] uiScreen;
         private TurnController turnController;
         private PlayerInventoryUIController playerInventory;
-        public bool isInventoryOpen { get; private set; } = false;
+        public bool isPlayerInventoryOpen { get; private set; } = false;
+        public bool isExchangeInventoryOpen { get; private set; } = false;
         public bool isPopUpOpen { get; private set; } = false;
         public bool isTurnCheckOpen { get; private set; } = false;
         public bool isEventScriptOpen { get; private set; } = false;
@@ -53,6 +54,7 @@ namespace ObservedProject
             {
                 uiScreen[i].SetActive(false);
             }
+            playerInventoryExitButton.onClick.RemoveAllListeners();
             playerInventoryExitButton.onClick.AddListener(ClosePlayerInventory);
         }
 
@@ -99,7 +101,7 @@ namespace ObservedProject
                 GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.uiMove);
                 isEventScriptOpen = false;
                 ScreenOff(eventScriptScreen);
-                if (!isPopUpOpen && !isInventoryOpen)
+                if (!isPopUpOpen && !isPlayerInventoryOpen)
                     characterMove.canMove = true;
             }
                 
@@ -127,27 +129,26 @@ namespace ObservedProject
         {
             if (isPopUpOpen)
                 return;
-            if (isInventoryOpen == false)
+            if (isPlayerInventoryOpen == false)
             {
                 if (SimpleInput.GetKeyDown(Key.I))
                 {
                     playerInventory.SetObjectsInactive();
                     playerInventory.isBeastInventory = false;
+                    GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.openInvenUI);
                     ScreenOn(playerInventoryScreen);
-                    isInventoryOpen = true;
+                    isPlayerInventoryOpen = true;
                 }
             }
             else
             {
                 if (SimpleInput.GetKeyDown(Key.I))
                 {
-                    ScreenOff(playerInventoryScreen);
-                    isInventoryOpen = false;
+                    ClosePlayerInventory();
                 }
                 if (SimpleInput.GetKeyDown(Key.Escape))
                 {
-                    ScreenOff(playerInventoryScreen);
-                    isInventoryOpen = false;
+                    ClosePlayerInventory();
                 }
             }
         }
@@ -156,10 +157,10 @@ namespace ObservedProject
         {
             GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
             ScreenOff(playerInventoryScreen);
-            isInventoryOpen = false;
+            playerInventory.isBeastInventory = false;
+            isPlayerInventoryOpen = false;
 
-            if (!isPopUpOpen && !isEventScriptOpen)
-                characterMove.canMove = true;
+            characterMove.canMove = true;
         }
 
         public void ActivePlayerInventoryInForce()
@@ -168,18 +169,13 @@ namespace ObservedProject
                 return;
             playerInventory.SetObjectsInactive();
             OpenBeastInventory();
-            if (SimpleInput.GetKeyDown(Key.I) || SimpleInput.GetKeyDown(Key.Escape))
-            {
-                characterMove.canMove = true;
-                ScreenOff(playerInventoryScreen);
-            }
-            playerInventoryExitButton.onClick.AddListener(()=>ScreenOff(playerInventoryScreen));
         }
 
         private void OpenBeastInventory()
         {
-            isInventoryOpen = true;
+            isPlayerInventoryOpen = true;
             characterMove.canMove = false;
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.openInvenUI);
             ScreenOn(playerInventoryScreen);
         }
 
@@ -192,9 +188,10 @@ namespace ObservedProject
             if (isPopUpOpen)
                 return;
 
-            isInventoryOpen = true;
+            isExchangeInventoryOpen = true;
             characterMove.canMove = false;
 
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.openInvenUI);
             ScreenOn(exchangeInventoryScreen);
             exchangeInventoryExitButton.onClick.AddListener(CloseExchangeInventoryByButton);
             exchangePurchaseButton.onClick.AddListener(ControlPopUpScreen);
@@ -205,7 +202,7 @@ namespace ObservedProject
             if (SimpleInput.GetKeyDown(Key.Escape))
             {
                 ScreenOff(exchangeInventoryScreen);
-                isInventoryOpen = false;
+                isExchangeInventoryOpen = false;
                 characterMove.canMove = true;
             }
         }
@@ -215,7 +212,7 @@ namespace ObservedProject
             GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
 
             ScreenOff(exchangeInventoryScreen);
-            isInventoryOpen = false;
+            isExchangeInventoryOpen = false;
             characterMove.canMove = true;
         }
 
@@ -249,7 +246,7 @@ namespace ObservedProject
         {
             isPopUpOpen = false;
             ScreenOff(popUpScreen);
-            if (!isEventScriptOpen && !isInventoryOpen)
+            if (!isEventScriptOpen && !isPlayerInventoryOpen)
                 characterMove.canMove = true;
         }
 
@@ -274,7 +271,7 @@ namespace ObservedProject
             turnController.isTimeFlow = false;
             isTurnCheckOpen = false;
 
-            if (!isPopUpOpen && !isEventScriptOpen && !isInventoryOpen)
+            if (!isPopUpOpen && !isEventScriptOpen && !isPlayerInventoryOpen)
                 characterMove.canMove = true;
         }
     }

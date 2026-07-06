@@ -187,10 +187,17 @@ namespace ObservedProject
 
         public void RefillItems()
         {
+            if (exchangeCounts == null)
+            {
+                exchangeCounts = new int[4];
+            }
+
             for (int i = 0; i < exchangeCounts.Length; i++)
             {
                 exchangeCounts[i] = 5;
             }
+
+            itemCountText.text = string.Empty;
         }
     }
 }
