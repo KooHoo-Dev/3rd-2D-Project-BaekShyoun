@@ -6,7 +6,7 @@ namespace ObservedProject
     public class ScoreManagerGameB : MonoBehaviour
     {
         public static ScoreManagerGameB Instance;
-        public bool IsEndGame;
+        public bool isEndGame;
         public int finalScore = 0;
 
         private void Awake()

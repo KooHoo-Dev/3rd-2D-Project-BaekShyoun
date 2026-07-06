@@ -4150,7 +4150,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f5cc10a4a914dca4f95b1df72d2fcf1a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ScoreManagerr
-  IsEndGame: 0
+  isEndGame: 0
   finalScore: 0
 --- !u!1 &2069674341
 GameObject:

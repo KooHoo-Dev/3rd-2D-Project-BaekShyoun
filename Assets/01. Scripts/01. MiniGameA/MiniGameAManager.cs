@@ -1,7 +1,9 @@
 using Study.Utilities;
 using System.Collections;
+using System.Reflection;
 using TMPro;
 using Unity.VisualScripting.FullSerializer;
+using UnityEditor.ShaderKeywordFilter;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.SceneManagement;
@@ -11,6 +13,7 @@ namespace ObservedProject
 {
     public class MiniGameAManager : MonoBehaviour
     {
+        #region Inspector
         [Header("BetPopUpSettings")]
         public GameObject betPopUpImage;
         public Button horseNumber1;
@@ -33,8 +36,13 @@ namespace ObservedProject
         public TextMeshProUGUI rankText;
         public TextMeshProUGUI rewardText;
 
+        public int score { get; private set; }
         private int horseNumber;
         private TimeFlow timeFlow;
+        private bool isOver = false;
+        private bool isSaved = false;
+
+        #endregion
 
         private void Awake()
         {
@@ -43,13 +51,29 @@ namespace ObservedProject
             checkPopUpImage.SetActive(false);
             resultPopUpImage.SetActive(false);
             SetActiveChoice(false);
-            horses = new Button[] { horseNumber1, horseNumber2, horseNumber3, horseNumber4 };
         }
 
         private void Start()
         {
             ClickHorseButton();
             ClickGoButton();
+        }
+
+        private void Update()
+        {
+            if (isOver)
+            {
+                if (SimpleInput.AnyKeyDown())
+                {
+                    if (isSaved == false)
+                    {
+                        isSaved = true;
+                        ScoreManagerGameA.Instance.SaveScore(score);
+                        ScoreManagerGameA.Instance.isEndGame = true;
+                    }
+                    SceneManager.UnloadSceneAsync(2);
+                }
+            }
         }
 
         #region Bet PopUp Image
@@ -64,16 +88,16 @@ namespace ObservedProject
             switch(horseIndex)
             {
                 case 0:
-                    conditionDescription.text = "컨디션 : 어떠함1"; // 이건 나중에!
+                    SetText(horseMoves[horseIndex].state);
                     break;
                 case 1:
-                    conditionDescription.text = "컨디션 : 어떠함2";
+                    SetText(horseMoves[horseIndex].state);
                     break;
                 case 2:
-                    conditionDescription.text = "컨디션 : 어떠함3";
+                    SetText(horseMoves[horseIndex].state);
                     break;
                 case 3:
-                    conditionDescription.text = "컨디션 : 어떠함4";
+                    SetText(horseMoves[horseIndex].state);
                     break;
             }
         }
@@ -87,6 +111,25 @@ namespace ObservedProject
                 SetActiveChoice(true);
                 SetDescription(horseIndex);
             });
+        }
+
+        public void SetText(HorseMove.HorseState state)
+        {
+            switch (state)
+            {
+                case HorseMove.HorseState.Perfect:
+                    conditionDescription.text = "컨디션 : 최고";
+                    break;
+                case HorseMove.HorseState.Good:
+                    conditionDescription.text = "컨디션 : 좋음";
+                    break;
+                case HorseMove.HorseState.NotBad:
+                    conditionDescription.text = "컨디션 : 나쁘지 않음";
+                    break;
+                case HorseMove.HorseState.Bad:
+                    conditionDescription.text = "컨디션 : 나쁨";
+                    break;
+            }
         }
 
         private void ClickHorseButton()
@@ -140,7 +183,7 @@ namespace ObservedProject
         #endregion
 
 
-        #region Result PopUp Image
+        #region Result PopUp Image & End Game
 
         public void CheckRank()
         {
@@ -148,7 +191,6 @@ namespace ObservedProject
             {
                 if (horseMoves[i].isGoal == false)
                 {
-                    Debug.Log($"{horseMoves[i].horseNumber}번 말 도착 안함!");
                     return;
                 }
             }
@@ -157,14 +199,51 @@ namespace ObservedProject
             {
                 if (horseMoves[i].horseNumber == horseNumber)
                 {
-                    Debug.Log($"horseMoves[{i}].horseNumber = {horseMoves[i].horseNumber}");
-                    Debug.Log($"horseNumber = {horseNumber}");
                     resultPopUpImage.SetActive(true);
                     rankText.text = $"{horseMoves[i].horseRank}위";
-                    rewardText.text = "nnnn pt 획득!";
-                    StartCoroutine(EndGameCoroutine());
+                    SetScoreByState(horseMoves[i].state, horseMoves[i].horseRank);
+                    rewardText.text = $"{score} pt 획득!";
+                    isOver = true;
                     return;
                 }
+            }
+        }
+
+        public void SetScoreByState(HorseMove.HorseState state, int rank)
+        {
+            switch(state)
+            {
+                case HorseMove.HorseState.Perfect:
+                    SetScore(rank, 1000, 400, 100, -100);
+                    break;
+                case HorseMove.HorseState.Good:
+                    SetScore(rank, 1200, 500, 100, 0);
+                    break;
+                case HorseMove.HorseState.NotBad:
+                    SetScore(rank, 1400, 600, 100, 0);
+                    break;
+                case HorseMove.HorseState.Bad:
+                    SetScore(rank, 2000, 800, 100, 0);
+                    break;
+            }
+        }
+
+        private void SetScore(int rank, int firstScore, int secondScore, int thirdScore, int forthScore)
+        {
+            switch (rank)
+            {
+                case 1:
+                    score = firstScore;
+                    break;
+                case 2:
+                    score = secondScore;
+                    break;
+                case 3:
+                    score = thirdScore;
+                    break;
+                case 4:
+                    score = forthScore;
+                    break;
             }
         }
 

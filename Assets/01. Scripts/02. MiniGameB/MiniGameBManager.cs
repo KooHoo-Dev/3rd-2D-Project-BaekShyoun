@@ -9,7 +9,7 @@ namespace ObservedProject
 {
     public class MiniGameBManager : MonoBehaviour
     {
-        #region UI
+        #region Inspector
         public enum HeartState
         {
             Empty = 0,
@@ -67,7 +67,7 @@ namespace ObservedProject
                     {
                         isSaved = true;
                         ScoreManagerGameB.Instance.SaveScore(currentScore);
-                        ScoreManagerGameB.Instance.IsEndGame = true;
+                        ScoreManagerGameB.Instance.isEndGame = true;
                     }
                     SceneManager.UnloadSceneAsync(3);
                 }

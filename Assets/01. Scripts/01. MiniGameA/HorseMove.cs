@@ -1,5 +1,5 @@
-using System.Collections.Generic;
 using Study.Utilities;
+using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
@@ -8,18 +8,27 @@ namespace ObservedProject
 {
     public class HorseMove : MonoBehaviour
     {
+        public enum HorseState
+        {
+            Perfect = 0,
+            Good,
+            NotBad,
+            Bad
+        }
+
         [Header("Settings")]
-        public float minSpeed = 1.0f;
+        public float minSpeed = 1.5f;
         public float maxSpeed = 3.0f;
         public float currentSpeed;
         public int horseNumber;
+        public HorseState state;
         public int horseRank;
 
         private bool isMove = false;
         public bool isGoal { get; private set; } = false;
         private Animator horseAnimation;
         public RankManager rankManager;
-        public MiniGameAManager uiController;
+        public MiniGameAManager gameManager;
 
         private void Awake()
         {
@@ -27,6 +36,7 @@ namespace ObservedProject
             horseAnimation.SetBool("IsRun", false);
             isMove = false;
             currentSpeed = Random.Range(minSpeed, maxSpeed);
+            SetHorseState();
         }
 
         private void Update()
@@ -42,12 +52,34 @@ namespace ObservedProject
         private void MoveHorse()
         {
             horseAnimation.SetBool("IsRun", true);
-            transform.position += Vector3.right * currentSpeed * Time.deltaTime;
+            transform.position += Vector3.right * currentSpeed * Time.deltaTime * SetBuffedSpeed();
+        }
+
+        private void SetHorseState()
+        {
+            int randNum = Random.Range((int)HorseState.Perfect, (int)HorseState.Bad + 1);
+            state = (HorseState)randNum;
+        }
+
+        private float SetBuffedSpeed()
+        {
+            switch (state)
+            {
+                case HorseState.Perfect:
+                    return 1.2f;
+                case HorseState.Good:
+                    return 1.02f;
+                case HorseState.NotBad:
+                    return 1.0f;
+                case HorseState.Bad:
+                    return 0.8f;
+            }
+            return 1.0f;
         }
 
         private void OnTriggerEnter2D(Collider2D collision)
         {
-            if(collision.CompareTag("EnterPoint"))
+            if (collision.CompareTag("EnterPoint"))
             {
                 rankManager.SetRank(this);
             }
@@ -59,7 +91,7 @@ namespace ObservedProject
                 isGoal = true;
                 horseAnimation.SetBool("IsRun", false);
 
-                uiController.CheckRank();
+                gameManager.CheckRank();
             }
         }
     }

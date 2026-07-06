@@ -29,9 +29,20 @@ namespace ObservedProject
         private void Update()
         {
             CheckPlayerState(CharacterMove.State.Back);
-            if (ScoreManagerGameB.Instance != null && ScoreManagerGameB.Instance.IsEndGame)
+            if (ScoreManagerGameA.Instance != null && ScoreManagerGameA.Instance.isEndGame)
             {
-                ScoreManagerGameB.Instance.IsEndGame = false;
+                ScoreManagerGameA.Instance.isEndGame = false;
+                characterMove.canMove = true;
+                mainGameUI.SetActive(true);
+                turnController.OnPlayGame();
+                getPoint = ScoreManagerGameA.Instance.finalScore;
+                inventoryItemSystem.currentPoint += getPoint;
+                inventoryItemSystem.currentPointText.text = $"{inventoryItemSystem.currentPoint} pt";
+                ScoreManagerGameA.Instance.DestroyManager();
+            }
+            if (ScoreManagerGameB.Instance != null && ScoreManagerGameB.Instance.isEndGame)
+            {
+                ScoreManagerGameB.Instance.isEndGame = false;
                 characterMove.canMove = true;
                 mainGameUI.SetActive(true);
                 turnController.OnPlayGame();

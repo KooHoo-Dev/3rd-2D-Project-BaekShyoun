@@ -256,6 +256,52 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 44939614}
   m_CullTransparentMesh: 1
+--- !u!1 &87702277
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 87702278}
+  - component: {fileID: 87702279}
+  m_Layer: 0
+  m_Name: ScoreManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &87702278
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87702277}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &87702279
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 87702277}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d9e5279f1a92bf945a4fcfb6eb7bdc03, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.ScoreManagerGameA
+  isEndGame: 0
+  finalScore: 0
 --- !u!1 &131117551
 GameObject:
   m_ObjectHideFlags: 0
@@ -380,7 +426,11 @@ MonoBehaviour:
   horseNumber2: {fileID: 1490075353}
   horseNumber3: {fileID: 1782450540}
   horseNumber4: {fileID: 484068148}
-  horses: []
+  horses:
+  - {fileID: 2086952786}
+  - {fileID: 1490075353}
+  - {fileID: 1782450540}
+  - {fileID: 484068148}
   conditionDescription: {fileID: 325860224}
   goButton: {fileID: 1953668529}
   checkPopUpImage: {fileID: 1390454022}
@@ -572,7 +622,7 @@ SpriteRenderer:
   m_SortingOrder: 600
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 1, b: 0, a: 0.19607843}
+  m_Color: {r: 0, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -876,7 +926,7 @@ MonoBehaviour:
   m_VertexBufferAutoSizeReduction: 0
   m_useMaxVisibleDescender: 1
   m_pageToDisplay: 1
-  m_margin: {x: 0, y: 0, z: 0, w: 0}
+  m_margin: {x: -34.409363, y: 0, z: -44.732178, w: 0}
   m_isUsingLegacyAnimationComponent: 0
   m_isVolumetricText: 0
   m_hasFontAssetChanged: 0
@@ -1491,13 +1541,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdcf7147195242d42b776a901a56273b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HorseMove
-  minSpeed: 1
+  minSpeed: 1.5
   maxSpeed: 3
   currentSpeed: 0
   horseNumber: 2
+  state: 0
   horseRank: 0
   rankManager: {fileID: 538104132}
-  uiController: {fileID: 131117556}
+  gameManager: {fileID: 131117556}
 --- !u!1 &512299738
 GameObject:
   m_ObjectHideFlags: 0
@@ -1895,8 +1946,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 50
-  m_fontSizeBase: 50
+  m_fontSize: 75
+  m_fontSizeBase: 75
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18
@@ -2206,13 +2257,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdcf7147195242d42b776a901a56273b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HorseMove
-  minSpeed: 1
+  minSpeed: 1.5
   maxSpeed: 3
   currentSpeed: 0
   horseNumber: 3
+  state: 0
   horseRank: 0
   rankManager: {fileID: 538104132}
-  uiController: {fileID: 131117556}
+  gameManager: {fileID: 131117556}
 --- !u!1 &825067962
 GameObject:
   m_ObjectHideFlags: 0
@@ -2489,13 +2541,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdcf7147195242d42b776a901a56273b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HorseMove
-  minSpeed: 1
+  minSpeed: 1.5
   maxSpeed: 3
   currentSpeed: 0
   horseNumber: 4
+  state: 0
   horseRank: 0
   rankManager: {fileID: 538104132}
-  uiController: {fileID: 131117556}
+  gameManager: {fileID: 131117556}
 --- !u!50 &864011027
 Rigidbody2D:
   serializedVersion: 5
@@ -4245,7 +4298,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1519958915
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4324,7 +4377,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!224 &1688279682
 RectTransform:
   m_ObjectHideFlags: 0
@@ -5819,7 +5872,7 @@ SpriteRenderer:
   m_SortingOrder: 600
   m_MaskInteraction: 0
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0, g: 1, b: 0, a: 0.19607843}
+  m_Color: {r: 0, g: 1, b: 0, a: 0}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -6070,13 +6123,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cdcf7147195242d42b776a901a56273b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::HorseMove
-  minSpeed: 1
+  minSpeed: 1.5
   maxSpeed: 3
   currentSpeed: 0
   horseNumber: 1
+  state: 0
   horseRank: 0
   rankManager: {fileID: 538104132}
-  uiController: {fileID: 131117556}
+  gameManager: {fileID: 131117556}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -6086,4 +6140,5 @@ SceneRoots:
   - {fileID: 538104131}
   - {fileID: 390815728}
   - {fileID: 131117555}
+  - {fileID: 87702278}
   - {fileID: 1519958917}
