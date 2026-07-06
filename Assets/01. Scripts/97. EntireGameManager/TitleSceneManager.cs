@@ -19,12 +19,15 @@ namespace ObservedProject
 
         private void Start()
         {
+            GameSoundManager.Instance.PlayBGM(GameSoundManager.Instance.titleBGM);
+
             GameStartButton.onClick.AddListener(StartGame);
             GameEndButton.onClick.AddListener(EndGame);
         }
 
         private void StartGame()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.startButton);
             StartCoroutine(StartGameCoroutine());
         }
 
@@ -36,6 +39,7 @@ namespace ObservedProject
 
         private void EndGame()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
             Application.Quit();
         }
     }

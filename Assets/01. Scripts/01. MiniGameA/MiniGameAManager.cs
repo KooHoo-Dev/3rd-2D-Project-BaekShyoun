@@ -153,6 +153,7 @@ namespace ObservedProject
         /// </summary>
         private void SetGoInteraction()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
             betPopUpImage.SetActive(false);
             checkPopUpImage.SetActive(true);
             checkChoiceText.text = $"{horseNumber}번 말에 베팅하시겠습니까?";
@@ -167,12 +168,14 @@ namespace ObservedProject
 
         private void InteractYesButton()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
             checkPopUpImage.SetActive(false);
             StartCoroutine(timeFlow.CountDownCoroutine());
         }
 
         private void InteractNoButton()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
             checkPopUpImage.SetActive(false);
             betPopUpImage.SetActive(true);
             SetActiveChoice(false);
@@ -199,9 +202,18 @@ namespace ObservedProject
             {
                 if (horseMoves[i].horseNumber == horseNumber)
                 {
+                    GameSoundManager.Instance.StopLoop();
+                    GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.audience);
+
                     resultPopUpImage.SetActive(true);
                     rankText.text = $"{horseMoves[i].horseRank}위";
                     SetScoreByState(horseMoves[i].state, horseMoves[i].horseRank);
+
+                    if (horseMoves[i].horseRank <= 2)
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.raceSuccess);
+                    else
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.raceFail);
+
                     rewardText.text = $"{score} pt 획득!";
                     isOver = true;
                     return;

@@ -25,6 +25,7 @@ namespace ObservedProject
         private DiseaseController diseaseController;
         private FadeController fadeController;
         private InventoryItemSystem inventoryItemSystem;
+        private ExchangeInventoryUIController exchangeInventoryUIController;
 
         public bool isTimeFlow = false;
 
@@ -34,6 +35,7 @@ namespace ObservedProject
             diseaseController = GetComponent<DiseaseController>();
             fadeController = GetComponentInChildren<FadeController>();
             inventoryItemSystem = GetComponentInChildren<InventoryItemSystem>();
+            exchangeInventoryUIController = GetComponentInChildren<ExchangeInventoryUIController>(true);
             dayCount = 1;
             currentHourIndex = 0;
 
@@ -42,6 +44,8 @@ namespace ObservedProject
 
         private void Start()
         {
+            GameSoundManager.Instance.PlayBGM(GameSoundManager.Instance.mainGameBGM);
+
             StartCoroutine(fadeController.FadeOutCoroutine());
         }
 
@@ -56,6 +60,9 @@ namespace ObservedProject
             }
             turnCount += skipTime;
             SetTurnText();
+
+            exchangeInventoryUIController.RefillItems();
+
             inventoryItemSystem.CheckRottenItems();
             isTimeFlow = true;
             beastController.ChangedTurn(skipTime);
@@ -76,13 +83,11 @@ namespace ObservedProject
 
         private IEnumerator OnNormalSleepCoroutine()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.sleep);
             yield return StartCoroutine(fadeController.FadeInAndOutCoroutine(1f));
             FlowTime(2);
             gageController.HaveNormalSleep();
-            if(beastController.hasBeast)
-            {
-                beastController.SpawnBeast();
-            }
+            beastController.SpawnBeast();
         }
 
         public void OnDeepSleep()
@@ -93,13 +98,11 @@ namespace ObservedProject
 
         private IEnumerator OnDeepSleepCoroutine()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.sleep);
             yield return StartCoroutine(fadeController.FadeInAndOutCoroutine(1f));
             FlowTime(2);
             gageController.HaveDeepSleep();
-            if (beastController.hasBeast)
-            {
-                beastController.SpawnBeast();
-            }
+            beastController.SpawnBeast();
         }
 
         private void BecomeZeroValue(Image bar, int skipTime)

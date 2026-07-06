@@ -56,6 +56,10 @@ public class BeastController : MonoBehaviour
     {
         SetGage();
         escapeDesire = GageUpdate(escapeDesire, turnIncreaseEscape * skipTime);
+        if (escapeDesire > 50)
+        {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.beastGrowl);
+        }
     }
 
 
@@ -116,6 +120,8 @@ public class BeastController : MonoBehaviour
             escapeDesire = maxNumber;
             uiInteraction.ControlEventScript();
             eventScriptText.text = "배고픔을 견디지 못한 맹수가 탈출했습니다!";
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.beastRoar);
+
 
             GameManagerMain.Instance.GameOverByBeast();
         }
@@ -123,6 +129,10 @@ public class BeastController : MonoBehaviour
 
     public void SpawnBeast()
     {
+        if (hasBeast == true)
+            return;
+        hasBeast = true;
+        escapeDesire = minNumber;
         spawnedBeast.SetActive(true);
     }
 

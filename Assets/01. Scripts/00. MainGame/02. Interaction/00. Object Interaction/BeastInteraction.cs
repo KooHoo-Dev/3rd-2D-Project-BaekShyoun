@@ -55,6 +55,8 @@ namespace ObservedProject
 
         private void InteractYesButton()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
+
             uiInteraction.ClosePopUp();
             playerInventory.isBeastInventory = true;
             uiInteraction.ActivePlayerInventoryInForce();

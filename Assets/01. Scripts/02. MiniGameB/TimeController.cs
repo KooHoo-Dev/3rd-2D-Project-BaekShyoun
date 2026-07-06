@@ -42,12 +42,16 @@ namespace ObservedProject
         {
             countDown.gameObject.SetActive(true);
             countDown.text = "3";
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.countDownB);
             yield return new WaitForSeconds(1.0f);
             countDown.text = "2";
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.countDownB);
             yield return new WaitForSeconds(1.0f);
             countDown.text = "1";
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.countDownB);
             yield return new WaitForSeconds(1.0f);
             countDown.text = "Start!";
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.gameStart);
             yield return new WaitForSeconds(1.0f);
             isDecreased = true;
             countDown.gameObject.SetActive(false);

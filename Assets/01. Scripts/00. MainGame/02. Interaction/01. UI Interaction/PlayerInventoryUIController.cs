@@ -158,6 +158,7 @@ namespace ObservedProject
                 case "신선한 고기": // 0 3 4 1 5
                     yesButton.onClick.AddListener(() =>
                     {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
                         if (inventoryItemSystem.DecreaseItem(0))
                         {
                             itemController.HaveMeat(ItemController.MeatType.Fresh);
@@ -167,6 +168,7 @@ namespace ObservedProject
                 case "수상한 고기":
                     yesButton.onClick.AddListener(() =>
                     {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
                         if (inventoryItemSystem.DecreaseItem(3))
                         {
                             itemController.HaveMeat(ItemController.MeatType.Suspicious);
@@ -176,6 +178,7 @@ namespace ObservedProject
                 case "부패한 고기":
                     yesButton.onClick.AddListener(() =>
                     {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
                         if (inventoryItemSystem.DecreaseItem(4))
                         {
                             itemController.HaveMeat(ItemController.MeatType.Rotten);
@@ -185,6 +188,7 @@ namespace ObservedProject
                 case "신선한 물":
                     yesButton.onClick.AddListener(() =>
                     {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
                         if (inventoryItemSystem.DecreaseItem(1))
                         {
                             itemController.HaveWater(ItemController.WaterType.Fresh);
@@ -194,6 +198,7 @@ namespace ObservedProject
                 case "썩은 물":
                     yesButton.onClick.AddListener(() =>
                     {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
                         if (inventoryItemSystem.DecreaseItem(5))
                         {
                             itemController.HaveWater(ItemController.WaterType.Rotten);
@@ -209,23 +214,47 @@ namespace ObservedProject
             yesButton.onClick.RemoveAllListeners();
             switch (itemName)
             {
-                case "신선한 고기": // 0 3 4 1 5 2
-                    yesButton.onClick.AddListener(() => inventoryItemSystem.DecreaseItem(0));
+                case "신선한 고기":
+                    yesButton.onClick.AddListener(() =>
+                    {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
+                        inventoryItemSystem.DecreaseItem(0);
+                    });
                     break;
                 case "수상한 고기":
-                    yesButton.onClick.AddListener(() => inventoryItemSystem.DecreaseItem(3));
+                    yesButton.onClick.AddListener(() =>
+                    {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
+                        inventoryItemSystem.DecreaseItem(3);
+                    });
                     break;
                 case "부패한 고기":
-                    yesButton.onClick.AddListener(() => inventoryItemSystem.DecreaseItem(4));
+                    yesButton.onClick.AddListener(() =>
+                    {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
+                        inventoryItemSystem.DecreaseItem(4);
+                    });
                     break;
                 case "신선한 물":
-                    yesButton.onClick.AddListener(() => inventoryItemSystem.DecreaseItem(1));
+                    yesButton.onClick.AddListener(() =>
+                    {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
+                        inventoryItemSystem.DecreaseItem(1);
+                    });
                     break;
                 case "썩은 물":
-                    yesButton.onClick.AddListener(() => inventoryItemSystem.DecreaseItem(5));
+                    yesButton.onClick.AddListener(() =>
+                    {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
+                        inventoryItemSystem.DecreaseItem(5);
+                    });
                     break;
                 case "수면권":
-                    yesButton.onClick.AddListener(() => inventoryItemSystem.DecreaseItem(2));
+                    yesButton.onClick.AddListener(() =>
+                    {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
+                        inventoryItemSystem.DecreaseItem(2);
+                    });
                     break;
             }
             yesButton.onClick.AddListener(uiInteraction.ClosePopUp);
@@ -285,6 +314,7 @@ namespace ObservedProject
                 case "신선한 고기":
                     yesButton.onClick.AddListener(() =>
                     {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
                         if (inventoryItemSystem.DecreaseItem(0))
                         {
                             beastController.FeedFreshMeat();
@@ -293,8 +323,9 @@ namespace ObservedProject
                     break;
                 case "수상한 고기":
                     yesButton.onClick.AddListener(() =>
-                    { 
-                        if(inventoryItemSystem.DecreaseItem(3))
+                    {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
+                        if (inventoryItemSystem.DecreaseItem(3))
                         {
                             beastController.FeedOtherMeat();
                         }
@@ -302,8 +333,9 @@ namespace ObservedProject
                     break;
                 case "부패한 고기":
                     yesButton.onClick.AddListener(() =>
-                    { 
-                        if(inventoryItemSystem.DecreaseItem(4))
+                    {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
+                        if (inventoryItemSystem.DecreaseItem(4))
                         {
                             beastController.FeedOtherMeat();
                         }

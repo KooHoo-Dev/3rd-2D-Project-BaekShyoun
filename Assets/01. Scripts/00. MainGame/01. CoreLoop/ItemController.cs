@@ -36,6 +36,8 @@ namespace ObservedProject
 
         public void HaveMeat(MeatType meatType)
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.eat);
+
             EnoughFullnessOrHidration(gageController.fullnessBar);
             gageController.GageUpdate(gageController.fullnessBar, meatIncreaseFullness);
             switch (meatType)
@@ -54,6 +56,8 @@ namespace ObservedProject
 
         public void HaveWater(WaterType waterType)
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.drink);
+
             EnoughFullnessOrHidration(gageController.hidrationBar);
             gageController.GageUpdate(gageController.hidrationBar, waterIncreaseHidration);
             switch (waterType)

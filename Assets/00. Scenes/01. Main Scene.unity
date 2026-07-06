@@ -8202,7 +8202,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.BeastInteraction
   player: {fileID: 282380402}
   uiInteract: {fileID: 289824754}
-  beastController: {fileID: 0}
+  beastController: {fileID: 1887058186}
   popUpText: {fileID: 1593439928}
   yesButton: {fileID: 1295800035}
   noButton: {fileID: 478857706}

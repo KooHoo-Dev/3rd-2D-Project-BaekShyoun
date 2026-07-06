@@ -69,6 +69,7 @@ namespace ObservedProject
 
         private void InteractFirstYesButton()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
             SetSecondPopUpText();
         }
 
@@ -83,6 +84,7 @@ namespace ObservedProject
 
         private void InteractSecondYesButton()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
             uiInteraction.ClosePopUp();
             
             if(inventoryItemSystem.DecreaseItem(2))
@@ -93,6 +95,7 @@ namespace ObservedProject
 
         private void InteractSecondNoButton()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
             uiInteraction.ClosePopUp();
             turnController.OnNormalSleep();
         }

@@ -18,13 +18,20 @@ namespace ObservedProject
         {
             countDownText.gameObject.SetActive(true);
             countDownText.text = "3";
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.countDown);
             yield return new WaitForSeconds(1.0f);
             countDownText.text = "2";
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.countDown);
             yield return new WaitForSeconds(1.0f);
             countDownText.text = "1";
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.countDown);
             yield return new WaitForSeconds(1.0f);
             countDownText.text = "Go!";
-            yield return new WaitForSeconds(0.5f);
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.raceStart);
+            yield return new WaitForSeconds(0.2f);
+
+            GameSoundManager.Instance.PlayLoop(GameSoundManager.Instance.horseRun);
+
             for (int i = 0; i < horseMoves.Length; ++i)
             {
                 horseMoves[i].StartRace();

@@ -18,6 +18,8 @@ public class GameOverSceneManager : MonoBehaviour
 
     private void Start()
     {
+        GameSoundManager.Instance.PlayBGM(GameSoundManager.Instance.gameOverBGM);
+
         GameManagerMain.Instance.fadeController.fadeImage.enabled = false;
         StartCoroutine(fadeController.FadeOutCoroutine());
         StartCoroutine(GoBackToTitle());
@@ -39,6 +41,11 @@ public class GameOverSceneManager : MonoBehaviour
     private IEnumerator GoBackToTitle()
     {
         yield return new WaitUntil(() => SimpleInput.GetKeyDown(Key.Enter));
+
+        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.returnToTitle);
+
+        yield return new WaitForSeconds(0.3f);
+
         GameManagerMain.Instance.DestroyManager();
         SceneManager.LoadScene(0);
     }

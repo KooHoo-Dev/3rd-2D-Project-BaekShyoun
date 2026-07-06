@@ -38,6 +38,7 @@ public class OrderTurn : MonoBehaviour
         {
             customerFood = orders[i].GetComponent<CustomerFood>();
             orders[i].gameObject.SetActive(true);
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.order);
             customerFood.SetCustomerFood();
             yield return new WaitForSeconds(0.5f);
         }

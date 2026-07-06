@@ -106,6 +106,8 @@ namespace ObservedProject
 
         private void GetScore()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.correct);
+
             currentScore += 100;
             ScoreText.text = $"SCORE {currentScore.ToString()}";
             ResetAll();
@@ -113,6 +115,7 @@ namespace ObservedProject
 
         public void EraseHeart()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.wrong);
             Debug.Log("Erase Heart!");
             if (hearts[2].state == HeartState.Full)
             {
@@ -147,6 +150,8 @@ namespace ObservedProject
 
         private void GameOver()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.heartEmpty);
+
             GameOverText.gameObject.SetActive(true);
             isOver = true;
         }

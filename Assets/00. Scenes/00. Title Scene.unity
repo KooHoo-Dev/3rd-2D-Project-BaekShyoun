@@ -1363,35 +1363,34 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ObservedProject.GameSoundManager
   bgmSource: {fileID: 1740893582}
   sfxSource: {fileID: 1740893584}
-  titleBGM: {fileID: 0}
-  mainGameBGM: {fileID: 0}
-  miniGameABGM: {fileID: 0}
-  miniGameBBGM: {fileID: 0}
-  gameOverBGM: {fileID: 0}
-  startButton: {fileID: 0}
-  quitButton: {fileID: 0}
-  beastGrowl: {fileID: 0}
-  beastRoar: {fileID: 0}
-  disease: {fileID: 0}
-  eat: {fileID: 0}
-  drink: {fileID: 0}
-  sleep: {fileID: 0}
-  purchase: {fileID: 0}
-  interaction: {fileID: 0}
-  uiMove: {fileID: 0}
-  buttonClick: {fileID: 0}
-  countDown: {fileID: 0}
-  raceStart: {fileID: 0}
-  horseRun: {fileID: 0}
-  audience: {fileID: 0}
-  raceSuccess: {fileID: 0}
-  raceFail: {fileID: 0}
-  countDownB: {fileID: 0}
-  order: {fileID: 0}
-  correct: {fileID: 0}
-  wrong: {fileID: 0}
-  heartEmpty: {fileID: 0}
-  returnToTitle: {fileID: 0}
+  titleBGM: {fileID: 8300000, guid: a52bb9147a4a9aa47a4747587ba8200b, type: 3}
+  mainGameBGM: {fileID: 8300000, guid: c673b368d41bfc34b8c23c4aa9172abe, type: 3}
+  miniGameABGM: {fileID: 8300000, guid: e81be4c7b7d9dc3409e7eb11e087d110, type: 3}
+  miniGameBBGM: {fileID: 8300000, guid: 29cd8ede707ecfa49a3bc3042e248a0b, type: 3}
+  gameOverBGM: {fileID: 8300000, guid: c673b368d41bfc34b8c23c4aa9172abe, type: 3}
+  startButton: {fileID: 8300000, guid: d8103effa85c6534c8ab75e2a9631dec, type: 3}
+  beastGrowl: {fileID: 8300000, guid: 6223051be835b454a9f7a08a87af28d4, type: 3}
+  beastRoar: {fileID: 8300000, guid: 5e156eb99fd3cc24ea08316927ee3599, type: 3}
+  disease: {fileID: 8300000, guid: 8b529013dc2202646a587c3dfd4fc837, type: 3}
+  eat: {fileID: 8300000, guid: 27251839e37cf0b4e99caec4d2a812ca, type: 3}
+  drink: {fileID: 8300000, guid: 7cec36b35ca7d554daa23bb06bcb8e6b, type: 3}
+  sleep: {fileID: 8300000, guid: 025db768d41c24f48ae48efea001edec, type: 3}
+  purchase: {fileID: 8300000, guid: 2f2093d7c9630414a807e33bc7d9d147, type: 3}
+  uiMove: {fileID: 8300000, guid: e4abcee68a9286b47b500ee2ae9c5173, type: 3}
+  buttonClick: {fileID: 8300000, guid: e26dcabb307e34b4dadd183b2cb1a9a0, type: 3}
+  countDown: {fileID: 8300000, guid: 6765188c717651348a37a6507f59ae07, type: 3}
+  raceStart: {fileID: 8300000, guid: 8520d14b481c5be4883aaccce10e394a, type: 3}
+  horseRun: {fileID: 8300000, guid: a35937f1509a235498ba8e0b7c0cf887, type: 3}
+  audience: {fileID: 8300000, guid: 98b06f73577ff094b99be5df9ee62269, type: 3}
+  raceSuccess: {fileID: 8300000, guid: b592a4d18022ed04ea7a9f0b99f6d13b, type: 3}
+  raceFail: {fileID: 8300000, guid: 90bc553b8c572f142bc72364c19f0047, type: 3}
+  countDownB: {fileID: 8300000, guid: 6765188c717651348a37a6507f59ae07, type: 3}
+  gameStart: {fileID: 8300000, guid: eefee68da01be674488568a05444708b, type: 3}
+  order: {fileID: 8300000, guid: 4ef0302b6d62e9d40bd45a39c03faea3, type: 3}
+  correct: {fileID: 8300000, guid: ae341d3aef80a56418ff0463bb2cf1e3, type: 3}
+  wrong: {fileID: 8300000, guid: 59b17128dba0c6f4a82a3418f4c7f021, type: 3}
+  heartEmpty: {fileID: 8300000, guid: 90bc553b8c572f142bc72364c19f0047, type: 3}
+  returnToTitle: {fileID: 8300000, guid: d8103effa85c6534c8ab75e2a9631dec, type: 3}
 --- !u!82 &1740893584
 AudioSource:
   m_ObjectHideFlags: 0

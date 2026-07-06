@@ -43,6 +43,7 @@ namespace ObservedProject
         public void AddDiseaseStack(int amount)
         {
             diseaseStack += amount;
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.disease);
             SetDiseaseText();
 
             GameManagerMain.Instance.GameOverByDisease();

@@ -251,7 +251,7 @@ namespace ObservedProject
             {
                 int passedTurn = turnController.turnCount - freshMeatList[i].registeredTurn;
 
-                if (passedTurn >= 2)
+                if (passedTurn >= 4)
                 {
                     freshMeatList.RemoveAt(i);
                     rottenMeatCount++;
@@ -262,7 +262,7 @@ namespace ObservedProject
             {
                 int passedTurn = turnController.turnCount - suspiciousMeatList[i].registeredTurn;
 
-                if (passedTurn >= 2)
+                if (passedTurn >= 4)
                 {
                     suspiciousMeatList.RemoveAt(i);
                     rottenMeatCount++;
@@ -273,7 +273,7 @@ namespace ObservedProject
             {
                 int passedTurn = turnController.turnCount - freshWaterList[i].registeredTurn;
 
-                if (passedTurn >= 4)
+                if (passedTurn >= 6)
                 {
                     freshWaterList.RemoveAt(i);
                     rottenWaterCount++;

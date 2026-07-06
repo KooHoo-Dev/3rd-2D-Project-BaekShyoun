@@ -31,6 +31,8 @@ namespace ObservedProject
             CheckPlayerState(CharacterMove.State.Back);
             if (ScoreManagerGameA.Instance != null && ScoreManagerGameA.Instance.isEndGame)
             {
+                GameSoundManager.Instance.PlayBGM(GameSoundManager.Instance.mainGameBGM);
+
                 ScoreManagerGameA.Instance.isEndGame = false;
                 characterMove.canMove = true;
                 characterMove.enabled = true;
@@ -43,6 +45,8 @@ namespace ObservedProject
             }
             if (ScoreManagerGameB.Instance != null && ScoreManagerGameB.Instance.isEndGame)
             {
+                GameSoundManager.Instance.PlayBGM(GameSoundManager.Instance.mainGameBGM);
+
                 ScoreManagerGameB.Instance.isEndGame = false;
                 characterMove.canMove = true;
                 characterMove.enabled = true;
@@ -80,17 +84,21 @@ namespace ObservedProject
         // 씬 불러오는 동안 메인 씬 ui 상호작용 전부 작동하지 않게 하는 방법 생각해보기 (나중에)
         private void InteractYesButton()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
+
             characterMove.canMove = false;
             mainGameUI.SetActive(false);
             Debug.Log($"이동 잠금됨: {characterMove.canMove}");
             if (this.name == "GameA")
             {
+                GameSoundManager.Instance.PlayBGM(GameSoundManager.Instance.miniGameABGM);
                 SceneManager.LoadScene(2, LoadSceneMode.Additive);
                 characterMove.enabled = false;
 
             }
             if (this.name == "GameB")
             {
+                GameSoundManager.Instance.PlayBGM(GameSoundManager.Instance.miniGameBBGM);
                 SceneManager.LoadScene(3, LoadSceneMode.Additive);
                 characterMove.enabled = false;
             }

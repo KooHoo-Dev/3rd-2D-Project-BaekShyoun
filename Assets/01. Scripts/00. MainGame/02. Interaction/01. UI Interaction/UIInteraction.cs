@@ -96,6 +96,7 @@ namespace ObservedProject
                 return;
             if (SimpleInput.GetKeyDown(Key.Space) || SimpleInput.GetKeyDown(Key.Enter))
             {
+                GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.uiMove);
                 isEventScriptOpen = false;
                 ScreenOff(eventScriptScreen);
                 if (!isPopUpOpen && !isInventoryOpen)
@@ -153,6 +154,7 @@ namespace ObservedProject
 
         public void ClosePlayerInventory()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
             ScreenOff(playerInventoryScreen);
             isInventoryOpen = false;
 
@@ -210,6 +212,8 @@ namespace ObservedProject
 
         private void CloseExchangeInventoryByButton()
         {
+            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
+
             ScreenOff(exchangeInventoryScreen);
             isInventoryOpen = false;
             characterMove.canMove = true;

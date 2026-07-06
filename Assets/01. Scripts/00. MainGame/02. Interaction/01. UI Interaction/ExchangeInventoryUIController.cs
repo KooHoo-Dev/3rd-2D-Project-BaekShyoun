@@ -79,6 +79,7 @@ namespace ObservedProject
                     SetPopUpText("신선한 고기");
                     yesButton.onClick.AddListener(() =>
                     {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
                         if (exchangeCounts[0] <= 0)
                         {
                             SetEventScript();
@@ -87,6 +88,7 @@ namespace ObservedProject
 
                         if (inventoryItemSystem.BuyFreshMeat())
                         {
+                            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.purchase);
                             DecreaseItem(0);
                         }
                     });
@@ -98,6 +100,7 @@ namespace ObservedProject
                     SetPopUpText("수상한 고기");
                     yesButton.onClick.AddListener(() =>
                     {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
                         if (exchangeCounts[1] <= 0)
                         {
                             SetEventScript();
@@ -106,6 +109,7 @@ namespace ObservedProject
 
                         if (inventoryItemSystem.BuySuspiciousMeat())
                         {
+                            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.purchase);
                             DecreaseItem(1);
                         }
                     });
@@ -117,6 +121,7 @@ namespace ObservedProject
                     SetPopUpText("신선한 물");
                     yesButton.onClick.AddListener(() =>
                     {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
                         if (exchangeCounts[2] <= 0)
                         {
                             SetEventScript();
@@ -125,6 +130,7 @@ namespace ObservedProject
 
                         if (inventoryItemSystem.BuyFreshWater())
                         {
+                            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.purchase);
                             DecreaseItem(2);
                         }
                     });
@@ -136,6 +142,7 @@ namespace ObservedProject
                     SetPopUpText("수면권");
                     yesButton.onClick.AddListener(() =>
                     {
+                        GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.buttonClick);
                         if (exchangeCounts[3] <= 0)
                         {
                             SetEventScript();
@@ -144,6 +151,7 @@ namespace ObservedProject
 
                         if (inventoryItemSystem.BuySleepTicket())
                         {
+                            GameSoundManager.Instance.PlaySFX(GameSoundManager.Instance.purchase);
                             DecreaseItem(3);
                         }
                     });
@@ -177,5 +185,12 @@ namespace ObservedProject
             eventScriptText.text = "더 이상 구매가 불가능합니다.";
         }
 
+        public void RefillItems()
+        {
+            for (int i = 0; i < exchangeCounts.Length; i++)
+            {
+                exchangeCounts[i] = 5;
+            }
+        }
     }
 }
