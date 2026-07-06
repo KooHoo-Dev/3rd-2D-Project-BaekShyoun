@@ -58,6 +58,7 @@ namespace ObservedProject
             uiInteraction.ClosePopUp();
             playerInventory.isBeastInventory = true;
             uiInteraction.ActivePlayerInventoryInForce();
+            characterMove.canMove = false;
         }
     }
 }

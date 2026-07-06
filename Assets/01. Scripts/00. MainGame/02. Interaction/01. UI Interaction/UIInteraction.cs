@@ -1,6 +1,7 @@
 using NUnit.Framework.Constraints;
 using Study.Utilities;
 using System.Collections;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using UnityEngine.UI;
@@ -158,14 +159,22 @@ namespace ObservedProject
 
         public void ActivePlayerInventoryInForce()
         {
-            characterMove.canMove = false;
             if (isPopUpOpen)
                 return;
             playerInventory.SetObjectsInactive();
-            ScreenOn(playerInventoryScreen);
+            OpenBeastInventory();
             if (SimpleInput.GetKeyDown(Key.I) || SimpleInput.GetKeyDown(Key.Escape))
+            {
+                characterMove.canMove = true;
                 ScreenOff(playerInventoryScreen);
+            }
             playerInventoryExitButton.onClick.AddListener(()=>ScreenOff(playerInventoryScreen));
+        }
+
+        private void OpenBeastInventory()
+        {
+            characterMove.canMove = false;
+            ScreenOn(playerInventoryScreen);
         }
 
         #endregion
@@ -185,12 +194,16 @@ namespace ObservedProject
         public void CloseExchangeInventoryScreenByKeyboard()
         {
             if (SimpleInput.GetKeyDown(Key.Escape))
+            {
                 ScreenOff(exchangeInventoryScreen);
+                characterMove.canMove = true;
+            }
         }
 
         private void CloseExchangeInventoryByButton()
         {
             ScreenOff(exchangeInventoryScreen);
+            characterMove.canMove = true;
         }
 
         #endregion
